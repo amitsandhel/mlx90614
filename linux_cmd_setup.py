@@ -23,10 +23,6 @@ class Linux_Command():
         #find the slave addresst to all the sensors attached
         self.i2cdetect_command = 'sudo i2cdetect -y 1'
         
-        #these two commands are needded to activate combined transactions
-        self.chmod666_command = 'sudo chmod 666 /sys/module/i2c_bcm2708/parameters/combined'
-        self.echo_command = 'sudo echo -n 1 > /sys/module/i2c_bcm2708/parameters/combined'
-        
         #usb command activation deprecated functoion as usb can be run in auto mode too
         #TOD: may or may not be used and needed
         self.ls_command = 'sudo ls -l /dev/disk/by-uuid/'
@@ -39,14 +35,11 @@ class Linux_Command():
         self.address_list = []
         self.useless_list = []
         
+        self.simulator_list = [0x5a, 0x5b]
+        
         self.logger = logging.getLogger('Linux_Commands.log')
         self.logger.info("************ROOT**************")
-    
-    
-    def combined_transaction(self):
-        '''Running the subprocess commands needed to activate the combined transaction'''
-        subprocess.call(self.chmod666_command, shell = True)
-        subprocess.call(self.echo_command, shell = True)
+
     
     def i2c_detect_cmd(self):
         '''this function sets the i2cdetect and parses the address to obtain the adress cal
@@ -81,7 +74,6 @@ class Linux_Command():
     
     def run(self):
         '''this function will run the self commands using the subprocess call'''
-        self.combined_transaction()
         self.usb_setup()
         self.i2c_detect_cmd()
         

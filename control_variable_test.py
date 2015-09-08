@@ -48,6 +48,10 @@ class Control_Variable_Test(unittest.TestCase):
         ['Control_Variable', 'Log_File', 'Main', '__builtins__', '__doc__', '__file__',
         '__name__', '__package__', 'division', 'logging']
         '''
+        ['__doc__', '__init__', '__module__', 'answer', 'control_setpoint', 'jump_value'
+            , 'limit_value', 'logger', 'report_control', 'run']
+        ['Control_Variable', 'Log_File', 'Main', '__builtins__', '__doc__', '__file__',
+        '__name__', '__package__', 'division', 'logging']
         #self.logger.debug('ok')
         #determining the temperature range we should use whcih is 20 to 50 degrees
         #(20+273.15)/0.02 = 14657
@@ -194,6 +198,6 @@ class Control_Variable_Test(unittest.TestCase):
 
 #####################################################################################    
 if __name__ == '__main__':
-    print('Welcome to my Unit-Testing Environment!\n')
+    print('Testing control_variable!\n')
 #    os.environ['PYTHONINSPECT'] = "True"
     unittest.main()

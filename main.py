@@ -16,6 +16,7 @@ def setup_parser():
     parser = argparse.ArgumentParser(description='Mlx90614 sensor.')
     parser.add_argument('-sim', '-s', help='run simulator', action="store_true")
     parser.add_argument('-test', '-t',  help='Run unit tests', action="store_true")
+    parser.add_argument('-debug', '-d', help='more verbose debug', action='store_true')
     return parser
 
 class Main():
