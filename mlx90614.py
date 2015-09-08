@@ -46,10 +46,10 @@ class MLX90614_IR_sensor():
 		#self.address = 0x5a 
 		
 		#Objec temperature address
-		self.tobj_address = 0x07
+		self.tobj_address = 0x27
 		
 		#ambien temperature address
-		self.tamb_address = 0x06
+		self.tamb_address = 0x26
 				
 		#smbus command setup
 		self.bus = SMBus(1) 
@@ -190,10 +190,15 @@ class Main():
 	def __init__(self):
 		
 		self.sensorfile = linux_command()
+		self.sensorfile.run()
+		#self.sensorfile.i2c_detect_cmd()
+		
 		self.class_list = []
+		
+		print self.sensorfile.address_list
 	
 	def function_setup(self):
-		for item in self.sensorfile.simulator_list:
+		for item in self.sensorfile.final_address_list:
 			IR_class = MLX90614_IR_sensor(item)
 			IR_class.control_class.control_setpoint(2, 1)
 			self.class_list.append(IR_class)
