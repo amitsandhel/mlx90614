@@ -1,6 +1,6 @@
 #!/bin/bash
 
-''' This scipt is designed o red the values fom the MLX9061 IR 
+''' This scipt is designed to read the values fom the MLX9061 IR 
 temperature sensor
 '''
 
@@ -15,6 +15,7 @@ import logging
 from loggingfile import Logging_File as Log_File
 from main import setup_parser as sp
 from control_variable import Control_Variable as control_variable
+from linux_cmd_setup import Linux_Command as linux_command
 
 
 #REFERENCES
@@ -34,12 +35,20 @@ Log_File('tamb_limit_up')
 Log_File('tamb_limit_down') 
 
 
+# SETTING UP CSV FILE
+FILENAME = "MLX-Sensor-Data.csv"
+NEWLINE = "\n"
+
+
 class MLX90614_IR_sensor():
 	'''This class will read the IR temperatue values from the sensor 
 	'''
-	def __init__(self):
+	def __init__(self, address):
 		'''Initalizing all variables 
 		'''
+		#address working at 
+		self.address = address
+		
 		#inital ambient and object temperatures
 		self.init_tamb_value = 0.0
 		self.init_tobj_value = 0.0
@@ -66,6 +75,9 @@ class MLX90614_IR_sensor():
 		self.logger7 = logging.getLogger('tamb_limit_up')
 		self.logger8 = logging.getLogger('tamb_limit_down')
 		
+		self.jump_value = 0.0
+		self.cycle = 0
+		
 	def read(self):
 		'''getting the values from the IR device sensor
 		Note: In this case we are using a random number generator '''
@@ -80,9 +92,6 @@ class MLX90614_IR_sensor():
 		#time delay of 200 ms 
 		time.sleep(0.2)
 		
-		self.object_temp_analysis()
-		self.ambient_temp_analysis()
-	
 	def object_temp_analysis(self):
 		'''this function converts the object temperature from kelvin to celsius values'''
 		#converting values from long bits into degrees celsius
@@ -93,6 +102,8 @@ class MLX90614_IR_sensor():
 		tobj_ans = ( self.init_tobj_value*0.02 ) - 273.15
 		#calculate jump value 
 		jump_value = self.tobj_num - tobj_ans
+		
+		self.jump_value = jump_value
 		
 		#comparing jump value to control jump value set by user
 		if jump_value >= self.control_class.jump_value: #0.5:
@@ -146,35 +157,65 @@ class MLX90614_IR_sensor():
 		
 		else:
 			print 'no change'
+	
+	def record_data(self):
+		'''this function saves the data to csv files note that this data is not needed and necessary
+		TODO: Deprecated function '''
+		myfile = open(FILENAME, 'a')
+		newrow = time.strftime('%H:%M:%S,')
+		newrow += str(self.cycle) + ","
+		newrow += str(self.address) + ","  
+		newrow += str(self.tobj_num) + ","  
+		newrow += str(self.tamb_num) + ","  
+		newrow += str(self.jump_value)		
+		newrow += NEWLINE
+		myfile.write(newrow)
+		myfile.close()
 		
-
 	def run(self):
 		''''Function which runs the value'''
-		#cycle=0
-		#while True:
-		#cycle+=1
-		#print 'cycle: ', cycle
+		self.cycle+=1
+		print 'cycle: ', self.cycle
+		
 		self.read()
 		self.object_temp_analysis()
 		self.ambient_temp_analysis()
-		print 'tobject: %s -- tambient: %s'%(self.tobj_num, self.tamb_num)
-		print (self.tobj_percent_limit_up, self.tobj_percent_limit_down )		
+		self.record_data()
+		
+		print 'Address: %s -- tobject: %s -- tambient: %s'%(self.address, self.tobj_num, self.tamb_num)
+		print 'limit up: %s -- limit down: %s '%(self.tobj_percent_limit_up, self.tobj_percent_limit_down )		
+
 
 class Main():
 	def __init__(self):
-		self.myfile = MLX90614_IR_sensor( )
-		self.myfile.control_class.control_setpoint(2, 1)
+		#self.myfile = MLX90614_IR_sensor( )
+		#self.myfile.control_class.control_setpoint(2, 1)
 		
+		self.sensorfile = linux_command()
+		self.class_list = []
+	
+	def function_setup(self):
+		for item in self.sensorfile.simulator_list:
+			IR_class = MLX90614_IR_sensor(item)
+			IR_class.control_class.control_setpoint(2, 1)
+			self.class_list.append(IR_class)
+					
 	def run(self):
+		myfile = open(FILENAME, "a")
+		myfile.write("Time,Cycle, address, Tobject, Tambient, jumpvalue" + NEWLINE)
+		myfile.close()
+		
+		self.function_setup()
 		try:
 			while True:
-				self.myfile.run( )
+				for item in self.class_list:
+					item.run()
 		except (KeyboardInterrupt, SystemExit):
 			print 'clsoing program thank you and have a good day'
 			sys.exit()
 
 
-####################################333
+############################################################################
 if __name__ == '__main__':
 	myfile = Main()
 	myfile.run()

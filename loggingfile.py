@@ -6,6 +6,7 @@ import time
 import logging
 import glob
 import logging.handlers
+
 '''Logging class that handles the logging of all files 
 '''
 
@@ -46,4 +47,11 @@ class Logging_File():
         #self.l.addHandler(streamHandler)  
 
 
+
+        
+
+###############################################################################
+if __name__ == '__main__':
+    myfile = Logging_File()
+    myfile.setup_logger()
 

@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-#mlx90614.py
+#sensor_setupconfig_test.py
 
 
 import unittest
