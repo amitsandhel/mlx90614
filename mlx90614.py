@@ -28,7 +28,7 @@ Log_File('tamb_limit_down')
 
 
 # SETTING UP CSV FILE
-FILENAME = "MLX-Sensor-Data.csv"
+FILENAME = "MLX-Sensor-Data-combo.csv"
 NEWLINE = "\n"
 
 
@@ -46,10 +46,10 @@ class MLX90614_IR_sensor():
 		#self.address = 0x5a 
 		
 		#Objec temperature address
-		self.tobj_address = 0x27
+		self.tobj_address = 0x07 #0x27
 		
 		#ambien temperature address
-		self.tamb_address = 0x26
+		self.tamb_address = 0x06 #0x26
 				
 		#smbus command setup
 		self.bus = SMBus(1) 
@@ -85,13 +85,25 @@ class MLX90614_IR_sensor():
 		
 	def read(self):
 		'''getting the values from the IR device sensor'''
-		self.init_tobj_value = self.bus.read_word_data(self.address, self.tobj_address)
-		#sleep for 200 ms the time for the sensor is at least 144 ms
-		time.sleep(0.2)
-		
-		self.init_tamb_value = self.bus.read_word_data(self.address, self.tamb_address)
-		#sleep for 200 ms the timer for the sensor is at least 144 ms 
-		time.sleep(0.2)
+		if self.address == 90:
+			self.init_tobj_value = self.bus.read_word_data(self.address, self.tobj_address)
+			#sleep for 200 ms the time for the sensor is at least 144 ms
+			time.sleep(0.2)
+			
+			self.init_tamb_value = self.bus.read_word_data(self.address, self.tamb_address)
+			#sleep for 200 ms the timer for the sensor is at least 144 ms 
+			time.sleep(0.2)
+			
+		elif self.address == 91:
+			self.init_tobj_value = self.bus.read_word_data(self.address, 0x27)
+			#sleep for 200 ms the time for the sensor is at least 144 ms
+			time.sleep(0.2)
+			
+			self.init_tamb_value = self.bus.read_word_data(self.address, 0x26)
+			#sleep for 200 ms the timer for the sensor is at least 144 ms 
+			time.sleep(0.2)
+		else:
+			print 'pass something is wrong'
 	
 	def object_temp_analysis(self):
 		'''this function converts the temperature from kelvin to celsius values'''
