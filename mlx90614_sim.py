@@ -24,16 +24,17 @@ from linux_cmd_setup import Linux_Command as linux_command
 
 #logging.basicConfig(filename='mlx90614_sim.log', filemode='a', level=logging.DEBUG, format='%(asctime)s, %(levelname)s, %(message)s')
 #logging.info(" ---------------------- root --------------------------------")
-Log_File('tobj_jump_up') 
-Log_File('tobj_jump_down')
-Log_File('tobj_limit_up', ) 
-Log_File('tobj_limit_down') 
+#Log_File('tobj_jump_up') 
+#Log_File('tobj_jump_down')
+#Log_File('tobj_limit_up', ) 
+#Log_File('tobj_limit_down') 
 
-Log_File('tamb_jump_up') 
-Log_File('tamb_jump_down')
-Log_File('tamb_limit_up') 
-Log_File('tamb_limit_down') 
+#Log_File('tamb_jump_up') 
+#Log_File('tamb_jump_down')
+#Log_File('tamb_limit_up') 
+#Log_File('tamb_limit_down') 
 
+Log_File('XXX') 
 
 # SETTING UP CSV FILE
 FILENAME = "MLX-Sensor-Data.csv"
@@ -65,15 +66,17 @@ class MLX90614_IR_sensor():
 		self.control_class = control_variable()
 		
 		#various logging files
-		self.logger1 = logging.getLogger('tobj_jump_up')
-		self.logger2 = logging.getLogger('tobj_jump_down')
-		self.logger3 = logging.getLogger('tobj_limit_up')
-		self.logger4 = logging.getLogger('tobj_limit_down')
+		self.logger1 = logging.getLogger('XXX')
 		
-		self.logger5 = logging.getLogger('tamb_jump_up')
-		self.logger6 = logging.getLogger('tamb_jump_down')
-		self.logger7 = logging.getLogger('tamb_limit_up')
-		self.logger8 = logging.getLogger('tamb_limit_down')
+		#self.logger1 = logging.getLogger('tobj_jump_up')
+		#self.logger2 = logging.getLogger('tobj_jump_down')
+		#self.logger3 = logging.getLogger('tobj_limit_up')
+		#self.logger4 = logging.getLogger('tobj_limit_down')
+		
+		#self.logger5 = logging.getLogger('tamb_jump_up')
+		#self.logger6 = logging.getLogger('tamb_jump_down')
+		#self.logger7 = logging.getLogger('tamb_limit_up')
+		#self.logger8 = logging.getLogger('tamb_limit_down')
 		
 		self.jump_value = 0.0
 		self.cycle = 0
@@ -100,6 +103,9 @@ class MLX90614_IR_sensor():
 		
 		#convert temperatures from kelvin to celsius
 		tobj_ans = ( self.init_tobj_value*0.02 ) - 273.15
+		
+		self.logger1.debug('tobj ' + repr(tobj_ans) )
+		
 		#calculate jump value 
 		jump_value = self.tobj_num - tobj_ans
 		
@@ -113,7 +119,8 @@ class MLX90614_IR_sensor():
 			self.tobj_percent_limit_up = self.tobj_num*self.control_class.limit_value
 			
 			self.logger1.debug('object temperature value: '+ repr(self.tobj_num) + 'jump up value: ' + repr(jump_value) )
-			self.logger3.debug( 'object temperature value: '+ repr(self.tobj_num)+ 'temp up limit: ' + repr(self.tobj_percent_limit_up) )
+			#self.logger3.debug( 'object temperature value: '+ repr(self.tobj_num)+ 'temp up limit: ' + repr(self.tobj_percent_limit_up) )
+			self.logger1.debug( 'object temperature value: '+ repr(self.tobj_num)+ 'temp up limit: ' + repr(self.tobj_percent_limit_up) )
 			
 		elif jump_value <= self.control_class.jump_value: #(-0.5):
 			#reinitalize variables
@@ -121,8 +128,11 @@ class MLX90614_IR_sensor():
 			#calculating percent limit
 			self.tobj_percent_limit_down = self.tobj_num*self.control_class.limit_value
 			
-			self.logger2.debug('object temperature value: '+ repr(self.tobj_num) + 'jump down value: ' + repr(jump_value) )
-			self.logger4.debug('object temperature value: '+ repr(self.tobj_num) + 'temp down limit: ' + repr(self.tobj_percent_limit_down) )
+			self.logger1.debug('object temperature value: '+ repr(self.tobj_num) + 'jump down value: ' + repr(jump_value) )
+			self.logger1.debug('object temperature value: '+ repr(self.tobj_num) + 'temp down limit: ' + repr(self.tobj_percent_limit_down) )
+			
+			#self.logger2.debug('object temperature value: '+ repr(self.tobj_num) + 'jump down value: ' + repr(jump_value) )
+			#self.logger4.debug('object temperature value: '+ repr(self.tobj_num) + 'temp down limit: ' + repr(self.tobj_percent_limit_down) )
 		
 		else:
 			print 'no change'
@@ -131,6 +141,9 @@ class MLX90614_IR_sensor():
 		'''this function records the ambient temperatuer and converts the value to degrees celsisus
 		'''
 		tamb_ans = ( self.init_tamb_value*0.02 ) - 273.15
+		
+		self.logger1.debug('tamb ans: ' + repr(tamb_ans) )
+		
 		#calculate jump value 
 		jump_value = self.tamb_num - tamb_ans
 
@@ -142,8 +155,11 @@ class MLX90614_IR_sensor():
 			#calculate percent limit 
 			tamb_percent_limit_up = self.tamb_num*self.control_class.limit_value
 			
-			self.logger5.debug('ambient temperature value: '+ repr(self.tamb_num) )
-			self.logger7.debug('jump value: ' + repr(jump_value) + 'temp limit: ' + repr(tamb_percent_limit_up) )
+			self.logger1.debug('ambient temperature value: '+ repr(self.tamb_num) )
+			self.logger1.debug('jump value: ' + repr(jump_value) + 'temp limit: ' + repr(tamb_percent_limit_up) )
+			
+			#self.logger5.debug('ambient temperature value: '+ repr(self.tamb_num) )
+			#self.logger7.debug('jump value: ' + repr(jump_value) + 'temp limit: ' + repr(tamb_percent_limit_up) )
 		
 		elif jump_value <=self.control_class.jump_value: #(-0.5):
 			#reinitalize variables
@@ -152,8 +168,11 @@ class MLX90614_IR_sensor():
 			#calculate percent limit 
 			tamb_percent_limit_down = self.tamb_num*self.control_class.limit_value
 			
-			self.logger6.debug('ambient temperature value: '+ repr(self.tamb_num) )
-			self.logger8.debug('jump value: ' + repr(jump_value) + 'temp limit: ' + repr(tamb_percent_limit_down) )
+			self.logger1.debug('ambient temperature value: '+ repr(self.tamb_num) )
+			self.logger1.debug('jump value: ' + repr(jump_value) + 'temp limit: ' + repr(tamb_percent_limit_down) )
+			
+			#self.logger6.debug('ambient temperature value: '+ repr(self.tamb_num) )
+			#self.logger8.debug('jump value: ' + repr(jump_value) + 'temp limit: ' + repr(tamb_percent_limit_down) )
 		
 		else:
 			print 'no change'

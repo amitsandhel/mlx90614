@@ -1,6 +1,7 @@
 #!/usr/bin/python
 #loggingfile.py
 
+'''NOTE THIS IS A DEPRECATED CLASS MUST BE DELETED''' 
 import sys
 import time
 import logging
@@ -8,6 +9,7 @@ import glob
 import logging.handlers
 
 '''Logging class that handles the logging of all files 
+
 '''
 
 #https://docs.python.org/2/howto/logging-cookbook.html#using-file-rotation
@@ -29,11 +31,12 @@ class Logging_File():
         #fileHandler = logging.FileHandler(self.log_file, mode='a')
         #fileHandler.setFormatter(formatter)
         
-        rotateHandler = logging.handlers.RotatingFileHandler(self.name, mode='a', maxBytes=0, backupCount=1, delay=0) # backupCount=2, encoding=None, delay=0)
+        rotateHandler = logging.handlers.RotatingFileHandler(self.name, mode='a', maxBytes=0, backupCount=2, encoding='utf-8', delay=0) # backupCount=2, encoding=None, delay=0)
         rotateHandler.setFormatter(formatter)
+        #rotateHandler.doRollover()
         
-        streamHandler = logging.StreamHandler()
-        streamHandler.setFormatter(formatter)
+        #streamHandler = logging.StreamHandler()
+        #streamHandler.setFormatter(formatter)
         
         
         self.l.setLevel(self.level)

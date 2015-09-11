@@ -21,7 +21,8 @@ class MLX90614_Test(unittest.TestCase):
     '''unittest class for testing and TDD'''
     
     def setUp(self):
-        self.m = mlx90614_sim.MLX90614_IR_sensor()
+        address = 90
+        self.m = mlx90614_sim.MLX90614_IR_sensor(address)
         #self.debug = False
         self.debug = True
         self.logger = logging.getLogger('mlx90614_test_logs')
@@ -29,7 +30,7 @@ class MLX90614_Test(unittest.TestCase):
     def diag_print(self, msg= '\n'):
         if self.debug:
             print (msg)
-            
+        
     def test01(self):
         '''testing to ensure the import library works and the library and variables have been imported
         '''
@@ -314,8 +315,42 @@ class MLX90614_Test(unittest.TestCase):
                     cycle=0
                     
         Main()
-                
-                    
+
+    def test10(self):
+        '''the objective of this test is to test the size of the logger file
+        NOTE: This is a spike/ Concept Test to determine and make sure we can use a simplier log file
+        
+        '''
+        #https://docs.python.org/2/howto/logging-cookbook.html#using-file-rotation
+        import glob
+        import logging.handlers
+        
+        LOG_FILENAME = 'logging_rotatingfile_example.out'
+
+        # Set up a specific logger with our desired output level
+        my_logger = logging.getLogger('MyLogger')
+        my_logger.setLevel(logging.DEBUG)
+
+        # Add the log message handler to the logger
+        handler = logging.handlers.RotatingFileHandler(
+                      #maxBytes = Byte size right now at 150 Bytes and backup count is # of files to create 
+                      #LOG_FILENAME, mode='a',  maxBytes=75, backupCount=4)
+                      
+                      LOG_FILENAME, mode='a',  maxBytes=150, backupCount=4)
+
+        my_logger.addHandler(handler)
+
+        # Log some messages
+        for i in range(50):
+            print i 
+            my_logger.debug('i = ' + repr(i) )
+
+        # See what files are created
+        #logfiles = glob.glob('%s*' % LOG_FILENAME)
+
+        #for filename in logfiles:
+        #    print(filename)
+                            
                 
 
 
