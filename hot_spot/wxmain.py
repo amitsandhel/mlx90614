@@ -12,7 +12,11 @@ import time
 import logging
 #from sim.mlx90614_sim import Main as myMain
 import sim.mlx90614_sim
-#import mlx.mlx90614
+#try:
+    #import the real dude
+   # import mlx.mlx90614
+#except ImportError:
+ #   print 'no smbus library'
 
 import wxgui 
 
@@ -43,8 +47,18 @@ class MyFrame(wxgui.MyFrame):
         #the list to iterate over the line colors for multiple sensors
         self.color= ['green','red', 'yellow', 'orange', 'magenta', 'blue']
         
+        #getting the simvalue 
+        self.sim_checkbox.SetValue(True)
         self.simvalue = self.sim_checkbox.GetValue()
         
+        if self.simvalue == True:
+            #file is the simulator
+            self.myfile = sim.mlx90614_sim.Main()
+        else: 
+            import mlx.mlx90614
+            self.myfile = mlx.mlx90614.Main()
+        
+
         # loop in run function Timer class event
         #activating redraw timer to draw the graph
         self.redraw_timer = wx.Timer(self)
@@ -77,9 +91,51 @@ class MyFrame(wxgui.MyFrame):
         self.Bind(wx.EVT_SCROLL, self.On_TempSliderScroll, self.temp_slider)
         #event for jump slider
         self.Bind(wx.EVT_SCROLL, self.On_JumpSliderScroll, self.jump_slider)
+    
+    def sim_analysis(self):
+        """This function is designed to analysis the 
+        sim function to see if its true or false
+        """
+        if self.simvalue == True:
+            #clearing the text ctrl widget 
+            self.address_text_ctrl_1.Clear()
+            
+            #file is the simulator
+            #self.myfile = sim.mlx90614_sim.Main()
+            
+            #set and find the address
+            self.address = self.myfile.sensorfile.simulator_list
+            
+            #write the address list into the address textctrl box
+            self.address_text_ctrl_1.AppendText(str(self.address) + "\n")
+            
+        if self.simvalue == False:
+            #clearing the text ctrl widget 
+            self.address_text_ctrl_1.Clear()
+            
+            #import the original file below here 
+            #this is because the smbus library does not exist in my working laptop therefore imported 
+            #inside the script which is a bad idea 
+            #import mlx.mlx90614
+            #self.myfile = mlx.mlx90614.Main()
+            
+            #set and find address 
+            self.address = self.myfile.sensorfile.final_address_list
+            
+            #write the address list into the address textctrl box
+            self.address_text_ctrl_1.AppendText(str(self.address) + "\n")
+        
+        '''NOTE: if you don't use self.dameon = True then even if the gui shuts down the script 
+        will still go crazy and be running without your control
+        running the dameon
+        self.myfile.daemon = True
+        '''
+        #set dameon = True to run the threads
+        self.myfile.daemon = True
         
 
     def On_TempSliderScroll(self, event):
+        """temp slider for temp limit """
         result = event.GetEventObject()
         val = result.GetValue()
         self.val = val
@@ -90,6 +146,7 @@ class MyFrame(wxgui.MyFrame):
         
         
     def On_JumpSliderScroll(self, event):
+        """Jump limit slider """
         result = event.GetEventObject()
         val = result.GetValue()
         self.val2 = val
@@ -135,40 +192,6 @@ class MyFrame(wxgui.MyFrame):
         mylog10.debug(repr(self.tamb_canvas) )
         mylog10.debug(repr(self.tobj_canvas) )
     
-    def sim_analysis(self):
-        """This function is designed to analysis the 
-        sim function to see if its true or false
-        """
-        if self.simvalue == True:
-            #file is the simulator
-            self.myfile = sim.mlx90614_sim.Main()
-            
-            #set and find the address
-            self.address = self.myfile.sensorfile.simulator_list
-            
-            #write the address list into the address textctrl box
-            self.address_text_ctrl_1.AppendText(str(self.address) + "\n")
-            
-        if self.simvalue == False:
-            #file is ithe original file
-            import mlx.mlx90614
-            self.myfile = mlx.mlx90614.Main()
-            
-            #set and find address 
-            self.address = self.myfile.sensorfile.final_address_list
-            
-            #write the address list into the address textctrl box
-            self.address_text_ctrl_1.AppendText(str(self.address) + "\n")
-            
-            
-        '''if you don't use self,dameon = True then even if the gui shuts down the script 
-        will still go crazy and be running without your control
-        running the dameon
-        self.myfile.daemon = True
-        '''
-        #set dameon = True to run the threads
-        self.myfile.daemon = True
-        
     
     def On_Sim(self, event):
         """This function determines if sim is being used or not
