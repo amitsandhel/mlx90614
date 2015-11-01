@@ -58,10 +58,10 @@ class MLX90614_IR_sensor():
 		#self.address = 0x5a 
 		
 		#Objec temperature address
-		self.tobj_address = 0x07 #0x27
+		self.tobj_address = 0x27 #0x27
 		
 		#ambien temperature address
-		self.tamb_address = 0x06 #0x26
+		self.tamb_address = 0x26 #0x26
 				
 		#smbus command setup
 		self.bus = SMBus(1) 
@@ -317,7 +317,11 @@ class Main(threading.Thread):
 		threading.Thread.__init__(self)
 		self.q = Queue.Queue()
 		#initalizing the linux command to get the address list to iterate over
+		#also run the run command too !!!
 		self.sensorfile = linux_command()
+		self.sensorfile.run()
+		
+		
 		#this opens th control variable class 
 		self.controlvariable = mlx.control_variable.Control_Variable() #Main() #control_variable()
 		
@@ -342,8 +346,8 @@ class Main(threading.Thread):
 		'''This function instantiates the number of classesequal to the 
 		number of sensors added or needed
 		'''
-		#iterating over the simulator list 
-		for item in self.sensorfile.simulator_list:
+		#iterating over the simulator li-st 
+		for item in self.sensorfile.final_address_list:
 			#self.controlvariable.run(temp, jump) #self.templimit, self.jumplimit)
 			#call the class with the address
 			IR_class = MLX90614_IR_sensor(item)
