@@ -1,0 +1,553 @@
+2015-09-14 13:05:48,305, INFO, *******INFO NEW TEST**************
+2015-09-14 13:05:48,519, DEBUG, UP VALUE-Tobj:--> object temperature value: 30.29000000000002jump up value: 30.29000000000002temp limit value: 0.6058000000000004
+2015-09-14 13:05:48,522, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 22.950000000000045jump up value: 22.950000000000045temp limit value: 0.0
+2015-09-14 13:05:48,726, DEBUG, UP VALUE-Tobj:--> object temperature value: 30.650000000000034jump up value: 30.650000000000034temp limit value: 0.6130000000000007
+2015-09-14 13:05:48,726, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.670000000000016jump up value: 23.670000000000016temp limit value: 0.0
+2015-09-14 13:05:50,158, DEBUG, UP VALUE-Tobj:--> object temperature value: 34.370000000000005jump up value: 4.079999999999984temp limit value: 0.6874000000000001
+2015-09-14 13:05:50,160, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 26.33000000000004jump up value: 3.3799999999999955temp limit value: 0.0
+2015-09-14 13:05:50,364, DEBUG, UP VALUE-Tobj:--> object temperature value: 34.25000000000006jump up value: 3.6000000000000227temp limit value: 0.6850000000000012
+2015-09-14 13:05:50,365, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 26.49000000000001jump up value: 2.819999999999993temp limit value: 0.0
+2015-09-14 13:05:52,624, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 28.670000000000016jump up value: -5.699999999999989temp limit value: 0.5734000000000004
+2015-09-14 13:05:52,625, DEBUG, DOWN VALUE-TambAmbient temperature value: 22.850000000000023jump up value: -3.480000000000018temp limit value: 0.0
+2015-09-14 13:05:52,829, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 28.49000000000001jump up value: -5.760000000000048temp limit value: 0.5698000000000002
+2015-09-14 13:05:52,831, DEBUG, DOWN VALUE-TambAmbient temperature value: 23.470000000000027jump up value: -3.019999999999982temp limit value: 0.0
+2015-09-14 13:05:54,673, DEBUG, UP VALUE-Tobj:--> object temperature value: 31.210000000000036jump up value: 2.5400000000000205temp limit value: 0.6242000000000008
+2015-09-14 13:05:54,878, DEBUG, UP VALUE-Tobj:--> object temperature value: 30.950000000000045jump up value: 2.4600000000000364temp limit value: 0.6190000000000009
+2015-09-14 13:05:56,312, DEBUG, UP VALUE-Tobj:--> object temperature value: 34.05000000000001jump up value: 2.839999999999975temp limit value: 0.6810000000000003
+2015-09-14 13:05:56,313, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 26.390000000000043jump up value: 3.5400000000000205temp limit value: 0.0
+2015-09-14 13:05:56,517, DEBUG, UP VALUE-Tobj:--> object temperature value: 33.950000000000045jump up value: 3.0temp limit value: 0.6790000000000009
+2015-09-14 13:05:56,519, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 26.710000000000036jump up value: 3.240000000000009temp limit value: 0.0
+2015-09-14 13:05:58,769, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 28.33000000000004jump up value: -5.71999999999997temp limit value: 0.5666000000000009
+2015-09-14 13:05:58,772, DEBUG, DOWN VALUE-TambAmbient temperature value: 23.690000000000055jump up value: -2.6999999999999886temp limit value: 0.0
+2015-09-14 13:05:58,974, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 27.430000000000007jump up value: -6.520000000000039temp limit value: 0.5486000000000002
+2015-09-14 13:05:58,977, DEBUG, DOWN VALUE-TambAmbient temperature value: 22.83000000000004jump up value: -3.8799999999999955temp limit value: 0.0
+2015-09-14 13:06:00,819, DEBUG, UP VALUE-Tobj:--> object temperature value: 30.930000000000007jump up value: 2.599999999999966temp limit value: 0.6186000000000001
+2015-09-14 13:06:01,479, DEBUG, UP VALUE-Tobj:--> object temperature value: 30.670000000000016jump up value: 3.240000000000009temp limit value: 0.6134000000000003
+2015-09-14 13:06:02,911, DEBUG, UP VALUE-Tobj:--> object temperature value: 33.910000000000025jump up value: 2.980000000000018temp limit value: 0.6782000000000005
+2015-09-14 13:06:02,913, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 26.250000000000057jump up value: 2.5600000000000023temp limit value: 0.0
+2015-09-14 13:06:03,117, DEBUG, UP VALUE-Tobj:--> object temperature value: 34.27000000000004jump up value: 3.6000000000000227temp limit value: 0.6854000000000008
+2015-09-14 13:06:03,118, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 26.53000000000003jump up value: 3.6999999999999886temp limit value: 0.0
+2015-09-14 13:06:05,367, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 27.03000000000003jump up value: -6.8799999999999955temp limit value: 0.5406000000000006
+2015-09-14 13:06:05,368, DEBUG, DOWN VALUE-TambAmbient temperature value: 22.890000000000043jump up value: -3.3600000000000136temp limit value: 0.0
+2015-09-14 13:06:05,572, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 28.170000000000016jump up value: -6.100000000000023temp limit value: 0.5634000000000003
+2015-09-14 13:06:05,573, DEBUG, DOWN VALUE-TambAmbient temperature value: 24.470000000000027jump up value: -2.0600000000000023temp limit value: 0.0
+2015-09-14 13:15:55,681, INFO, *******INFO NEW TEST**************
+2015-09-14 13:15:55,701, DEBUG, DOWN VALUE-TambAmbient temperature value: -273.15jump up value: -273.15temp limit value: 0.0
+2015-09-14 13:15:55,701, DEBUG, DOWN VALUE-Tobj:--> object temperature value: -273.15jump up value: -273.15temp limit value: -2.7315
+2015-09-14 13:15:55,701, DEBUG, DOWN VALUE-TambAmbient temperature value: -273.15jump up value: -273.15temp limit value: 0.0
+2015-09-14 13:15:55,701, DEBUG, DOWN VALUE-Tobj:--> object temperature value: -273.15jump up value: -273.15temp limit value: -2.7315
+2015-09-14 13:15:55,901, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.33000000000004jump up value: 23.33000000000004temp limit value: 0.0
+2015-09-14 13:15:55,901, DEBUG, UP VALUE-Tobj:--> object temperature value: 31.77000000000004jump up value: 31.77000000000004temp limit value: 0.31770000000000037
+2015-09-14 13:16:00,921, DEBUG, UP VALUE-Tobj:--> object temperature value: 31.130000000000052jump up value: 31.130000000000052temp limit value: 0.622600000000001
+2015-09-14 13:16:00,921, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.410000000000025jump up value: 23.410000000000025temp limit value: 0.0
+2015-09-14 13:16:01,732, DEBUG, UP VALUE-Tobj:--> object temperature value: 34.170000000000016jump up value: 3.0399999999999636temp limit value: 0.6834000000000003
+2015-09-14 13:16:01,732, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 26.250000000000057jump up value: 2.840000000000032temp limit value: 0.0
+2015-09-14 13:16:02,931, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 27.190000000000055jump up value: -6.979999999999961temp limit value: 0.5438000000000011
+2015-09-14 13:16:03,279, DEBUG, DOWN VALUE-TambAmbient temperature value: 24.190000000000055jump up value: -2.0600000000000023temp limit value: 0.0
+2015-09-14 13:16:04,289, DEBUG, UP VALUE-Tobj:--> object temperature value: 30.730000000000018jump up value: 3.5399999999999636temp limit value: 0.6146000000000004
+2015-09-14 13:16:05,088, DEBUG, UP VALUE-Tobj:--> object temperature value: 33.910000000000025jump up value: 3.180000000000007temp limit value: 0.6782000000000005
+2015-09-14 13:16:05,088, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 26.670000000000016jump up value: 2.4799999999999613temp limit value: 0.0
+2015-09-14 13:16:06,289, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 27.05000000000001jump up value: -6.860000000000014temp limit value: 0.5410000000000003
+2015-09-14 13:16:06,289, DEBUG, DOWN VALUE-TambAmbient temperature value: 23.53000000000003jump up value: -3.1399999999999864temp limit value: 0.0
+2015-09-14 13:16:07,289, DEBUG, UP VALUE-Tobj:--> object temperature value: 31.590000000000032jump up value: 4.5400000000000205temp limit value: 0.6318000000000007
+2015-09-14 13:16:08,089, DEBUG, UP VALUE-Tobj:--> object temperature value: 34.690000000000055jump up value: 3.1000000000000227temp limit value: 0.6938000000000011
+2015-09-14 13:16:08,089, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 26.630000000000052jump up value: 3.1000000000000227temp limit value: 0.0
+2015-09-14 13:16:09,710, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 27.79000000000002jump up value: -6.900000000000034temp limit value: 0.5558000000000004
+2015-09-14 13:16:10,759, DEBUG, DOWN VALUE-TambAmbient temperature value: 23.010000000000048jump up value: -3.6200000000000045temp limit value: 0.0
+2015-09-14 13:16:12,079, DEBUG, UP VALUE-Tobj:--> object temperature value: 30.390000000000043jump up value: 2.6000000000000227temp limit value: 0.6078000000000009
+2015-09-14 13:16:12,882, DEBUG, UP VALUE-Tobj:--> object temperature value: 34.31jump up value: 3.919999999999959temp limit value: 0.6862
+2015-09-14 13:16:12,882, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 26.510000000000048jump up value: 3.5temp limit value: 0.0
+2015-09-14 13:16:18,624, INFO, *******INFO NEW TEST**************
+2015-09-14 13:16:18,654, DEBUG, DOWN VALUE-TambAmbient temperature value: -273.15jump up value: -273.15temp limit value: 0.0
+2015-09-14 13:16:18,654, DEBUG, DOWN VALUE-Tobj:--> object temperature value: -273.15jump up value: -273.15temp limit value: -2.7315
+2015-09-14 13:16:18,654, DEBUG, DOWN VALUE-TambAmbient temperature value: -273.15jump up value: -273.15temp limit value: 0.0
+2015-09-14 13:16:18,654, DEBUG, DOWN VALUE-Tobj:--> object temperature value: -273.15jump up value: -273.15temp limit value: -2.7315
+2015-09-14 13:16:18,854, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.05000000000001jump up value: 23.05000000000001temp limit value: 0.0
+2015-09-14 13:16:18,854, DEBUG, UP VALUE-Tobj:--> object temperature value: 30.05000000000001jump up value: 30.05000000000001temp limit value: 0.3005000000000001
+2015-09-14 13:17:27,969, INFO, *******INFO NEW TEST**************
+2015-09-14 13:17:27,989, DEBUG, DOWN VALUE-TambAmbient temperature value: -273.15jump up value: -273.15temp limit value: 0.0
+2015-09-14 13:17:27,989, DEBUG, DOWN VALUE-Tobj:--> object temperature value: -273.15jump up value: -273.15temp limit value: -2.7315
+2015-09-14 13:17:27,989, DEBUG, DOWN VALUE-TambAmbient temperature value: -273.15jump up value: -273.15temp limit value: 0.0
+2015-09-14 13:17:27,989, DEBUG, DOWN VALUE-Tobj:--> object temperature value: -273.15jump up value: -273.15temp limit value: -2.7315
+2015-09-14 13:17:28,188, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.630000000000052jump up value: 23.630000000000052temp limit value: 0.0
+2015-09-14 13:17:28,188, DEBUG, UP VALUE-Tobj:--> object temperature value: 31.310000000000002jump up value: 31.310000000000002temp limit value: 0.31310000000000004
+2015-09-14 13:18:31,851, INFO, *******INFO NEW TEST**************
+2015-09-14 13:18:31,871, DEBUG, DOWN VALUE-TambAmbient temperature value: -273.15jump up value: -273.15temp limit value: 0.0
+2015-09-14 13:18:31,871, DEBUG, DOWN VALUE-Tobj:--> object temperature value: -273.15jump up value: -273.15temp limit value: -2.7315
+2015-09-14 13:18:31,871, DEBUG, DOWN VALUE-TambAmbient temperature value: -273.15jump up value: -273.15temp limit value: 0.0
+2015-09-14 13:18:31,871, DEBUG, DOWN VALUE-Tobj:--> object temperature value: -273.15jump up value: -273.15temp limit value: -2.7315
+2015-09-14 13:18:32,082, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.090000000000032jump up value: 23.090000000000032temp limit value: 0.0
+2015-09-14 13:18:32,082, DEBUG, UP VALUE-Tobj:--> object temperature value: 29.890000000000043jump up value: 29.890000000000043temp limit value: 0.29890000000000044
+2015-09-14 13:19:23,845, INFO, *******INFO NEW TEST**************
+2015-09-14 13:19:23,865, DEBUG, DOWN VALUE-TambAmbient temperature value: -273.15jump up value: -273.15temp limit value: 0.0
+2015-09-14 13:19:23,865, DEBUG, DOWN VALUE-Tobj:--> object temperature value: -273.15jump up value: -273.15temp limit value: -2.7315
+2015-09-14 13:19:23,865, DEBUG, DOWN VALUE-TambAmbient temperature value: -273.15jump up value: -273.15temp limit value: 0.0
+2015-09-14 13:19:23,865, DEBUG, DOWN VALUE-Tobj:--> object temperature value: -273.15jump up value: -273.15temp limit value: -2.7315
+2015-09-14 13:19:24,065, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 22.850000000000023jump up value: 22.850000000000023temp limit value: 0.0
+2015-09-14 13:19:24,065, DEBUG, UP VALUE-Tobj:--> object temperature value: 30.57000000000005jump up value: 30.57000000000005temp limit value: 0.3057000000000005
+2015-09-14 13:19:53,612, INFO, *******INFO NEW TEST**************
+2015-09-14 13:19:53,622, DEBUG, DOWN VALUE-TambAmbient temperature value: -273.15jump up value: -273.15temp limit value: 0.0
+2015-09-14 13:19:53,632, DEBUG, DOWN VALUE-Tobj:--> object temperature value: -273.15jump up value: -273.15temp limit value: -2.7315
+2015-09-14 13:19:53,632, DEBUG, DOWN VALUE-TambAmbient temperature value: -273.15jump up value: -273.15temp limit value: 0.0
+2015-09-14 13:19:53,632, DEBUG, DOWN VALUE-Tobj:--> object temperature value: -273.15jump up value: -273.15temp limit value: -2.7315
+2015-09-14 13:19:53,832, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.670000000000016jump up value: 23.670000000000016temp limit value: 0.0
+2015-09-14 13:19:53,832, DEBUG, UP VALUE-Tobj:--> object temperature value: 30.690000000000055jump up value: 30.690000000000055temp limit value: 0.30690000000000056
+2015-09-14 13:20:52,980, INFO, *******INFO NEW TEST**************
+2015-09-14 13:20:53,000, DEBUG, DOWN VALUE-TambAmbient temperature value: -273.15jump up value: -273.15temp limit value: 0.0
+2015-09-14 13:20:53,009, DEBUG, DOWN VALUE-Tobj:--> object temperature value: -273.15jump up value: -273.15temp limit value: -2.7315
+2015-09-14 13:20:53,009, DEBUG, DOWN VALUE-TambAmbient temperature value: -273.15jump up value: -273.15temp limit value: 0.0
+2015-09-14 13:20:53,009, DEBUG, DOWN VALUE-Tobj:--> object temperature value: -273.15jump up value: -273.15temp limit value: -2.7315
+2015-09-14 13:20:53,210, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.150000000000034jump up value: 23.150000000000034temp limit value: 0.0
+2015-09-14 13:20:53,210, DEBUG, UP VALUE-Tobj:--> object temperature value: 30.130000000000052jump up value: 30.130000000000052temp limit value: 0.3013000000000005
+2015-09-14 13:21:38,226, INFO, *******INFO NEW TEST**************
+2015-09-14 13:21:38,246, DEBUG, DOWN VALUE-TambAmbient temperature value: -273.15jump up value: -273.15temp limit value: 0.0
+2015-09-14 13:21:38,246, DEBUG, DOWN VALUE-Tobj:--> object temperature value: -273.15jump up value: -273.15temp limit value: -2.7315
+2015-09-14 13:21:38,246, DEBUG, DOWN VALUE-TambAmbient temperature value: -273.15jump up value: -273.15temp limit value: 0.0
+2015-09-14 13:21:38,246, DEBUG, DOWN VALUE-Tobj:--> object temperature value: -273.15jump up value: -273.15temp limit value: -2.7315
+2015-09-14 13:21:38,446, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 22.850000000000023jump up value: 22.850000000000023temp limit value: 0.0
+2015-09-14 13:21:38,446, DEBUG, UP VALUE-Tobj:--> object temperature value: 31.010000000000048jump up value: 31.010000000000048temp limit value: 0.3101000000000005
+2015-09-14 13:22:23,772, INFO, *******INFO NEW TEST**************
+2015-09-14 13:22:23,802, DEBUG, DOWN VALUE-TambAmbient temperature value: -273.15jump up value: -273.15temp limit value: 0.0
+2015-09-14 13:22:23,802, DEBUG, DOWN VALUE-Tobj:--> object temperature value: -273.15jump up value: -273.15temp limit value: -2.7315
+2015-09-14 13:22:23,802, DEBUG, DOWN VALUE-TambAmbient temperature value: -273.15jump up value: -273.15temp limit value: 0.0
+2015-09-14 13:22:23,802, DEBUG, DOWN VALUE-Tobj:--> object temperature value: -273.15jump up value: -273.15temp limit value: -2.7315
+2015-09-14 13:22:24,002, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.450000000000045jump up value: 23.450000000000045temp limit value: 0.0
+2015-09-14 13:22:24,002, DEBUG, UP VALUE-Tobj:--> object temperature value: 30.190000000000055jump up value: 30.190000000000055temp limit value: 0.30190000000000056
+2015-09-14 13:27:12,128, INFO, *******INFO NEW TEST**************
+2015-09-14 13:27:12,148, DEBUG, DOWN VALUE-TambAmbient temperature value: -273.15jump up value: -273.15temp limit value: 0.0
+2015-09-14 13:27:12,148, DEBUG, DOWN VALUE-Tobj:--> object temperature value: -273.15jump up value: -273.15temp limit value: -2.7315
+2015-09-14 13:27:12,148, DEBUG, DOWN VALUE-TambAmbient temperature value: -273.15jump up value: -273.15temp limit value: 0.0
+2015-09-14 13:27:12,148, DEBUG, DOWN VALUE-Tobj:--> object temperature value: -273.15jump up value: -273.15temp limit value: -2.7315
+2015-09-14 13:27:12,348, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.230000000000018jump up value: 23.230000000000018temp limit value: 0.0
+2015-09-14 13:27:12,348, DEBUG, UP VALUE-Tobj:--> object temperature value: 29.870000000000005jump up value: 29.870000000000005temp limit value: 0.2987000000000001
+2015-09-14 14:09:36,148, INFO, *******INFO NEW TEST**************
+2015-09-14 14:09:36,170, DEBUG, DOWN VALUE-TambAmbient temperature value: -273.15jump up value: -273.15temp limit value: 0.0
+2015-09-14 14:09:36,171, DEBUG, DOWN VALUE-Tobj:--> object temperature value: -273.15jump up value: -273.15temp limit value: -2.7315
+2015-09-14 14:09:36,173, DEBUG, DOWN VALUE-TambAmbient temperature value: -273.15jump up value: -273.15temp limit value: 0.0
+2015-09-14 14:09:36,174, DEBUG, DOWN VALUE-Tobj:--> object temperature value: -273.15jump up value: -273.15temp limit value: -2.7315
+2015-09-14 14:09:36,375, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 22.850000000000023jump up value: 22.850000000000023temp limit value: 0.0
+2015-09-14 14:09:36,378, DEBUG, UP VALUE-Tobj:--> object temperature value: 31.310000000000002jump up value: 31.310000000000002temp limit value: 0.31310000000000004
+2015-09-14 14:09:41,961, DEBUG, UP VALUE-Tobj:--> object temperature value: 30.910000000000025jump up value: 30.910000000000025temp limit value: 0.30910000000000026
+2015-09-14 14:10:21,372, INFO, *******INFO NEW TEST**************
+2015-09-14 14:10:21,395, DEBUG, DOWN VALUE-TambAmbient temperature value: -273.15jump up value: -273.15temp limit value: 0.0
+2015-09-14 14:10:21,397, DEBUG, DOWN VALUE-Tobj:--> object temperature value: -273.15jump up value: -273.15temp limit value: -2.7315
+2015-09-14 14:10:21,398, DEBUG, DOWN VALUE-TambAmbient temperature value: -273.15jump up value: -273.15temp limit value: 0.0
+2015-09-14 14:10:21,400, DEBUG, DOWN VALUE-Tobj:--> object temperature value: -273.15jump up value: -273.15temp limit value: -2.7315
+2015-09-14 14:10:21,601, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.590000000000032jump up value: 23.590000000000032temp limit value: 0.0
+2015-09-14 14:10:21,607, DEBUG, UP VALUE-Tobj:--> object temperature value: 31.010000000000048jump up value: 31.010000000000048temp limit value: 0.3101000000000005
+2015-09-14 14:10:26,220, DEBUG, UP VALUE-Tobj:--> object temperature value: 31.410000000000025jump up value: 31.410000000000025temp limit value: 0.31410000000000027
+2015-09-14 14:10:26,223, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.230000000000018jump up value: 23.230000000000018temp limit value: 0.0
+2015-09-14 14:10:53,460, INFO, *******INFO NEW TEST**************
+2015-09-14 14:10:53,480, DEBUG, DOWN VALUE-TambAmbient temperature value: -273.15jump up value: -273.15temp limit value: 0.0
+2015-09-14 14:10:53,482, DEBUG, DOWN VALUE-Tobj:--> object temperature value: -273.15jump up value: -273.15temp limit value: -2.7315
+2015-09-14 14:10:53,483, DEBUG, DOWN VALUE-TambAmbient temperature value: -273.15jump up value: -273.15temp limit value: 0.0
+2015-09-14 14:10:53,483, DEBUG, DOWN VALUE-Tobj:--> object temperature value: -273.15jump up value: -273.15temp limit value: -2.7315
+2015-09-14 14:10:53,686, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.27000000000004jump up value: 23.27000000000004temp limit value: 0.0
+2015-09-14 14:10:53,687, DEBUG, UP VALUE-Tobj:--> object temperature value: 30.03000000000003jump up value: 30.03000000000003temp limit value: 0.3003000000000003
+2015-09-14 14:10:58,260, DEBUG, UP VALUE-Tobj:--> object temperature value: 30.630000000000052jump up value: 30.630000000000052temp limit value: 0.3063000000000005
+2015-09-14 14:10:58,263, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 22.950000000000045jump up value: 22.950000000000045temp limit value: 0.0
+2015-09-14 14:11:00,467, DEBUG, UP VALUE-Tobj:--> object temperature value: 31.450000000000045jump up value: 0.8199999999999932temp limit value: 0.31450000000000045
+2015-09-14 14:11:00,469, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.49000000000001jump up value: 0.5399999999999636temp limit value: 0.0
+2015-09-14 14:11:02,671, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 29.890000000000043jump up value: -1.5600000000000023temp limit value: 0.29890000000000044
+2015-09-14 14:11:02,674, DEBUG, DOWN VALUE-TambAmbient temperature value: 22.850000000000023jump up value: -0.6399999999999864temp limit value: 0.0
+2015-09-14 14:11:04,878, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.410000000000025jump up value: 0.5600000000000023temp limit value: 0.0
+2015-09-14 14:11:07,082, DEBUG, UP VALUE-Tobj:--> object temperature value: 34.23000000000002jump up value: 4.339999999999975temp limit value: 0.3423000000000002
+2015-09-14 14:11:07,082, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 26.350000000000023jump up value: 2.9399999999999977temp limit value: 0.0
+2015-09-14 14:11:20,311, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 28.710000000000036jump up value: -5.519999999999982temp limit value: 0.28710000000000035
+2015-09-14 14:11:20,312, DEBUG, DOWN VALUE-TambAmbient temperature value: 23.450000000000045jump up value: -2.8999999999999773temp limit value: 0.0
+2015-09-14 14:11:22,517, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 24.650000000000034jump up value: 1.1999999999999886temp limit value: 0.0
+2015-09-14 14:11:27,165, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 27.590000000000032jump up value: -1.1200000000000045temp limit value: 0.2759000000000003
+2015-09-14 14:11:27,167, DEBUG, DOWN VALUE-TambAmbient temperature value: 23.190000000000055jump up value: -1.4599999999999795temp limit value: 0.0
+2015-09-14 14:11:29,371, DEBUG, UP VALUE-Tobj:--> object temperature value: 28.090000000000032jump up value: 0.5temp limit value: 0.2809000000000003
+2015-09-14 14:11:29,374, DEBUG, DOWN VALUE-TambAmbient temperature value: 22.250000000000057jump up value: -0.9399999999999977temp limit value: 0.0
+2015-09-14 14:11:31,578, DEBUG, UP VALUE-Tobj:--> object temperature value: 30.33000000000004jump up value: 2.240000000000009temp limit value: 0.3033000000000004
+2015-09-14 14:11:31,581, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.090000000000032jump up value: 0.839999999999975temp limit value: 0.0
+2015-09-14 14:11:40,397, DEBUG, UP VALUE-Tobj:--> object temperature value: 34.53000000000003jump up value: 4.199999999999989temp limit value: 0.34530000000000033
+2015-09-14 14:11:40,398, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 26.27000000000004jump up value: 3.180000000000007temp limit value: 0.0
+2015-09-14 14:11:47,012, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 33.89000000000004jump up value: -0.6399999999999864temp limit value: 0.3389000000000004
+2015-09-14 14:11:49,220, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 26.79000000000002jump up value: 0.5199999999999818temp limit value: 0.0
+2015-09-14 14:11:53,628, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 28.430000000000007jump up value: -5.460000000000036temp limit value: 0.28430000000000005
+2015-09-14 14:11:53,630, DEBUG, DOWN VALUE-TambAmbient temperature value: 22.170000000000016jump up value: -4.6200000000000045temp limit value: 0.0
+2015-09-14 14:11:55,834, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.090000000000032jump up value: 0.9200000000000159temp limit value: 0.0
+2015-09-14 14:11:58,038, DEBUG, DOWN VALUE-TambAmbient temperature value: 21.930000000000007jump up value: -1.160000000000025temp limit value: 0.0
+2015-09-14 14:12:00,240, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 22.53000000000003jump up value: 0.6000000000000227temp limit value: 0.0
+2015-09-14 14:12:04,648, DEBUG, UP VALUE-Tobj:--> object temperature value: 31.650000000000034jump up value: 3.2200000000000273temp limit value: 0.31650000000000034
+2015-09-14 14:12:04,651, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.470000000000027jump up value: 0.9399999999999977temp limit value: 0.0
+2015-09-14 14:12:06,855, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 30.470000000000027jump up value: -1.1800000000000068temp limit value: 0.3047000000000003
+2015-09-14 14:12:06,858, DEBUG, DOWN VALUE-TambAmbient temperature value: 22.890000000000043jump up value: -0.5799999999999841temp limit value: 0.0
+2015-09-14 14:12:09,062, DEBUG, UP VALUE-Tobj:--> object temperature value: 31.750000000000057jump up value: 1.2800000000000296temp limit value: 0.31750000000000056
+2015-09-14 14:12:09,063, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.670000000000016jump up value: 0.7799999999999727temp limit value: 0.0
+2015-09-14 14:12:13,471, DEBUG, UP VALUE-Tobj:--> object temperature value: 34.450000000000045jump up value: 2.6999999999999886temp limit value: 0.3445000000000005
+2015-09-14 14:12:13,473, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 26.630000000000052jump up value: 2.9600000000000364temp limit value: 0.0
+2015-09-14 14:12:20,088, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 33.89000000000004jump up value: -0.5600000000000023temp limit value: 0.3389000000000004
+2015-09-14 14:12:24,500, DEBUG, UP VALUE-Tobj:--> object temperature value: 34.57000000000005jump up value: 0.6800000000000068temp limit value: 0.3457000000000005
+2015-09-14 14:12:26,704, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 28.250000000000057jump up value: -6.319999999999993temp limit value: 0.2825000000000006
+2015-09-14 14:12:26,707, DEBUG, DOWN VALUE-TambAmbient temperature value: 24.690000000000055jump up value: -1.9399999999999977temp limit value: 0.0
+2015-09-14 14:12:28,911, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 27.33000000000004jump up value: -0.9200000000000159temp limit value: 0.27330000000000043
+2015-09-14 14:12:28,914, DEBUG, DOWN VALUE-TambAmbient temperature value: 23.430000000000007jump up value: -1.2600000000000477temp limit value: 0.0
+2015-09-14 14:12:31,117, DEBUG, UP VALUE-Tobj:--> object temperature value: 28.510000000000048jump up value: 1.1800000000000068temp limit value: 0.28510000000000046
+2015-09-14 14:12:31,118, DEBUG, DOWN VALUE-TambAmbient temperature value: 22.350000000000023jump up value: -1.079999999999984temp limit value: 0.0
+2015-09-14 14:12:33,321, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 27.99000000000001jump up value: -0.5200000000000387temp limit value: 0.2799000000000001
+2015-09-14 14:12:35,526, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.99000000000001jump up value: 1.6399999999999864temp limit value: 0.0
+2015-09-14 14:12:37,730, DEBUG, UP VALUE-Tobj:--> object temperature value: 31.49000000000001jump up value: 3.5temp limit value: 0.3149000000000001
+2015-09-14 14:12:37,733, DEBUG, DOWN VALUE-TambAmbient temperature value: 23.29000000000002jump up value: -0.6999999999999886temp limit value: 0.0
+2015-09-14 14:12:39,937, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 30.870000000000005jump up value: -0.6200000000000045temp limit value: 0.30870000000000003
+2015-09-14 14:12:42,142, DEBUG, UP VALUE-Tobj:--> object temperature value: 31.53000000000003jump up value: 0.660000000000025temp limit value: 0.3153000000000003
+2015-09-14 14:12:44,348, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 30.33000000000004jump up value: -1.1999999999999886temp limit value: 0.3033000000000004
+2015-09-14 14:12:46,552, DEBUG, UP VALUE-Tobj:--> object temperature value: 34.650000000000034jump up value: 4.319999999999993temp limit value: 0.34650000000000036
+2015-09-14 14:12:46,553, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 26.79000000000002jump up value: 3.5temp limit value: 0.0
+2015-09-14 14:18:09,230, INFO, *******INFO NEW TEST**************
+2015-09-14 14:18:09,252, DEBUG, DOWN VALUE-TambAmbient temperature value: -273.15jump up value: -273.15temp limit value: 0.0
+2015-09-14 14:18:09,253, DEBUG, DOWN VALUE-Tobj:--> object temperature value: -273.15jump up value: -273.15temp limit value: -2.7315
+2015-09-14 14:18:09,255, DEBUG, DOWN VALUE-TambAmbient temperature value: -273.15jump up value: -273.15temp limit value: 0.0
+2015-09-14 14:18:09,256, DEBUG, DOWN VALUE-Tobj:--> object temperature value: -273.15jump up value: -273.15temp limit value: -2.7315
+2015-09-14 14:18:09,457, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.07000000000005jump up value: 23.07000000000005temp limit value: 0.0
+2015-09-14 14:18:09,460, DEBUG, UP VALUE-Tobj:--> object temperature value: 30.930000000000007jump up value: 30.930000000000007temp limit value: 0.3093000000000001
+2015-09-14 14:18:32,140, INFO, *******INFO NEW TEST**************
+2015-09-14 14:18:32,163, DEBUG, DOWN VALUE-TambAmbient temperature value: -273.15jump up value: -273.15temp limit value: 0.0
+2015-09-14 14:18:32,164, DEBUG, DOWN VALUE-Tobj:--> object temperature value: -273.15jump up value: -273.15temp limit value: -2.7315
+2015-09-14 14:18:32,165, DEBUG, DOWN VALUE-TambAmbient temperature value: -273.15jump up value: -273.15temp limit value: 0.0
+2015-09-14 14:18:32,167, DEBUG, DOWN VALUE-Tobj:--> object temperature value: -273.15jump up value: -273.15temp limit value: -2.7315
+2015-09-14 14:18:32,369, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.430000000000007jump up value: 23.430000000000007temp limit value: 0.0
+2015-09-14 14:18:32,372, DEBUG, UP VALUE-Tobj:--> object temperature value: 30.07000000000005jump up value: 30.07000000000005temp limit value: 0.3007000000000005
+2015-09-14 14:18:55,385, INFO, *******INFO NEW TEST**************
+2015-09-14 14:18:55,407, DEBUG, DOWN VALUE-TambAmbient temperature value: -273.15jump up value: -273.15temp limit value: 0.0
+2015-09-14 14:18:55,408, DEBUG, DOWN VALUE-Tobj:--> object temperature value: -273.15jump up value: -273.15temp limit value: -2.7315
+2015-09-14 14:18:55,410, DEBUG, DOWN VALUE-TambAmbient temperature value: -273.15jump up value: -273.15temp limit value: 0.0
+2015-09-14 14:18:55,411, DEBUG, DOWN VALUE-Tobj:--> object temperature value: -273.15jump up value: -273.15temp limit value: -2.7315
+2015-09-14 14:18:55,614, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 22.930000000000007jump up value: 22.930000000000007temp limit value: 0.0
+2015-09-14 14:18:55,617, DEBUG, UP VALUE-Tobj:--> object temperature value: 31.230000000000018jump up value: 31.230000000000018temp limit value: 0.3123000000000002
+2015-09-14 14:19:03,176, DEBUG, UP VALUE-Tobj:--> object temperature value: 30.370000000000005jump up value: 30.370000000000005temp limit value: 0.3037
+2015-09-14 14:19:03,177, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 22.930000000000007jump up value: 22.930000000000007temp limit value: 0.0
+2015-09-14 14:19:08,588, DEBUG, UP VALUE-Tobj:--> object temperature value: 31.210000000000036jump up value: 0.8400000000000318temp limit value: 0.3121000000000004
+2015-09-14 14:19:13,996, DEBUG, UP VALUE-Tobj:--> object temperature value: 34.39000000000004jump up value: 3.180000000000007temp limit value: 0.3439000000000004
+2015-09-14 14:19:13,999, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 26.77000000000004jump up value: 3.840000000000032temp limit value: 0.0
+2015-09-14 14:19:32,224, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 27.650000000000034jump up value: -6.740000000000009temp limit value: 0.27650000000000036
+2015-09-14 14:19:32,226, DEBUG, DOWN VALUE-TambAmbient temperature value: 22.05000000000001jump up value: -4.720000000000027temp limit value: 0.0
+2015-09-14 14:19:35,430, DEBUG, UP VALUE-Tobj:--> object temperature value: 28.33000000000004jump up value: 0.6800000000000068temp limit value: 0.28330000000000044
+2015-09-14 14:19:38,634, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 27.370000000000005jump up value: -0.9600000000000364temp limit value: 0.27370000000000005
+2015-09-14 14:19:38,637, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.690000000000055jump up value: 1.6400000000000432temp limit value: 0.0
+2015-09-14 14:19:41,842, DEBUG, DOWN VALUE-TambAmbient temperature value: 23.05000000000001jump up value: -0.6400000000000432temp limit value: 0.0
+2015-09-14 14:19:45,046, DEBUG, UP VALUE-Tobj:--> object temperature value: 28.650000000000034jump up value: 1.2800000000000296temp limit value: 0.28650000000000037
+2015-09-14 14:19:45,049, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 24.79000000000002jump up value: 1.740000000000009temp limit value: 0.0
+2015-09-14 14:19:48,252, DEBUG, UP VALUE-Tobj:--> object temperature value: 30.130000000000052jump up value: 1.4800000000000182temp limit value: 0.3013000000000005
+2015-09-14 14:19:48,253, DEBUG, DOWN VALUE-TambAmbient temperature value: 22.870000000000005jump up value: -1.920000000000016temp limit value: 0.0
+2015-09-14 14:19:51,457, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.410000000000025jump up value: 0.5400000000000205temp limit value: 0.0
+2015-09-14 14:19:53,661, DEBUG, UP VALUE-Tobj:--> object temperature value: 31.29000000000002jump up value: 1.1599999999999682temp limit value: 0.31290000000000023
+2015-09-14 14:19:55,868, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 30.230000000000018jump up value: -1.0600000000000023temp limit value: 0.3023000000000002
+2015-09-14 14:19:59,073, DEBUG, UP VALUE-Tobj:--> object temperature value: 34.75000000000006jump up value: 4.520000000000039temp limit value: 0.3475000000000006
+2015-09-14 14:19:59,075, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 26.650000000000034jump up value: 3.240000000000009temp limit value: 0.0
+2015-09-14 14:20:05,483, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 34.150000000000034jump up value: -0.6000000000000227temp limit value: 0.34150000000000036
+2015-09-14 14:20:14,098, DEBUG, UP VALUE-Tobj:--> object temperature value: 34.75000000000006jump up value: 0.6000000000000227temp limit value: 0.3475000000000006
+2015-09-14 14:20:17,303, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 27.07000000000005jump up value: -7.680000000000007temp limit value: 0.2707000000000005
+2015-09-14 14:20:17,305, DEBUG, DOWN VALUE-TambAmbient temperature value: 22.190000000000055jump up value: -4.4599999999999795temp limit value: 0.0
+2015-09-14 14:20:20,509, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 24.49000000000001jump up value: 2.2999999999999545temp limit value: 0.0
+2015-09-14 14:20:23,713, DEBUG, UP VALUE-Tobj:--> object temperature value: 28.310000000000002jump up value: 1.2399999999999523temp limit value: 0.2831
+2015-09-14 14:20:26,918, DEBUG, DOWN VALUE-TambAmbient temperature value: 22.690000000000055jump up value: -1.7999999999999545temp limit value: 0.0
+2015-09-14 14:20:30,135, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 27.57000000000005jump up value: -0.7399999999999523temp limit value: 0.2757000000000005
+2015-09-14 14:20:30,144, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 24.690000000000055jump up value: 2.0temp limit value: 0.0
+2015-09-14 14:20:33,357, DEBUG, UP VALUE-Tobj:--> object temperature value: 30.450000000000045jump up value: 2.8799999999999955temp limit value: 0.30450000000000044
+2015-09-14 14:20:33,358, DEBUG, DOWN VALUE-TambAmbient temperature value: 23.150000000000034jump up value: -1.5400000000000205temp limit value: 0.0
+2015-09-14 14:20:36,562, DEBUG, UP VALUE-Tobj:--> object temperature value: 31.03000000000003jump up value: 0.5799999999999841temp limit value: 0.3103000000000003
+2015-09-14 14:20:42,976, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 30.450000000000045jump up value: -0.5799999999999841temp limit value: 0.30450000000000044
+2015-09-14 14:20:42,977, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.79000000000002jump up value: 0.6399999999999864temp limit value: 0.0
+2015-09-14 14:20:46,181, DEBUG, UP VALUE-Tobj:--> object temperature value: 34.63000000000005jump up value: 4.180000000000007temp limit value: 0.34630000000000055
+2015-09-14 14:20:46,184, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 26.650000000000034jump up value: 2.8600000000000136temp limit value: 0.0
+2015-09-14 14:27:44,690, INFO, *******INFO NEW TEST**************
+2015-09-14 14:27:44,710, DEBUG, DOWN VALUE-TambAmbient temperature value: -273.15jump up value: -273.15temp limit value: 0.0
+2015-09-14 14:27:44,711, DEBUG, DOWN VALUE-Tobj:--> object temperature value: -273.15jump up value: -273.15temp limit value: -2.7315
+2015-09-14 14:27:44,713, DEBUG, DOWN VALUE-TambAmbient temperature value: -273.15jump up value: -273.15temp limit value: 0.0
+2015-09-14 14:27:44,713, DEBUG, DOWN VALUE-Tobj:--> object temperature value: -273.15jump up value: -273.15temp limit value: -2.7315
+2015-09-14 14:27:44,915, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.170000000000016jump up value: 23.170000000000016temp limit value: 0.0
+2015-09-14 14:27:45,453, DEBUG, UP VALUE-Tobj:--> object temperature value: 31.29000000000002jump up value: 31.29000000000002temp limit value: 0.31290000000000023
+2015-09-14 14:27:53,036, DEBUG, UP VALUE-Tobj:--> object temperature value: 31.55000000000001jump up value: 31.55000000000001temp limit value: 0.3155000000000001
+2015-09-14 14:27:53,039, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.05000000000001jump up value: 23.05000000000001temp limit value: 0.0
+2015-09-14 14:27:55,743, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 30.05000000000001jump up value: -1.5temp limit value: 0.3005000000000001
+2015-09-14 14:27:58,448, DEBUG, UP VALUE-Tobj:--> object temperature value: 31.470000000000027jump up value: 1.420000000000016temp limit value: 0.31470000000000026
+2015-09-14 14:27:58,450, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.79000000000002jump up value: 0.7400000000000091temp limit value: 0.0
+2015-09-14 14:28:00,657, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 29.910000000000025jump up value: -1.5600000000000023temp limit value: 0.29910000000000025
+2015-09-14 14:28:00,660, DEBUG, DOWN VALUE-TambAmbient temperature value: 23.250000000000057jump up value: -0.5399999999999636temp limit value: 0.0
+2015-09-14 14:28:03,365, DEBUG, UP VALUE-Tobj:--> object temperature value: 34.57000000000005jump up value: 4.660000000000025temp limit value: 0.3457000000000005
+2015-09-14 14:28:03,368, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 26.83000000000004jump up value: 3.579999999999984temp limit value: 0.0
+2015-09-14 14:28:06,073, DEBUG, DOWN VALUE-TambAmbient temperature value: 26.250000000000057jump up value: -0.5799999999999841temp limit value: 0.0
+2015-09-14 14:28:13,690, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 34.03000000000003jump up value: -0.5400000000000205temp limit value: 0.3403000000000003
+2015-09-14 14:28:18,604, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 28.430000000000007jump up value: -5.600000000000023temp limit value: 0.28430000000000005
+2015-09-14 14:28:18,605, DEBUG, DOWN VALUE-TambAmbient temperature value: 22.57000000000005jump up value: -3.680000000000007temp limit value: 0.0
+2015-09-14 14:28:26,224, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 27.190000000000055jump up value: -1.2399999999999523temp limit value: 0.27190000000000053
+2015-09-14 14:28:26,226, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.110000000000014jump up value: 0.5399999999999636temp limit value: 0.0
+2015-09-14 14:28:28,433, DEBUG, UP VALUE-Tobj:--> object temperature value: 28.27000000000004jump up value: 1.079999999999984temp limit value: 0.2827000000000004
+2015-09-14 14:28:31,140, DEBUG, UP VALUE-Tobj:--> object temperature value: 31.210000000000036jump up value: 2.9399999999999977temp limit value: 0.3121000000000004
+2015-09-14 14:28:31,141, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.83000000000004jump up value: 0.7200000000000273temp limit value: 0.0
+2015-09-14 14:28:36,552, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 30.310000000000002jump up value: -0.9000000000000341temp limit value: 0.30310000000000004
+2015-09-14 14:28:36,553, DEBUG, DOWN VALUE-TambAmbient temperature value: 22.850000000000023jump up value: -0.9800000000000182temp limit value: 0.0
+2015-09-14 14:28:41,467, DEBUG, UP VALUE-Tobj:--> object temperature value: 34.05000000000001jump up value: 3.740000000000009temp limit value: 0.34050000000000014
+2015-09-14 14:28:41,470, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 26.55000000000001jump up value: 3.6999999999999886temp limit value: 0.0
+2015-09-14 14:29:41,704, INFO, *******INFO NEW TEST**************
+2015-09-14 14:29:41,719, DEBUG, DOWN VALUE-TambAmbient temperature value: -273.15jump up value: -273.15temp limit value: 0.0
+2015-09-14 14:29:41,720, DEBUG, DOWN VALUE-Tobj:--> object temperature value: -273.15jump up value: -273.15temp limit value: -2.7315
+2015-09-14 14:29:41,721, DEBUG, DOWN VALUE-TambAmbient temperature value: -273.15jump up value: -273.15temp limit value: 0.0
+2015-09-14 14:29:41,723, DEBUG, DOWN VALUE-Tobj:--> object temperature value: -273.15jump up value: -273.15temp limit value: -2.7315
+2015-09-14 14:29:41,924, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 22.950000000000045jump up value: 22.950000000000045temp limit value: 0.0
+2015-09-14 14:29:41,927, DEBUG, UP VALUE-Tobj:--> object temperature value: 31.410000000000025jump up value: 31.410000000000025temp limit value: 0.31410000000000027
+2015-09-14 14:29:49,525, DEBUG, UP VALUE-Tobj:--> object temperature value: 31.610000000000014jump up value: 31.610000000000014temp limit value: 0.31610000000000016
+2015-09-14 14:29:49,526, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 22.99000000000001jump up value: 22.99000000000001temp limit value: 0.0
+2015-09-14 14:29:53,946, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.510000000000048jump up value: 0.5200000000000387temp limit value: 0.0
+2015-09-14 14:29:56,154, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 30.83000000000004jump up value: -0.7799999999999727temp limit value: 0.3083000000000004
+2015-09-14 14:29:56,154, DEBUG, DOWN VALUE-TambAmbient temperature value: 22.970000000000027jump up value: -0.5400000000000205temp limit value: 0.0
+2015-09-14 14:29:58,364, DEBUG, UP VALUE-Tobj:--> object temperature value: 34.81jump up value: 3.9799999999999613temp limit value: 0.3481
+2015-09-14 14:29:58,365, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 26.350000000000023jump up value: 3.3799999999999955temp limit value: 0.0
+2015-09-14 14:30:00,573, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 34.25000000000006jump up value: -0.5599999999999454temp limit value: 0.3425000000000006
+2015-09-14 14:30:11,621, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 27.250000000000057jump up value: -7.0temp limit value: 0.2725000000000006
+2015-09-14 14:30:11,624, DEBUG, DOWN VALUE-TambAmbient temperature value: 24.390000000000043jump up value: -1.9599999999999795temp limit value: 0.0
+2015-09-14 14:30:13,834, DEBUG, DOWN VALUE-TambAmbient temperature value: 22.77000000000004jump up value: -1.6200000000000045temp limit value: 0.0
+2015-09-14 14:30:16,042, DEBUG, DOWN VALUE-TambAmbient temperature value: 21.890000000000043jump up value: -0.8799999999999955temp limit value: 0.0
+2015-09-14 14:30:18,252, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 24.410000000000025jump up value: 2.519999999999982temp limit value: 0.0
+2015-09-14 14:30:20,460, DEBUG, UP VALUE-Tobj:--> object temperature value: 28.79000000000002jump up value: 1.5399999999999636temp limit value: 0.2879000000000002
+2015-09-14 14:30:20,461, DEBUG, DOWN VALUE-TambAmbient temperature value: 23.190000000000055jump up value: -1.2199999999999704temp limit value: 0.0
+2015-09-14 14:30:22,668, DEBUG, UP VALUE-Tobj:--> object temperature value: 30.850000000000023jump up value: 2.0600000000000023temp limit value: 0.3085000000000002
+2015-09-14 14:30:24,927, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 30.33000000000004jump up value: -0.5199999999999818temp limit value: 0.3033000000000004
+2015-09-14 14:30:27,193, DEBUG, UP VALUE-Tobj:--> object temperature value: 30.930000000000007jump up value: 0.5999999999999659temp limit value: 0.3093000000000001
+2015-09-14 14:30:27,194, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.710000000000036jump up value: 0.5199999999999818temp limit value: 0.0
+2015-09-14 14:30:31,918, DEBUG, UP VALUE-Tobj:--> object temperature value: 33.910000000000025jump up value: 2.980000000000018temp limit value: 0.33910000000000023
+2015-09-14 14:30:31,920, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 26.53000000000003jump up value: 2.819999999999993temp limit value: 0.0
+2015-09-14 14:53:06,247, INFO, *******INFO NEW TEST**************
+2015-09-14 14:53:06,265, DEBUG, DOWN VALUE-TambAmbient temperature value: -273.15jump up value: -273.15temp limit value: 0.0
+2015-09-14 14:53:06,266, DEBUG, DOWN VALUE-Tobj:--> object temperature value: -273.15jump up value: -273.15temp limit value: -2.7315
+2015-09-14 14:53:06,267, DEBUG, DOWN VALUE-TambAmbient temperature value: -273.15jump up value: -273.15temp limit value: 0.0
+2015-09-14 14:53:06,269, DEBUG, DOWN VALUE-Tobj:--> object temperature value: -273.15jump up value: -273.15temp limit value: -2.7315
+2015-09-14 14:53:06,470, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.090000000000032jump up value: 23.090000000000032temp limit value: 0.0
+2015-09-14 14:53:06,473, DEBUG, UP VALUE-Tobj:--> object temperature value: 30.57000000000005jump up value: 30.57000000000005temp limit value: 0.3057000000000005
+2015-09-14 14:53:23,769, INFO, *******INFO NEW TEST**************
+2015-09-14 14:53:23,786, DEBUG, DOWN VALUE-TambAmbient temperature value: -273.15jump up value: -273.15temp limit value: 0.0
+2015-09-14 14:53:23,788, DEBUG, DOWN VALUE-Tobj:--> object temperature value: -273.15jump up value: -273.15temp limit value: -2.7315
+2015-09-14 14:53:23,789, DEBUG, DOWN VALUE-TambAmbient temperature value: -273.15jump up value: -273.15temp limit value: 0.0
+2015-09-14 14:53:23,789, DEBUG, DOWN VALUE-Tobj:--> object temperature value: -273.15jump up value: -273.15temp limit value: -2.7315
+2015-09-14 14:53:23,990, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.730000000000018jump up value: 23.730000000000018temp limit value: 0.0
+2015-09-14 14:53:23,992, DEBUG, UP VALUE-Tobj:--> object temperature value: 30.05000000000001jump up value: 30.05000000000001temp limit value: 0.3005000000000001
+2015-09-14 14:53:46,723, INFO, *******INFO NEW TEST**************
+2015-09-14 14:53:46,736, DEBUG, DOWN VALUE-TambAmbient temperature value: -273.15jump up value: -273.15temp limit value: 0.0
+2015-09-14 14:53:46,737, DEBUG, DOWN VALUE-Tobj:--> object temperature value: -273.15jump up value: -273.15temp limit value: -2.7315
+2015-09-14 14:53:46,740, DEBUG, DOWN VALUE-TambAmbient temperature value: -273.15jump up value: -273.15temp limit value: 0.0
+2015-09-14 14:53:46,740, DEBUG, DOWN VALUE-Tobj:--> object temperature value: -273.15jump up value: -273.15temp limit value: -2.7315
+2015-09-14 14:53:46,943, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 22.950000000000045jump up value: 22.950000000000045temp limit value: 0.0
+2015-09-14 14:53:46,946, DEBUG, UP VALUE-Tobj:--> object temperature value: 31.590000000000032jump up value: 31.590000000000032temp limit value: 0.31590000000000035
+2015-09-14 14:54:05,891, INFO, *******INFO NEW TEST**************
+2015-09-14 14:54:05,904, DEBUG, DOWN VALUE-TambAmbient temperature value: -273.15jump up value: -273.15temp limit value: 0.0
+2015-09-14 14:54:05,905, DEBUG, DOWN VALUE-Tobj:--> object temperature value: -273.15jump up value: -273.15temp limit value: -2.7315
+2015-09-14 14:54:05,907, DEBUG, DOWN VALUE-TambAmbient temperature value: -273.15jump up value: -273.15temp limit value: 0.0
+2015-09-14 14:54:05,908, DEBUG, DOWN VALUE-Tobj:--> object temperature value: -273.15jump up value: -273.15temp limit value: -2.7315
+2015-09-14 14:54:06,111, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 22.99000000000001jump up value: 22.99000000000001temp limit value: 0.0
+2015-09-14 14:54:06,112, DEBUG, UP VALUE-Tobj:--> object temperature value: 30.350000000000023jump up value: 30.350000000000023temp limit value: 0.3035000000000002
+2015-09-14 14:54:12,664, DEBUG, UP VALUE-Tobj:--> object temperature value: 29.850000000000023jump up value: 29.850000000000023temp limit value: 0.2985000000000002
+2015-09-14 14:54:12,665, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.470000000000027jump up value: 23.470000000000027temp limit value: 0.0
+2015-09-14 14:54:14,868, DEBUG, UP VALUE-Tobj:--> object temperature value: 30.910000000000025jump up value: 1.0600000000000023temp limit value: 0.30910000000000026
+2015-09-14 14:54:19,278, DEBUG, UP VALUE-Tobj:--> object temperature value: 31.430000000000007jump up value: 0.5199999999999818temp limit value: 0.3143000000000001
+2015-09-14 14:54:21,483, DEBUG, UP VALUE-Tobj:--> object temperature value: 34.33000000000004jump up value: 2.900000000000034temp limit value: 0.34330000000000044
+2015-09-14 14:54:21,484, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 26.430000000000007jump up value: 2.9599999999999795temp limit value: 0.0
+2015-09-14 14:54:28,098, DEBUG, UP VALUE-Tobj:--> object temperature value: 34.83000000000004jump up value: 0.5temp limit value: 0.34830000000000044
+2015-09-14 14:54:30,303, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 34.210000000000036jump up value: -0.6200000000000045temp limit value: 0.34210000000000035
+2015-09-14 14:54:34,711, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 27.710000000000036jump up value: -6.5temp limit value: 0.27710000000000035
+2015-09-14 14:54:34,713, DEBUG, DOWN VALUE-TambAmbient temperature value: 23.07000000000005jump up value: -3.359999999999957temp limit value: 0.0
+2015-09-14 14:54:36,914, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 24.810000000000002jump up value: 1.7399999999999523temp limit value: 0.0
+2015-09-14 14:54:39,118, DEBUG, DOWN VALUE-TambAmbient temperature value: 23.99000000000001jump up value: -0.8199999999999932temp limit value: 0.0
+2015-09-14 14:54:41,322, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 26.870000000000005jump up value: -0.8400000000000318temp limit value: 0.26870000000000005
+2015-09-14 14:54:41,322, DEBUG, DOWN VALUE-TambAmbient temperature value: 22.810000000000002jump up value: -1.1800000000000068temp limit value: 0.0
+2015-09-14 14:54:43,526, DEBUG, UP VALUE-Tobj:--> object temperature value: 28.53000000000003jump up value: 1.660000000000025temp limit value: 0.2853000000000003
+2015-09-14 14:54:45,732, DEBUG, UP VALUE-Tobj:--> object temperature value: 31.670000000000016jump up value: 3.1399999999999864temp limit value: 0.31670000000000015
+2015-09-14 14:54:47,937, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 30.57000000000005jump up value: -1.099999999999966temp limit value: 0.3057000000000005
+2015-09-14 14:54:47,938, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.410000000000025jump up value: 0.6000000000000227temp limit value: 0.0
+2015-09-14 14:54:50,147, DEBUG, DOWN VALUE-TambAmbient temperature value: 22.910000000000025jump up value: -0.5temp limit value: 0.0
+2015-09-14 14:54:52,352, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.670000000000016jump up value: 0.7599999999999909temp limit value: 0.0
+2015-09-14 14:55:53,474, INFO, *******INFO NEW TEST**************
+2015-09-14 14:55:53,489, DEBUG, DOWN VALUE-TambAmbient temperature value: -273.15jump up value: -273.15temp limit value: 0.0
+2015-09-14 14:55:53,490, DEBUG, DOWN VALUE-Tobj:--> object temperature value: -273.15jump up value: -273.15temp limit value: -2.7315
+2015-09-14 14:55:53,492, DEBUG, DOWN VALUE-TambAmbient temperature value: -273.15jump up value: -273.15temp limit value: 0.0
+2015-09-14 14:55:53,493, DEBUG, DOWN VALUE-Tobj:--> object temperature value: -273.15jump up value: -273.15temp limit value: -2.7315
+2015-09-14 14:55:53,694, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.670000000000016jump up value: 23.670000000000016temp limit value: 0.0
+2015-09-14 14:55:53,697, DEBUG, UP VALUE-Tobj:--> object temperature value: 31.310000000000002jump up value: 31.310000000000002temp limit value: 0.31310000000000004
+2015-09-14 14:56:00,796, DEBUG, UP VALUE-Tobj:--> object temperature value: 31.010000000000048jump up value: 31.010000000000048temp limit value: 0.3101000000000005
+2015-09-14 14:56:00,799, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.430000000000007jump up value: 23.430000000000007temp limit value: 0.0
+2015-09-14 14:56:05,210, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 30.110000000000014jump up value: -0.9000000000000341temp limit value: 0.30110000000000015
+2015-09-14 14:56:07,415, DEBUG, UP VALUE-Tobj:--> object temperature value: 30.650000000000034jump up value: 0.5400000000000205temp limit value: 0.3065000000000003
+2015-09-14 14:56:09,621, DEBUG, UP VALUE-Tobj:--> object temperature value: 33.97000000000003jump up value: 3.319999999999993temp limit value: 0.3397000000000003
+2015-09-14 14:56:09,624, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 26.730000000000018jump up value: 3.3000000000000114temp limit value: 0.0
+2015-09-14 14:56:11,826, DEBUG, UP VALUE-Tobj:--> object temperature value: 34.47000000000003jump up value: 0.5temp limit value: 0.3447000000000003
+2015-09-14 14:56:14,032, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 33.89000000000004jump up value: -0.5799999999999841temp limit value: 0.3389000000000004
+2015-09-14 14:56:18,440, DEBUG, UP VALUE-Tobj:--> object temperature value: 34.410000000000025jump up value: 0.5199999999999818temp limit value: 0.34410000000000024
+2015-09-14 14:56:22,852, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 28.810000000000002jump up value: -5.600000000000023temp limit value: 0.2881
+2015-09-14 14:56:22,855, DEBUG, DOWN VALUE-TambAmbient temperature value: 22.750000000000057jump up value: -3.9799999999999613temp limit value: 0.0
+2015-09-14 14:56:25,059, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 27.190000000000055jump up value: -1.6199999999999477temp limit value: 0.27190000000000053
+2015-09-14 14:56:25,059, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 24.090000000000032jump up value: 1.339999999999975temp limit value: 0.0
+2015-09-14 14:56:29,469, DEBUG, DOWN VALUE-TambAmbient temperature value: 22.850000000000023jump up value: -1.240000000000009temp limit value: 0.0
+2015-09-14 14:56:31,674, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 24.77000000000004jump up value: 1.920000000000016temp limit value: 0.0
+2015-09-14 14:56:36,920, INFO, *******INFO NEW TEST**************
+2015-09-14 14:56:36,933, DEBUG, DOWN VALUE-TambAmbient temperature value: -273.15jump up value: -273.15temp limit value: 0.0
+2015-09-14 14:56:36,934, DEBUG, DOWN VALUE-Tobj:--> object temperature value: -273.15jump up value: -273.15temp limit value: -2.7315
+2015-09-14 14:56:36,936, DEBUG, DOWN VALUE-TambAmbient temperature value: -273.15jump up value: -273.15temp limit value: 0.0
+2015-09-14 14:56:36,937, DEBUG, DOWN VALUE-Tobj:--> object temperature value: -273.15jump up value: -273.15temp limit value: -2.7315
+2015-09-14 14:56:37,138, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.450000000000045jump up value: 23.450000000000045temp limit value: 0.0
+2015-09-14 14:56:37,141, DEBUG, UP VALUE-Tobj:--> object temperature value: 31.630000000000052jump up value: 31.630000000000052temp limit value: 0.3163000000000005
+2015-09-14 14:56:43,740, DEBUG, UP VALUE-Tobj:--> object temperature value: 30.03000000000003jump up value: 30.03000000000003temp limit value: 0.3003000000000003
+2015-09-14 14:56:43,742, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.630000000000052jump up value: 23.630000000000052temp limit value: 0.0
+2015-09-14 14:56:45,946, DEBUG, UP VALUE-Tobj:--> object temperature value: 31.590000000000032jump up value: 1.5600000000000023temp limit value: 0.31590000000000035
+2015-09-14 14:56:50,355, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 30.510000000000048jump up value: -1.079999999999984temp limit value: 0.3051000000000005
+2015-09-14 14:56:50,355, DEBUG, DOWN VALUE-TambAmbient temperature value: 23.03000000000003jump up value: -0.6000000000000227temp limit value: 0.0
+2015-09-14 14:56:52,559, DEBUG, UP VALUE-Tobj:--> object temperature value: 34.63000000000005jump up value: 4.1200000000000045temp limit value: 0.34630000000000055
+2015-09-14 14:56:52,561, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 26.33000000000004jump up value: 3.3000000000000114temp limit value: 0.0
+2015-09-14 14:56:54,762, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 33.89000000000004jump up value: -0.7400000000000091temp limit value: 0.3389000000000004
+2015-09-14 14:56:56,966, DEBUG, UP VALUE-Tobj:--> object temperature value: 34.73000000000002jump up value: 0.839999999999975temp limit value: 0.34730000000000016
+2015-09-14 14:57:01,408, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 34.170000000000016jump up value: -0.5600000000000023temp limit value: 0.34170000000000017
+2015-09-14 14:57:05,871, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 28.79000000000002jump up value: -5.3799999999999955temp limit value: 0.2879000000000002
+2015-09-14 14:57:05,880, DEBUG, DOWN VALUE-TambAmbient temperature value: 22.05000000000001jump up value: -4.28000000000003temp limit value: 0.0
+2015-09-14 14:57:10,286, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 22.83000000000004jump up value: 0.7800000000000296temp limit value: 0.0
+2015-09-14 14:57:12,489, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.810000000000002jump up value: 0.9799999999999613temp limit value: 0.0
+2015-09-14 14:57:14,690, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 28.130000000000052jump up value: -0.6599999999999682temp limit value: 0.28130000000000055
+2015-09-14 14:57:16,898, DEBUG, UP VALUE-Tobj:--> object temperature value: 30.010000000000048jump up value: 1.8799999999999955temp limit value: 0.3001000000000005
+2015-09-14 14:57:19,104, DEBUG, UP VALUE-Tobj:--> object temperature value: 31.77000000000004jump up value: 1.759999999999991temp limit value: 0.31770000000000037
+2015-09-14 14:57:21,305, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 30.870000000000005jump up value: -0.9000000000000341temp limit value: 0.30870000000000003
+2015-09-14 14:57:25,716, DEBUG, UP VALUE-Tobj:--> object temperature value: 34.670000000000016jump up value: 3.8000000000000114temp limit value: 0.3467000000000002
+2015-09-14 14:57:25,717, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 26.55000000000001jump up value: 2.740000000000009temp limit value: 0.0
+2015-09-14 14:57:38,963, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 28.750000000000057jump up value: -5.919999999999959temp limit value: 0.2875000000000006
+2015-09-14 14:57:38,966, DEBUG, DOWN VALUE-TambAmbient temperature value: 22.190000000000055jump up value: -4.359999999999957temp limit value: 0.0
+2015-09-14 14:57:41,171, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 28.110000000000014jump up value: -0.6400000000000432temp limit value: 0.2811000000000001
+2015-09-14 14:57:43,375, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 24.590000000000032jump up value: 2.3999999999999773temp limit value: 0.0
+2015-09-14 14:57:45,578, DEBUG, DOWN VALUE-TambAmbient temperature value: 22.650000000000034jump up value: -1.9399999999999977temp limit value: 0.0
+2015-09-14 14:57:47,780, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 27.27000000000004jump up value: -0.839999999999975temp limit value: 0.2727000000000004
+2015-09-14 14:57:47,783, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 24.350000000000023jump up value: 1.6999999999999886temp limit value: 0.0
+2015-09-14 14:57:49,986, DEBUG, UP VALUE-Tobj:--> object temperature value: 29.890000000000043jump up value: 2.6200000000000045temp limit value: 0.29890000000000044
+2015-09-14 14:57:49,987, DEBUG, DOWN VALUE-TambAmbient temperature value: 23.05000000000001jump up value: -1.3000000000000114temp limit value: 0.0
+2015-09-14 14:57:56,595, DEBUG, UP VALUE-Tobj:--> object temperature value: 30.99000000000001jump up value: 1.099999999999966temp limit value: 0.3099000000000001
+2015-09-14 14:57:56,595, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.710000000000036jump up value: 0.660000000000025temp limit value: 0.0
+2015-09-14 14:57:58,799, DEBUG, UP VALUE-Tobj:--> object temperature value: 34.07000000000005jump up value: 3.080000000000041temp limit value: 0.3407000000000005
+2015-09-14 14:57:58,801, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 26.410000000000025jump up value: 2.6999999999999886temp limit value: 0.0
+2015-09-14 14:58:03,206, DEBUG, UP VALUE-Tobj:--> object temperature value: 34.83000000000004jump up value: 0.7599999999999909temp limit value: 0.34830000000000044
+2015-09-14 14:58:19,572, INFO, *******INFO NEW TEST**************
+2015-09-14 14:58:19,586, DEBUG, DOWN VALUE-TambAmbient temperature value: -273.15jump up value: -273.15temp limit value: 0.0
+2015-09-14 14:58:19,588, DEBUG, DOWN VALUE-Tobj:--> object temperature value: -273.15jump up value: -273.15temp limit value: -2.7315
+2015-09-14 14:58:19,589, DEBUG, DOWN VALUE-TambAmbient temperature value: -273.15jump up value: -273.15temp limit value: 0.0
+2015-09-14 14:58:19,592, DEBUG, DOWN VALUE-Tobj:--> object temperature value: -273.15jump up value: -273.15temp limit value: -2.7315
+2015-09-14 14:58:19,793, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 22.970000000000027jump up value: 22.970000000000027temp limit value: 0.0
+2015-09-14 14:58:19,796, DEBUG, UP VALUE-Tobj:--> object temperature value: 30.810000000000002jump up value: 30.810000000000002temp limit value: 0.30810000000000004
+2015-09-14 21:15:05,339, INFO, *******INFO NEW TEST**************
+2015-09-14 21:15:05,592, DEBUG, UP VALUE-Tobj:--> object temperature value: 31.650000000000034jump up value: 31.650000000000034temp limit value: 0.6330000000000007
+2015-09-14 21:15:05,592, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.03000000000003jump up value: 23.03000000000003temp limit value: 0.0
+2015-09-14 21:16:14,023, INFO, *******INFO NEW TEST**************
+2015-09-14 21:16:14,234, DEBUG, UP VALUE-Tobj:--> object temperature value: 29.930000000000007jump up value: 29.930000000000007temp limit value: 0.5986000000000001
+2015-09-14 21:16:14,234, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.250000000000057jump up value: 23.250000000000057temp limit value: 0.0
+2015-09-14 21:16:34,198, INFO, *******INFO NEW TEST**************
+2015-09-14 21:16:34,424, DEBUG, UP VALUE-Tobj:--> object temperature value: 30.99000000000001jump up value: 30.99000000000001temp limit value: 0.6198000000000002
+2015-09-14 21:16:34,433, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.83000000000004jump up value: 23.83000000000004temp limit value: 0.0
+2015-09-14 21:16:55,292, INFO, *******INFO NEW TEST**************
+2015-09-14 21:16:55,519, DEBUG, UP VALUE-Tobj:--> object temperature value: 31.370000000000005jump up value: 31.370000000000005temp limit value: 0.6274000000000001
+2015-09-14 21:16:55,519, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.79000000000002jump up value: 23.79000000000002temp limit value: 0.0
+2015-09-14 21:16:55,760, DEBUG, UP VALUE-Tobj:--> object temperature value: 31.230000000000018jump up value: 31.230000000000018temp limit value: 0.6246000000000004
+2015-09-14 21:16:55,769, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.410000000000025jump up value: 23.410000000000025temp limit value: 0.0
+2015-09-14 21:16:57,526, DEBUG, UP VALUE-Tobj:--> object temperature value: 34.170000000000016jump up value: 2.8000000000000114temp limit value: 0.6834000000000003
+2015-09-14 21:16:57,532, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 26.510000000000048jump up value: 2.7200000000000273temp limit value: 0.0
+2015-09-14 21:16:57,778, DEBUG, UP VALUE-Tobj:--> object temperature value: 33.97000000000003jump up value: 2.740000000000009temp limit value: 0.6794000000000006
+2015-09-14 21:16:57,778, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 26.470000000000027jump up value: 3.0600000000000023temp limit value: 0.0
+2015-09-14 21:17:00,602, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 28.710000000000036jump up value: -5.4599999999999795temp limit value: 0.5742000000000007
+2015-09-14 21:17:00,611, DEBUG, DOWN VALUE-TambAmbient temperature value: 22.110000000000014jump up value: -4.400000000000034temp limit value: 0.0
+2015-09-14 21:17:00,852, DEBUG, DOWN VALUE-Tobj:--> object temperature value: 28.590000000000032jump up value: -5.3799999999999955temp limit value: 0.5718000000000006
+2015-09-14 21:17:00,861, DEBUG, DOWN VALUE-TambAmbient temperature value: 23.510000000000048jump up value: -2.9599999999999795temp limit value: 0.0
+2015-09-14 21:18:19,082, INFO, *******INFO NEW TEST**************
+2015-09-14 21:18:19,411, DEBUG, UP VALUE-Tobj:--> object temperature value: 29.910000000000025jump up value: 29.910000000000025temp limit value: 0.5982000000000005
+2015-09-14 21:18:19,421, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.690000000000055jump up value: 23.690000000000055temp limit value: 0.0
+2015-09-14 21:18:19,825, DEBUG, UP VALUE-Tobj:--> object temperature value: 31.83000000000004jump up value: 31.83000000000004temp limit value: 0.6366000000000008
+2015-09-14 21:18:19,832, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.470000000000027jump up value: 23.470000000000027temp limit value: 0.0
+2015-09-14 21:18:45,125, INFO, *******INFO NEW TEST**************
+2015-09-14 21:18:45,351, DEBUG, UP VALUE-Tobj:--> object temperature value: 31.250000000000057jump up value: 31.250000000000057temp limit value: 0.6250000000000011
+2015-09-14 21:18:45,359, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.810000000000002jump up value: 23.810000000000002temp limit value: 0.0
+2015-09-14 21:18:45,582, DEBUG, UP VALUE-Tobj:--> object temperature value: 31.03000000000003jump up value: 31.03000000000003temp limit value: 0.6206000000000006
+2015-09-14 21:18:45,591, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.57000000000005jump up value: 23.57000000000005temp limit value: 0.0
+2015-09-14 21:22:18,509, INFO, *******INFO NEW TEST**************
+2015-09-14 21:22:18,756, DEBUG, UP VALUE-Tobj:--> object temperature value: 31.310000000000002jump up value: 31.310000000000002temp limit value: 0.6262000000000001
+2015-09-14 21:22:18,762, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.690000000000055jump up value: 23.690000000000055temp limit value: 0.0
+2015-09-14 21:22:19,016, DEBUG, UP VALUE-Tobj:--> object temperature value: 30.910000000000025jump up value: 30.910000000000025temp limit value: 0.6182000000000005
+2015-09-14 21:22:19,019, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.630000000000052jump up value: 23.630000000000052temp limit value: 0.0
+2015-09-14 21:22:20,881, DEBUG, UP VALUE-Tobj:--> object temperature value: 34.13000000000005jump up value: 2.82000000000005temp limit value: 0.6826000000000011
+2015-09-14 21:22:20,904, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 26.670000000000016jump up value: 2.9799999999999613temp limit value: 0.0
+2015-09-14 21:22:21,138, DEBUG, UP VALUE-Tobj:--> object temperature value: 34.27000000000004jump up value: 3.3600000000000136temp limit value: 0.6854000000000008
+2015-09-14 21:22:21,142, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 26.750000000000057jump up value: 3.1200000000000045temp limit value: 0.0
+2015-09-14 21:24:39,490, INFO, *******INFO NEW TEST**************
+2015-09-14 21:24:39,713, DEBUG, UP VALUE-Tobj:--> object temperature value: 31.410000000000025jump up value: 31.410000000000025temp limit value: 0.6282000000000005
+2015-09-14 21:24:39,720, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.07000000000005jump up value: 23.07000000000005temp limit value: 0.0
+2015-09-14 21:24:39,956, DEBUG, UP VALUE-Tobj:--> object temperature value: 31.77000000000004jump up value: 31.77000000000004temp limit value: 0.6354000000000007
+2015-09-14 21:24:39,963, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.210000000000036jump up value: 23.210000000000036temp limit value: 0.0
+2015-09-14 21:24:41,854, DEBUG, UP VALUE-Tobj:--> object temperature value: 33.97000000000003jump up value: 2.5600000000000023temp limit value: 0.6794000000000006
+2015-09-14 21:24:41,861, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 26.390000000000043jump up value: 3.319999999999993temp limit value: 0.0
+2015-09-14 21:24:42,151, DEBUG, UP VALUE-Tobj:--> object temperature value: 34.53000000000003jump up value: 2.759999999999991temp limit value: 0.6906000000000007
+2015-09-14 21:24:42,158, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 26.430000000000007jump up value: 3.2199999999999704temp limit value: 0.0
+2015-09-14 21:56:02,928, INFO, *******INFO NEW TEST**************
+2015-09-14 21:56:06,664, DEBUG, UP VALUE-Tobj:--> object temperature value: 30.57000000000005jump up value: 30.57000000000005temp limit value: 0.611400000000001
+2015-09-14 21:56:06,668, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.630000000000052jump up value: 23.630000000000052temp limit value: 0.0
+2015-09-14 21:56:06,690, DEBUG, tobj data analysis: [('21:56:06,', [30.57000000000005, 30.57000000000005, 30.57000000000005, 30.57000000000005, 1])]
+2015-09-14 21:56:06,690, DEBUG, tamb data analysis: [('21:56:06,', [23.630000000000052, 23.630000000000052, 23.630000000000052, 23.630000000000052, 1])]
+2015-09-14 21:56:09,999, DEBUG, tobj data analysis: [('21:56:06,', [30.57000000000005, 30.57000000000005, 30.57000000000005, 30.57000000000005, 1]), ('21:56:09,', [30.57000000000005, 30.57000000000005, 30.57000000000005, 61.1400000000001, 2])]
+2015-09-14 21:56:10,000, DEBUG, tamb data analysis: [('21:56:06,', [23.630000000000052, 23.630000000000052, 23.630000000000052, 23.630000000000052, 1]), ('21:56:09,', [23.630000000000052, 23.630000000000052, 23.630000000000052, 47.260000000000105, 2])]
+2015-09-14 21:56:13,292, DEBUG, tobj data analysis: [('21:56:06,', [30.57000000000005, 30.57000000000005, 30.57000000000005, 30.57000000000005, 1]), ('21:56:09,', [30.57000000000005, 30.57000000000005, 30.57000000000005, 61.1400000000001, 2]), ('21:56:13,', [30.57000000000005, 30.57000000000005, 30.57000000000005, 91.71000000000015, 3])]
+2015-09-14 21:56:13,292, DEBUG, tamb data analysis: [('21:56:06,', [23.630000000000052, 23.630000000000052, 23.630000000000052, 23.630000000000052, 1]), ('21:56:09,', [23.630000000000052, 23.630000000000052, 23.630000000000052, 47.260000000000105, 2]), ('21:56:13,', [23.630000000000052, 23.630000000000052, 23.630000000000052, 70.89000000000016, 3])]
+2015-09-14 21:56:16,529, DEBUG, UP VALUE-Tobj:--> object temperature value: 30.99000000000001jump up value: 30.99000000000001temp limit value: 0.6198000000000002
+2015-09-14 21:56:16,533, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.590000000000032jump up value: 23.590000000000032temp limit value: 0.0
+2015-09-14 21:56:16,556, DEBUG, tobj data analysis: [('21:56:16,', [30.99000000000001, 30.99000000000001, 30.99000000000001, 30.99000000000001, 1])]
+2015-09-14 21:56:16,558, DEBUG, tamb data analysis: [('21:56:16,', [23.590000000000032, 23.590000000000032, 23.590000000000032, 23.590000000000032, 1])]
+2015-09-14 22:25:58,078, INFO, *******INFO NEW TEST**************
+2015-09-14 22:26:01,792, DEBUG, UP VALUE-Tobj:--> object temperature value: 31.810000000000002jump up value: 31.810000000000002temp limit value: 0.6362000000000001
+2015-09-14 22:26:01,852, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.410000000000025jump up value: 23.410000000000025temp limit value: 0.0
+2015-09-14 22:26:01,875, DEBUG, tobj data analysis: [('22:26:01,', [31.810000000000002, 31.810000000000002, 31.810000000000002, 31.810000000000002, 1])]
+2015-09-14 22:26:01,875, DEBUG, tamb data analysis: [('22:26:01,', [23.410000000000025, 23.410000000000025, 23.410000000000025, 23.410000000000025, 1])]
+2015-09-14 22:26:05,184, DEBUG, tobj data analysis: [('22:26:01,', [31.810000000000002, 31.810000000000002, 31.810000000000002, 31.810000000000002, 1]), ('22:26:05,', [31.810000000000002, 31.810000000000002, 31.810000000000002, 63.620000000000005, 2])]
+2015-09-14 22:26:05,184, DEBUG, tamb data analysis: [('22:26:01,', [23.410000000000025, 23.410000000000025, 23.410000000000025, 23.410000000000025, 1]), ('22:26:05,', [23.410000000000025, 23.410000000000025, 23.410000000000025, 46.82000000000005, 2])]
+2015-09-14 22:26:08,467, DEBUG, tobj data analysis: [('22:26:01,', [31.810000000000002, 31.810000000000002, 31.810000000000002, 31.810000000000002, 1]), ('22:26:05,', [31.810000000000002, 31.810000000000002, 31.810000000000002, 63.620000000000005, 2]), ('22:26:08,', [31.810000000000002, 31.810000000000002, 31.810000000000002, 95.43, 3])]
+2015-09-14 22:26:08,467, DEBUG, tamb data analysis: [('22:26:01,', [23.410000000000025, 23.410000000000025, 23.410000000000025, 23.410000000000025, 1]), ('22:26:05,', [23.410000000000025, 23.410000000000025, 23.410000000000025, 46.82000000000005, 2]), ('22:26:08,', [23.410000000000025, 23.410000000000025, 23.410000000000025, 70.23000000000008, 3])]
+2015-09-14 22:26:11,687, DEBUG, UP VALUE-Tobj:--> object temperature value: 30.77000000000004jump up value: 30.77000000000004temp limit value: 0.6154000000000008
+2015-09-14 22:26:11,694, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.670000000000016jump up value: 23.670000000000016temp limit value: 0.0
+2015-09-14 22:26:11,710, DEBUG, tobj data analysis: [('22:26:11,', [30.77000000000004, 30.77000000000004, 30.77000000000004, 30.77000000000004, 1])]
+2015-09-14 22:26:11,710, DEBUG, tamb data analysis: [('22:26:11,', [23.670000000000016, 23.670000000000016, 23.670000000000016, 23.670000000000016, 1])]
+2015-09-14 22:26:15,009, DEBUG, tobj data analysis: [('22:26:01,', [31.810000000000002, 31.810000000000002, 31.810000000000002, 31.810000000000002, 1]), ('22:26:05,', [31.810000000000002, 31.810000000000002, 31.810000000000002, 63.620000000000005, 2]), ('22:26:08,', [31.810000000000002, 31.810000000000002, 31.810000000000002, 95.43, 3]), ('22:26:14,', [31.810000000000002, 31.810000000000002, 31.810000000000002, 127.24000000000001, 4])]
+2015-09-14 22:26:15,010, DEBUG, tamb data analysis: [('22:26:01,', [23.410000000000025, 23.410000000000025, 23.410000000000025, 23.410000000000025, 1]), ('22:26:05,', [23.410000000000025, 23.410000000000025, 23.410000000000025, 46.82000000000005, 2]), ('22:26:08,', [23.410000000000025, 23.410000000000025, 23.410000000000025, 70.23000000000008, 3]), ('22:26:14,', [23.410000000000025, 23.410000000000025, 23.410000000000025, 93.6400000000001, 4])]
+2015-09-14 22:26:18,252, DEBUG, UP VALUE-Tobj:--> object temperature value: 34.650000000000034jump up value: 2.840000000000032temp limit value: 0.6930000000000007
+2015-09-14 22:26:18,259, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 26.83000000000004jump up value: 3.420000000000016temp limit value: 0.0
+2015-09-14 22:26:18,338, DEBUG, tobj data analysis: [('22:26:01,', [31.810000000000002, 31.810000000000002, 31.810000000000002, 31.810000000000002, 1]), ('22:26:05,', [31.810000000000002, 31.810000000000002, 31.810000000000002, 63.620000000000005, 2]), ('22:26:08,', [31.810000000000002, 31.810000000000002, 31.810000000000002, 95.43, 3]), ('22:26:14,', [31.810000000000002, 31.810000000000002, 31.810000000000002, 127.24000000000001, 4]), ('22:26:18,', [31.810000000000002, 34.650000000000034, 32.37800000000001, 161.89000000000004, 5])]
+2015-09-14 22:26:18,338, DEBUG, tamb data analysis: [('22:26:01,', [23.410000000000025, 23.410000000000025, 23.410000000000025, 23.410000000000025, 1]), ('22:26:05,', [23.410000000000025, 23.410000000000025, 23.410000000000025, 46.82000000000005, 2]), ('22:26:08,', [23.410000000000025, 23.410000000000025, 23.410000000000025, 70.23000000000008, 3]), ('22:26:14,', [23.410000000000025, 23.410000000000025, 23.410000000000025, 93.6400000000001, 4]), ('22:26:18,', [23.410000000000025, 26.83000000000004, 24.09400000000003, 120.47000000000014, 5])]
+2015-09-14 22:26:21,668, DEBUG, tobj data analysis: [('22:26:01,', [31.810000000000002, 31.810000000000002, 31.810000000000002, 31.810000000000002, 1]), ('22:26:05,', [31.810000000000002, 31.810000000000002, 31.810000000000002, 63.620000000000005, 2]), ('22:26:08,', [31.810000000000002, 31.810000000000002, 31.810000000000002, 95.43, 3]), ('22:26:14,', [31.810000000000002, 31.810000000000002, 31.810000000000002, 127.24000000000001, 4]), ('22:26:18,', [31.810000000000002, 34.650000000000034, 32.37800000000001, 161.89000000000004, 5]), ('22:26:21,', [31.810000000000002, 34.650000000000034, 32.75666666666668, 196.54000000000008, 6])]
+2015-09-14 22:26:21,668, DEBUG, tamb data analysis: [('22:26:01,', [23.410000000000025, 23.410000000000025, 23.410000000000025, 23.410000000000025, 1]), ('22:26:05,', [23.410000000000025, 23.410000000000025, 23.410000000000025, 46.82000000000005, 2]), ('22:26:08,', [23.410000000000025, 23.410000000000025, 23.410000000000025, 70.23000000000008, 3]), ('22:26:14,', [23.410000000000025, 23.410000000000025, 23.410000000000025, 93.6400000000001, 4]), ('22:26:18,', [23.410000000000025, 26.83000000000004, 24.09400000000003, 120.47000000000014, 5]), ('22:26:21,', [23.410000000000025, 26.83000000000004, 24.55000000000003, 147.30000000000018, 6])]
+2015-09-14 22:26:25,009, DEBUG, tobj data analysis: [('22:26:01,', [31.810000000000002, 31.810000000000002, 31.810000000000002, 31.810000000000002, 1]), ('22:26:05,', [31.810000000000002, 31.810000000000002, 31.810000000000002, 63.620000000000005, 2]), ('22:26:08,', [31.810000000000002, 31.810000000000002, 31.810000000000002, 95.43, 3]), ('22:26:14,', [31.810000000000002, 31.810000000000002, 31.810000000000002, 127.24000000000001, 4]), ('22:26:18,', [31.810000000000002, 34.650000000000034, 32.37800000000001, 161.89000000000004, 5]), ('22:26:21,', [31.810000000000002, 34.650000000000034, 32.75666666666668, 196.54000000000008, 6]), ('22:26:24,', [31.810000000000002, 34.650000000000034, 33.02714285714287, 231.1900000000001, 7])]
+2015-09-14 22:26:25,009, DEBUG, tamb data analysis: [('22:26:01,', [23.410000000000025, 23.410000000000025, 23.410000000000025, 23.410000000000025, 1]), ('22:26:05,', [23.410000000000025, 23.410000000000025, 23.410000000000025, 46.82000000000005, 2]), ('22:26:08,', [23.410000000000025, 23.410000000000025, 23.410000000000025, 70.23000000000008, 3]), ('22:26:14,', [23.410000000000025, 23.410000000000025, 23.410000000000025, 93.6400000000001, 4]), ('22:26:18,', [23.410000000000025, 26.83000000000004, 24.09400000000003, 120.47000000000014, 5]), ('22:26:21,', [23.410000000000025, 26.83000000000004, 24.55000000000003, 147.30000000000018, 6]), ('22:26:24,', [23.410000000000025, 26.83000000000004, 24.875714285714317, 174.13000000000022, 7])]
+2015-09-14 22:30:08,414, INFO, *******INFO NEW TEST**************
+2015-09-14 22:30:11,950, DEBUG, UP VALUE-Tobj:--> object temperature value: 31.250000000000057jump up value: 31.250000000000057temp limit value: 0.6250000000000011
+2015-09-14 22:30:11,956, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.710000000000036jump up value: 23.710000000000036temp limit value: 0.0
+2015-09-14 22:30:11,957, DEBUG, tobj data analysis: [('22:30:11,', [31.250000000000057, 31.250000000000057, 31.250000000000057, 31.250000000000057, 1])]
+2015-09-14 22:30:11,957, DEBUG, tamb data analysis: [('22:30:11,', [23.710000000000036, 23.710000000000036, 23.710000000000036, 23.710000000000036, 1])]
+2015-09-14 22:30:12,188, DEBUG, UP VALUE-Tobj:--> object temperature value: 31.730000000000018jump up value: 31.730000000000018temp limit value: 0.6346000000000004
+2015-09-14 22:30:12,196, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 23.430000000000007jump up value: 23.430000000000007temp limit value: 0.0
+2015-09-14 22:30:12,197, DEBUG, tobj data analysis: [('22:30:12,', [31.730000000000018, 31.730000000000018, 31.730000000000018, 31.730000000000018, 1])]
+2015-09-14 22:30:12,197, DEBUG, tamb data analysis: [('22:30:12,', [23.430000000000007, 23.430000000000007, 23.430000000000007, 23.430000000000007, 1])]
+2015-09-14 22:30:15,434, DEBUG, tobj data analysis: [('22:30:11,', [31.250000000000057, 31.250000000000057, 31.250000000000057, 31.250000000000057, 1]), ('22:30:15,', [31.250000000000057, 31.250000000000057, 31.250000000000057, 62.500000000000114, 2])]
+2015-09-14 22:30:15,434, DEBUG, tamb data analysis: [('22:30:11,', [23.710000000000036, 23.710000000000036, 23.710000000000036, 23.710000000000036, 1]), ('22:30:15,', [23.710000000000036, 23.710000000000036, 23.710000000000036, 47.42000000000007, 2])]
+2015-09-14 22:30:15,677, DEBUG, tobj data analysis: [('22:30:12,', [31.730000000000018, 31.730000000000018, 31.730000000000018, 31.730000000000018, 1]), ('22:30:15,', [31.730000000000018, 31.730000000000018, 31.730000000000018, 63.460000000000036, 2])]
+2015-09-14 22:30:15,678, DEBUG, tamb data analysis: [('22:30:12,', [23.430000000000007, 23.430000000000007, 23.430000000000007, 23.430000000000007, 1]), ('22:30:15,', [23.430000000000007, 23.430000000000007, 23.430000000000007, 46.860000000000014, 2])]
+2015-09-14 22:30:18,940, DEBUG, tobj data analysis: [('22:30:11,', [31.250000000000057, 31.250000000000057, 31.250000000000057, 31.250000000000057, 1]), ('22:30:15,', [31.250000000000057, 31.250000000000057, 31.250000000000057, 62.500000000000114, 2]), ('22:30:18,', [31.250000000000057, 31.250000000000057, 31.250000000000057, 93.75000000000017, 3])]
+2015-09-14 22:30:18,941, DEBUG, tamb data analysis: [('22:30:11,', [23.710000000000036, 23.710000000000036, 23.710000000000036, 23.710000000000036, 1]), ('22:30:15,', [23.710000000000036, 23.710000000000036, 23.710000000000036, 47.42000000000007, 2]), ('22:30:18,', [23.710000000000036, 23.710000000000036, 23.710000000000036, 71.13000000000011, 3])]
+2015-09-14 22:30:19,213, DEBUG, tobj data analysis: [('22:30:12,', [31.730000000000018, 31.730000000000018, 31.730000000000018, 31.730000000000018, 1]), ('22:30:15,', [31.730000000000018, 31.730000000000018, 31.730000000000018, 63.460000000000036, 2]), ('22:30:19,', [31.730000000000018, 31.730000000000018, 31.730000000000018, 95.19000000000005, 3])]
+2015-09-14 22:30:19,214, DEBUG, tamb data analysis: [('22:30:12,', [23.430000000000007, 23.430000000000007, 23.430000000000007, 23.430000000000007, 1]), ('22:30:15,', [23.430000000000007, 23.430000000000007, 23.430000000000007, 46.860000000000014, 2]), ('22:30:19,', [23.430000000000007, 23.430000000000007, 23.430000000000007, 70.29000000000002, 3])]
+2015-09-14 22:30:22,451, DEBUG, tobj data analysis: [('22:30:11,', [31.250000000000057, 31.250000000000057, 31.250000000000057, 31.250000000000057, 1]), ('22:30:15,', [31.250000000000057, 31.250000000000057, 31.250000000000057, 62.500000000000114, 2]), ('22:30:18,', [31.250000000000057, 31.250000000000057, 31.250000000000057, 93.75000000000017, 3]), ('22:30:22,', [31.250000000000057, 31.250000000000057, 31.250000000000057, 125.00000000000023, 4])]
+2015-09-14 22:30:22,453, DEBUG, tamb data analysis: [('22:30:11,', [23.710000000000036, 23.710000000000036, 23.710000000000036, 23.710000000000036, 1]), ('22:30:15,', [23.710000000000036, 23.710000000000036, 23.710000000000036, 47.42000000000007, 2]), ('22:30:18,', [23.710000000000036, 23.710000000000036, 23.710000000000036, 71.13000000000011, 3]), ('22:30:22,', [23.710000000000036, 23.710000000000036, 23.710000000000036, 94.84000000000015, 4])]
+2015-09-14 22:30:22,742, DEBUG, tobj data analysis: [('22:30:12,', [31.730000000000018, 31.730000000000018, 31.730000000000018, 31.730000000000018, 1]), ('22:30:15,', [31.730000000000018, 31.730000000000018, 31.730000000000018, 63.460000000000036, 2]), ('22:30:19,', [31.730000000000018, 31.730000000000018, 31.730000000000018, 95.19000000000005, 3]), ('22:30:22,', [31.730000000000018, 31.730000000000018, 31.730000000000018, 126.92000000000007, 4])]
+2015-09-14 22:30:22,742, DEBUG, tamb data analysis: [('22:30:12,', [23.430000000000007, 23.430000000000007, 23.430000000000007, 23.430000000000007, 1]), ('22:30:15,', [23.430000000000007, 23.430000000000007, 23.430000000000007, 46.860000000000014, 2]), ('22:30:19,', [23.430000000000007, 23.430000000000007, 23.430000000000007, 70.29000000000002, 3]), ('22:30:22,', [23.430000000000007, 23.430000000000007, 23.430000000000007, 93.72000000000003, 4])]
+2015-09-14 22:30:25,984, DEBUG, UP VALUE-Tobj:--> object temperature value: 34.410000000000025jump up value: 3.159999999999968temp limit value: 0.6882000000000005
+2015-09-14 22:30:25,987, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 26.53000000000003jump up value: 2.819999999999993temp limit value: 0.0
+2015-09-14 22:30:25,989, DEBUG, tobj data analysis: [('22:30:11,', [31.250000000000057, 31.250000000000057, 31.250000000000057, 31.250000000000057, 1]), ('22:30:15,', [31.250000000000057, 31.250000000000057, 31.250000000000057, 62.500000000000114, 2]), ('22:30:18,', [31.250000000000057, 31.250000000000057, 31.250000000000057, 93.75000000000017, 3]), ('22:30:22,', [31.250000000000057, 31.250000000000057, 31.250000000000057, 125.00000000000023, 4]), ('22:30:25,', [31.250000000000057, 34.410000000000025, 31.88200000000005, 159.41000000000025, 5])]
+2015-09-14 22:30:25,990, DEBUG, tamb data analysis: [('22:30:11,', [23.710000000000036, 23.710000000000036, 23.710000000000036, 23.710000000000036, 1]), ('22:30:15,', [23.710000000000036, 23.710000000000036, 23.710000000000036, 47.42000000000007, 2]), ('22:30:18,', [23.710000000000036, 23.710000000000036, 23.710000000000036, 71.13000000000011, 3]), ('22:30:22,', [23.710000000000036, 23.710000000000036, 23.710000000000036, 94.84000000000015, 4]), ('22:30:25,', [23.710000000000036, 26.53000000000003, 24.274000000000036, 121.37000000000018, 5])]
+2015-09-14 22:30:26,289, DEBUG, UP VALUE-Tobj:--> object temperature value: 34.57000000000005jump up value: 2.840000000000032temp limit value: 0.691400000000001
+2015-09-14 22:30:26,292, DEBUG, UP VALUE-Tamb:-->Ambient temperature value: 26.83000000000004jump up value: 3.400000000000034temp limit value: 0.0
+2015-09-14 22:30:26,293, DEBUG, tobj data analysis: [('22:30:12,', [31.730000000000018, 31.730000000000018, 31.730000000000018, 31.730000000000018, 1]), ('22:30:15,', [31.730000000000018, 31.730000000000018, 31.730000000000018, 63.460000000000036, 2]), ('22:30:19,', [31.730000000000018, 31.730000000000018, 31.730000000000018, 95.19000000000005, 3]), ('22:30:22,', [31.730000000000018, 31.730000000000018, 31.730000000000018, 126.92000000000007, 4]), ('22:30:26,', [31.730000000000018, 34.57000000000005, 32.29800000000002, 161.49000000000012, 5])]
+2015-09-14 22:30:26,295, DEBUG, tamb data analysis: [('22:30:12,', [23.430000000000007, 23.430000000000007, 23.430000000000007, 23.430000000000007, 1]), ('22:30:15,', [23.430000000000007, 23.430000000000007, 23.430000000000007, 46.860000000000014, 2]), ('22:30:19,', [23.430000000000007, 23.430000000000007, 23.430000000000007, 70.29000000000002, 3]), ('22:30:22,', [23.430000000000007, 23.430000000000007, 23.430000000000007, 93.72000000000003, 4]), ('22:30:26,', [23.430000000000007, 26.83000000000004, 24.110000000000014, 120.55000000000007, 5])]
+2015-09-14 22:30:29,516, DEBUG, tobj data analysis: [('22:30:11,', [31.250000000000057, 31.250000000000057, 31.250000000000057, 31.250000000000057, 1]), ('22:30:15,', [31.250000000000057, 31.250000000000057, 31.250000000000057, 62.500000000000114, 2]), ('22:30:18,', [31.250000000000057, 31.250000000000057, 31.250000000000057, 93.75000000000017, 3]), ('22:30:22,', [31.250000000000057, 31.250000000000057, 31.250000000000057, 125.00000000000023, 4]), ('22:30:25,', [31.250000000000057, 34.410000000000025, 31.88200000000005, 159.41000000000025, 5]), ('22:30:29,', [31.250000000000057, 34.410000000000025, 32.30333333333338, 193.82000000000028, 6])]
+2015-09-14 22:30:29,516, DEBUG, tamb data analysis: [('22:30:11,', [23.710000000000036, 23.710000000000036, 23.710000000000036, 23.710000000000036, 1]), ('22:30:15,', [23.710000000000036, 23.710000000000036, 23.710000000000036, 47.42000000000007, 2]), ('22:30:18,', [23.710000000000036, 23.710000000000036, 23.710000000000036, 71.13000000000011, 3]), ('22:30:22,', [23.710000000000036, 23.710000000000036, 23.710000000000036, 94.84000000000015, 4]), ('22:30:25,', [23.710000000000036, 26.53000000000003, 24.274000000000036, 121.37000000000018, 5]), ('22:30:29,', [23.710000000000036, 26.53000000000003, 24.650000000000034, 147.9000000000002, 6])]
+2015-09-14 22:30:29,733, DEBUG, tobj data analysis: [('22:30:12,', [31.730000000000018, 31.730000000000018, 31.730000000000018, 31.730000000000018, 1]), ('22:30:15,', [31.730000000000018, 31.730000000000018, 31.730000000000018, 63.460000000000036, 2]), ('22:30:19,', [31.730000000000018, 31.730000000000018, 31.730000000000018, 95.19000000000005, 3]), ('22:30:22,', [31.730000000000018, 31.730000000000018, 31.730000000000018, 126.92000000000007, 4]), ('22:30:26,', [31.730000000000018, 34.57000000000005, 32.29800000000002, 161.49000000000012, 5]), ('22:30:29,', [31.730000000000018, 34.57000000000005, 32.6766666666667, 196.06000000000017, 6])]
+2015-09-14 22:30:29,734, DEBUG, tamb data analysis: [('22:30:12,', [23.430000000000007, 23.430000000000007, 23.430000000000007, 23.430000000000007, 1]), ('22:30:15,', [23.430000000000007, 23.430000000000007, 23.430000000000007, 46.860000000000014, 2]), ('22:30:19,', [23.430000000000007, 23.430000000000007, 23.430000000000007, 70.29000000000002, 3]), ('22:30:22,', [23.430000000000007, 23.430000000000007, 23.430000000000007, 93.72000000000003, 4]), ('22:30:26,', [23.430000000000007, 26.83000000000004, 24.110000000000014, 120.55000000000007, 5]), ('22:30:29,', [23.430000000000007, 26.83000000000004, 24.56333333333335, 147.3800000000001, 6])]
+2015-09-14 22:30:32,956, DEBUG, tobj data analysis: [('22:30:11,', [31.250000000000057, 31.250000000000057, 31.250000000000057, 31.250000000000057, 1]), ('22:30:15,', [31.250000000000057, 31.250000000000057, 31.250000000000057, 62.500000000000114, 2]), ('22:30:18,', [31.250000000000057, 31.250000000000057, 31.250000000000057, 93.75000000000017, 3]), ('22:30:22,', [31.250000000000057, 31.250000000000057, 31.250000000000057, 125.00000000000023, 4]), ('22:30:25,', [31.250000000000057, 34.410000000000025, 31.88200000000005, 159.41000000000025, 5]), ('22:30:29,', [31.250000000000057, 34.410000000000025, 32.30333333333338, 193.82000000000028, 6]), ('22:30:32,', [31.250000000000057, 34.410000000000025, 32.60428571428576, 228.2300000000003, 7])]
+2015-09-14 22:30:32,957, DEBUG, tamb data analysis: [('22:30:11,', [23.710000000000036, 23.710000000000036, 23.710000000000036, 23.710000000000036, 1]), ('22:30:15,', [23.710000000000036, 23.710000000000036, 23.710000000000036, 47.42000000000007, 2]), ('22:30:18,', [23.710000000000036, 23.710000000000036, 23.710000000000036, 71.13000000000011, 3]), ('22:30:22,', [23.710000000000036, 23.710000000000036, 23.710000000000036, 94.84000000000015, 4]), ('22:30:25,', [23.710000000000036, 26.53000000000003, 24.274000000000036, 121.37000000000018, 5]), ('22:30:29,', [23.710000000000036, 26.53000000000003, 24.650000000000034, 147.9000000000002, 6]), ('22:30:32,', [23.710000000000036, 26.53000000000003, 24.91857142857146, 174.43000000000023, 7])]
+2015-09-14 22:30:33,176, DEBUG, tobj data analysis: [('22:30:12,', [31.730000000000018, 31.730000000000018, 31.730000000000018, 31.730000000000018, 1]), ('22:30:15,', [31.730000000000018, 31.730000000000018, 31.730000000000018, 63.460000000000036, 2]), ('22:30:19,', [31.730000000000018, 31.730000000000018, 31.730000000000018, 95.19000000000005, 3]), ('22:30:22,', [31.730000000000018, 31.730000000000018, 31.730000000000018, 126.92000000000007, 4]), ('22:30:26,', [31.730000000000018, 34.57000000000005, 32.29800000000002, 161.49000000000012, 5]), ('22:30:29,', [31.730000000000018, 34.57000000000005, 32.6766666666667, 196.06000000000017, 6]), ('22:30:33,', [31.730000000000018, 34.57000000000005, 32.947142857142886, 230.63000000000022, 7])]
+2015-09-14 22:30:33,177, DEBUG, tamb data analysis: [('22:30:12,', [23.430000000000007, 23.430000000000007, 23.430000000000007, 23.430000000000007, 1]), ('22:30:15,', [23.430000000000007, 23.430000000000007, 23.430000000000007, 46.860000000000014, 2]), ('22:30:19,', [23.430000000000007, 23.430000000000007, 23.430000000000007, 70.29000000000002, 3]), ('22:30:22,', [23.430000000000007, 23.430000000000007, 23.430000000000007, 93.72000000000003, 4]), ('22:30:26,', [23.430000000000007, 26.83000000000004, 24.110000000000014, 120.55000000000007, 5]), ('22:30:29,', [23.430000000000007, 26.83000000000004, 24.56333333333335, 147.3800000000001, 6]), ('22:30:33,', [23.430000000000007, 26.83000000000004, 24.88714285714288, 174.21000000000015, 7])]

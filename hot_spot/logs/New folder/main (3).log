@@ -1,0 +1,854 @@
+2015-09-14 22:39:56,089, INFO, ***************Info*****************
+2015-09-14 22:39:56,089, DEBUG, COMMAND: 'python mlx90614_sim.py'
+2015-09-14 22:39:56,091, DEBUG, Main.py Main().run() function successful
+2015-09-14 22:39:56,091, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614_sim.py'
+2015-09-17 22:24:16,717, INFO, ***************Info*****************
+2015-09-17 22:24:16,717, INFO, ***************Info*****************
+2015-09-17 22:24:16,717, DEBUG, COMMAND: 'python mlx90614.py'
+2015-09-17 22:24:16,717, DEBUG, COMMAND: 'python mlx90614.py'
+2015-09-17 22:24:16,717, DEBUG, Main.py Main().run() function successful
+2015-09-17 22:24:16,717, DEBUG, Main.py Main().run() function successful
+2015-09-17 22:24:16,724, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-17 22:24:16,724, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-17 22:24:19,645, DEBUG, Main.py Main().run() function successful
+2015-09-17 22:24:19,645, DEBUG, Main.py Main().run() function successful
+2015-09-17 22:24:19,645, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-17 22:24:19,645, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-17 22:25:52,454, INFO, ***************Info*****************
+2015-09-17 22:25:52,454, INFO, ***************Info*****************
+2015-09-17 22:25:52,454, DEBUG, COMMAND: 'python mlx90614.py'
+2015-09-17 22:25:52,454, DEBUG, COMMAND: 'python mlx90614.py'
+2015-09-17 22:25:52,454, DEBUG, Main.py Main().run() function successful
+2015-09-17 22:25:52,454, DEBUG, Main.py Main().run() function successful
+2015-09-17 22:25:52,454, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-17 22:25:52,454, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-17 22:25:53,142, DEBUG, Main.py Main().run() function successful
+2015-09-17 22:25:53,142, DEBUG, Main.py Main().run() function successful
+2015-09-17 22:25:53,142, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-17 22:25:53,142, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-17 22:30:41,849, INFO, ***************Info*****************
+2015-09-17 22:30:41,849, INFO, ***************Info*****************
+2015-09-17 22:30:41,849, DEBUG, COMMAND: 'python mlx90614_sim.py'
+2015-09-17 22:30:41,849, DEBUG, COMMAND: 'python mlx90614_sim.py'
+2015-09-17 22:30:41,849, DEBUG, Main.py Main().run() function successful
+2015-09-17 22:30:41,849, DEBUG, Main.py Main().run() function successful
+2015-09-17 22:30:41,849, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614_sim.py'
+2015-09-17 22:30:41,849, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614_sim.py'
+2015-09-17 22:30:42,197, DEBUG, Main.py Main().run() function successful
+2015-09-17 22:30:42,197, DEBUG, Main.py Main().run() function successful
+2015-09-17 22:30:42,197, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614_sim.py'
+2015-09-17 22:30:42,197, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614_sim.py'
+2015-09-17 22:31:56,078, INFO, ***************Info*****************
+2015-09-17 22:31:56,078, INFO, ***************Info*****************
+2015-09-17 22:31:56,078, DEBUG, COMMAND: 'python mlx90614.py'
+2015-09-17 22:31:56,078, DEBUG, COMMAND: 'python mlx90614.py'
+2015-09-17 22:31:56,078, DEBUG, Main.py Main().run() function successful
+2015-09-17 22:31:56,078, DEBUG, Main.py Main().run() function successful
+2015-09-17 22:31:56,078, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-17 22:31:56,078, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-17 22:32:39,825, INFO, ***************Info*****************
+2015-09-17 22:32:39,825, INFO, ***************Info*****************
+2015-09-17 22:32:39,825, DEBUG, COMMAND: 'python mlx90614.py'
+2015-09-17 22:32:39,825, DEBUG, COMMAND: 'python mlx90614.py'
+2015-09-17 22:32:39,826, DEBUG, Main.py Main().run() function successful
+2015-09-17 22:32:39,826, DEBUG, Main.py Main().run() function successful
+2015-09-17 22:32:39,828, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-17 22:32:39,828, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-17 22:32:42,865, DEBUG, Main.py Main().run() function successful
+2015-09-17 22:32:42,865, DEBUG, Main.py Main().run() function successful
+2015-09-17 22:32:42,865, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-17 22:32:42,865, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-17 23:32:26,453, INFO, ***************Info*****************
+2015-09-17 23:32:26,453, INFO, ***************Info*****************
+2015-09-17 23:32:26,456, DEBUG, COMMAND: 'python mlx90614_sim.py'
+2015-09-17 23:32:26,456, DEBUG, COMMAND: 'python mlx90614_sim.py'
+2015-09-17 23:32:26,457, DEBUG, Main.py Main().run() function successful
+2015-09-17 23:32:26,457, DEBUG, Main.py Main().run() function successful
+2015-09-17 23:32:26,457, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614_sim.py'
+2015-09-17 23:32:26,457, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614_sim.py'
+2015-09-17 23:32:26,970, DEBUG, Main.py Main().run() function successful
+2015-09-17 23:32:26,970, DEBUG, Main.py Main().run() function successful
+2015-09-17 23:32:26,971, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614_sim.py'
+2015-09-17 23:32:26,971, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614_sim.py'
+2015-09-17 23:34:41,039, INFO, ***************Info*****************
+2015-09-17 23:34:41,039, INFO, ***************Info*****************
+2015-09-17 23:34:41,040, DEBUG, COMMAND: 'python mlx90614_sim.py'
+2015-09-17 23:34:41,040, DEBUG, COMMAND: 'python mlx90614_sim.py'
+2015-09-17 23:34:41,040, DEBUG, Main.py Main().run() function successful
+2015-09-17 23:34:41,040, DEBUG, Main.py Main().run() function successful
+2015-09-17 23:34:41,040, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614_sim.py'
+2015-09-17 23:34:41,040, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614_sim.py'
+2015-09-17 23:34:42,762, DEBUG, Main.py Main().run() function successful
+2015-09-17 23:34:42,762, DEBUG, Main.py Main().run() function successful
+2015-09-17 23:34:42,763, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614_sim.py'
+2015-09-17 23:34:42,763, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614_sim.py'
+2015-09-17 23:37:54,007, INFO, ***************Info*****************
+2015-09-17 23:37:54,007, INFO, ***************Info*****************
+2015-09-17 23:37:54,009, DEBUG, COMMAND: 'python mlx90614_sim.py'
+2015-09-17 23:37:54,009, DEBUG, COMMAND: 'python mlx90614_sim.py'
+2015-09-17 23:37:54,009, DEBUG, Main.py Main().run() function successful
+2015-09-17 23:37:54,009, DEBUG, Main.py Main().run() function successful
+2015-09-17 23:37:54,009, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614_sim.py'
+2015-09-17 23:37:54,009, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614_sim.py'
+2015-09-17 23:37:54,953, DEBUG, Main.py Main().run() function successful
+2015-09-17 23:37:54,953, DEBUG, Main.py Main().run() function successful
+2015-09-17 23:37:54,953, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614_sim.py'
+2015-09-17 23:37:54,953, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614_sim.py'
+2015-09-17 23:49:05,153, INFO, ***************Info*****************
+2015-09-17 23:49:05,153, INFO, ***************Info*****************
+2015-09-17 23:49:05,153, DEBUG, COMMAND: 'python mlx90614_sim.py'
+2015-09-17 23:49:05,153, DEBUG, COMMAND: 'python mlx90614_sim.py'
+2015-09-17 23:49:05,153, DEBUG, Main.py Main().run() function successful
+2015-09-17 23:49:05,153, DEBUG, Main.py Main().run() function successful
+2015-09-17 23:49:05,153, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614_sim.py'
+2015-09-17 23:49:05,153, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614_sim.py'
+2015-09-17 23:49:06,635, DEBUG, Main.py Main().run() function successful
+2015-09-17 23:49:06,635, DEBUG, Main.py Main().run() function successful
+2015-09-17 23:49:06,635, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614_sim.py'
+2015-09-17 23:49:06,635, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614_sim.py'
+2015-09-17 23:56:17,944, INFO, ***************Info*****************
+2015-09-17 23:56:17,944, DEBUG, COMMAND: 'python mlx90614_sim.py'
+2015-09-17 23:56:17,944, DEBUG, Main.py Main().run() function successful
+2015-09-17 23:56:17,953, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614_sim.py'
+2015-09-17 23:58:52,441, INFO, ***************Info*****************
+2015-09-17 23:58:52,441, DEBUG, COMMAND: 'python mlx90614.py'
+2015-09-17 23:58:52,441, DEBUG, Main.py Main().run() function successful
+2015-09-17 23:58:52,441, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-17 23:58:52,762, DEBUG, Main.py Main().run() function successful
+2015-09-17 23:58:52,762, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-18 00:02:00,911, INFO, ***************Info*****************
+2015-09-18 00:02:00,911, DEBUG, COMMAND: 'python mlx90614.py'
+2015-09-18 00:02:00,911, DEBUG, Main.py Main().run() function successful
+2015-09-18 00:02:00,911, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-18 00:02:01,137, DEBUG, Main.py Main().run() function successful
+2015-09-18 00:02:01,137, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-18 11:53:38,119, INFO, ***************Info*****************
+2015-09-18 11:53:38,119, DEBUG, COMMAND: 'python mlx90614.py'
+2015-09-18 11:53:38,119, DEBUG, Main.py Main().run() function successful
+2015-09-18 11:53:38,119, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-18 11:53:38,674, DEBUG, Main.py Main().run() function successful
+2015-09-18 11:53:38,674, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-18 11:53:56,697, INFO, ***************Info*****************
+2015-09-18 11:53:56,697, DEBUG, COMMAND: 'python mlx90614.py'
+2015-09-18 11:53:56,697, DEBUG, Main.py Main().run() function successful
+2015-09-18 11:53:56,697, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-18 11:54:02,390, DEBUG, Main.py Main().run() function successful
+2015-09-18 11:54:02,390, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-18 12:07:54,615, INFO, ***************Info*****************
+2015-09-18 12:07:54,615, DEBUG, COMMAND: 'python mlx90614.py'
+2015-09-18 12:07:54,615, DEBUG, Main.py Main().run() function successful
+2015-09-18 12:07:54,615, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-18 12:09:32,688, INFO, ***************Info*****************
+2015-09-18 12:09:32,688, DEBUG, COMMAND: 'python mlx90614.py'
+2015-09-18 12:09:32,688, DEBUG, Main.py Main().run() function successful
+2015-09-18 12:09:32,688, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-18 12:09:32,688, DEBUG, Main.py Main().run() function successful
+2015-09-18 12:09:32,688, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-18 12:11:05,786, INFO, ***************Info*****************
+2015-09-18 12:11:05,786, DEBUG, COMMAND: 'python mlx90614.py'
+2015-09-18 12:11:05,786, DEBUG, Main.py Main().run() function successful
+2015-09-18 12:11:05,786, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-18 12:11:05,805, DEBUG, Main.py Main().run() function successful
+2015-09-18 12:11:05,805, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-18 12:11:20,121, INFO, ***************Info*****************
+2015-09-18 12:11:20,121, DEBUG, COMMAND: 'python mlx90614.py'
+2015-09-18 12:11:20,121, DEBUG, Main.py Main().run() function successful
+2015-09-18 12:11:20,121, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-18 12:11:20,131, DEBUG, Main.py Main().run() function successful
+2015-09-18 12:11:20,141, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-18 12:15:33,341, INFO, ***************Info*****************
+2015-09-18 12:15:33,341, DEBUG, COMMAND: 'python mlx90614.py'
+2015-09-18 12:15:33,341, DEBUG, Main.py Main().run() function successful
+2015-09-18 12:15:33,341, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-18 12:15:42,213, INFO, ***************Info*****************
+2015-09-18 12:15:42,213, DEBUG, COMMAND: 'python mlx90614.py'
+2015-09-18 12:15:42,213, DEBUG, Main.py Main().run() function successful
+2015-09-18 12:15:42,213, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-18 12:15:42,243, DEBUG, Main.py Main().run() function successful
+2015-09-18 12:15:42,243, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-18 12:16:12,598, INFO, ***************Info*****************
+2015-09-18 12:16:12,598, DEBUG, COMMAND: 'python mlx90614.py'
+2015-09-18 12:16:12,608, DEBUG, Main.py Main().run() function successful
+2015-09-18 12:16:12,608, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-18 12:16:12,608, DEBUG, Main.py Main().run() function successful
+2015-09-18 12:16:12,608, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-18 12:18:48,167, INFO, ***************Info*****************
+2015-09-18 12:18:48,167, DEBUG, COMMAND: 'python mlx90614.py'
+2015-09-18 12:18:48,167, DEBUG, Main.py Main().run() function successful
+2015-09-18 12:18:48,167, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-18 12:18:52,645, DEBUG, i = 0
+2015-09-18 12:18:52,686, DEBUG, i = 1
+2015-09-18 12:18:52,696, DEBUG, i = 2
+2015-09-18 12:18:52,696, DEBUG, i = 3
+2015-09-18 12:18:52,696, DEBUG, i = 4
+2015-09-18 12:18:52,696, DEBUG, i = 5
+2015-09-18 12:18:52,696, DEBUG, i = 6
+2015-09-18 12:18:52,696, DEBUG, i = 7
+2015-09-18 12:18:52,696, DEBUG, i = 8
+2015-09-18 12:18:52,696, DEBUG, i = 9
+2015-09-18 12:18:52,696, DEBUG, i = 10
+2015-09-18 12:18:52,696, DEBUG, i = 11
+2015-09-18 12:18:52,696, DEBUG, i = 12
+2015-09-18 12:18:52,696, DEBUG, i = 13
+2015-09-18 12:18:52,696, DEBUG, i = 14
+2015-09-18 12:18:52,696, DEBUG, i = 15
+2015-09-18 12:18:52,696, DEBUG, i = 16
+2015-09-18 12:18:52,696, DEBUG, i = 17
+2015-09-18 12:18:52,696, DEBUG, i = 18
+2015-09-18 12:18:52,696, DEBUG, i = 19
+2015-09-18 12:18:52,696, DEBUG, i = 20
+2015-09-18 12:18:52,746, DEBUG, i = 21
+2015-09-18 12:18:52,746, DEBUG, i = 22
+2015-09-18 12:18:52,746, DEBUG, i = 23
+2015-09-18 12:18:52,746, DEBUG, i = 24
+2015-09-18 12:18:52,746, DEBUG, i = 25
+2015-09-18 12:18:52,746, DEBUG, i = 26
+2015-09-18 12:18:52,756, DEBUG, i = 27
+2015-09-18 12:18:52,756, DEBUG, i = 28
+2015-09-18 12:18:52,756, DEBUG, i = 29
+2015-09-18 12:18:52,756, DEBUG, i = 30
+2015-09-18 12:18:52,756, DEBUG, i = 31
+2015-09-18 12:18:52,756, DEBUG, i = 32
+2015-09-18 12:18:52,756, DEBUG, i = 33
+2015-09-18 12:18:52,756, DEBUG, i = 34
+2015-09-18 12:18:52,756, DEBUG, i = 35
+2015-09-18 12:18:52,756, DEBUG, i = 36
+2015-09-18 12:18:52,756, DEBUG, i = 37
+2015-09-18 12:18:52,756, DEBUG, i = 38
+2015-09-18 12:18:52,815, DEBUG, i = 39
+2015-09-18 12:18:52,815, DEBUG, i = 40
+2015-09-18 12:18:52,815, DEBUG, i = 41
+2015-09-18 12:18:52,815, DEBUG, i = 42
+2015-09-18 12:18:52,815, DEBUG, i = 43
+2015-09-18 12:18:52,815, DEBUG, i = 44
+2015-09-18 12:18:52,815, DEBUG, i = 45
+2015-09-18 12:18:52,815, DEBUG, i = 46
+2015-09-18 12:18:52,815, DEBUG, i = 47
+2015-09-18 12:18:52,815, DEBUG, i = 48
+2015-09-18 12:18:52,815, DEBUG, i = 49
+2015-09-18 12:18:52,835, DEBUG, Main.py Main().run() function successful
+2015-09-18 12:18:52,835, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-18 12:22:53,726, INFO, ***************Info*****************
+2015-09-18 12:22:53,726, DEBUG, COMMAND: 'python mlx90614.py'
+2015-09-18 12:22:53,726, DEBUG, Main.py Main().run() function successful
+2015-09-18 12:22:53,726, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-18 12:22:58,992, DEBUG, i = 0
+2015-09-18 12:22:58,992, DEBUG, i = 1
+2015-09-18 12:22:58,992, DEBUG, i = 2
+2015-09-18 12:22:58,993, DEBUG, i = 3
+2015-09-18 12:22:58,993, DEBUG, i = 4
+2015-09-18 12:22:58,993, DEBUG, i = 5
+2015-09-18 12:22:58,993, DEBUG, i = 6
+2015-09-18 12:22:58,993, DEBUG, i = 7
+2015-09-18 12:22:58,994, DEBUG, i = 8
+2015-09-18 12:22:58,994, DEBUG, i = 9
+2015-09-18 12:22:58,996, DEBUG, i = 10
+2015-09-18 12:22:59,065, DEBUG, i = 11
+2015-09-18 12:22:59,065, DEBUG, i = 12
+2015-09-18 12:22:59,065, DEBUG, i = 13
+2015-09-18 12:22:59,065, DEBUG, i = 14
+2015-09-18 12:22:59,066, DEBUG, i = 15
+2015-09-18 12:22:59,066, DEBUG, i = 16
+2015-09-18 12:22:59,068, DEBUG, i = 17
+2015-09-18 12:22:59,068, DEBUG, i = 18
+2015-09-18 12:22:59,068, DEBUG, i = 19
+2015-09-18 12:22:59,069, DEBUG, i = 20
+2015-09-18 12:22:59,069, DEBUG, i = 21
+2015-09-18 12:22:59,069, DEBUG, i = 22
+2015-09-18 12:22:59,069, DEBUG, i = 23
+2015-09-18 12:22:59,069, DEBUG, i = 24
+2015-09-18 12:22:59,069, DEBUG, i = 25
+2015-09-18 12:22:59,071, DEBUG, i = 26
+2015-09-18 12:22:59,071, DEBUG, i = 27
+2015-09-18 12:22:59,073, DEBUG, i = 28
+2015-09-18 12:22:59,174, DEBUG, i = 29
+2015-09-18 12:22:59,181, DEBUG, i = 30
+2015-09-18 12:22:59,183, DEBUG, i = 31
+2015-09-18 12:22:59,184, DEBUG, i = 32
+2015-09-18 12:22:59,184, DEBUG, i = 33
+2015-09-18 12:22:59,184, DEBUG, i = 34
+2015-09-18 12:22:59,186, DEBUG, i = 35
+2015-09-18 12:22:59,186, DEBUG, i = 36
+2015-09-18 12:22:59,187, DEBUG, i = 37
+2015-09-18 12:22:59,187, DEBUG, i = 38
+2015-09-18 12:22:59,187, DEBUG, i = 39
+2015-09-18 12:22:59,188, DEBUG, i = 40
+2015-09-18 12:22:59,190, DEBUG, i = 41
+2015-09-18 12:22:59,190, DEBUG, i = 42
+2015-09-18 12:22:59,190, DEBUG, i = 43
+2015-09-18 12:22:59,190, DEBUG, i = 44
+2015-09-18 12:22:59,191, DEBUG, i = 45
+2015-09-18 12:22:59,191, DEBUG, i = 46
+2015-09-18 12:22:59,272, DEBUG, i = 47
+2015-09-18 12:22:59,272, DEBUG, i = 48
+2015-09-18 12:22:59,272, DEBUG, i = 49
+2015-09-18 12:22:59,338, DEBUG, Main.py Main().run() function successful
+2015-09-18 12:22:59,339, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-18 14:00:47,947, INFO, ***************Info*****************
+2015-09-18 14:00:47,957, DEBUG, COMMAND: 'python mlx90614.py'
+2015-09-18 14:00:47,957, DEBUG, Main.py Main().run() function successful
+2015-09-18 14:00:47,957, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-18 14:01:14,358, INFO, ***************Info*****************
+2015-09-18 14:01:14,358, DEBUG, COMMAND: 'python mlx90614.py'
+2015-09-18 14:01:14,358, DEBUG, Main.py Main().run() function successful
+2015-09-18 14:01:14,358, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-18 14:01:18,861, DEBUG, i = 0
+2015-09-18 14:01:18,862, DEBUG, i = 1
+2015-09-18 14:01:18,862, DEBUG, i = 2
+2015-09-18 14:01:18,862, DEBUG, i = 3
+2015-09-18 14:01:18,864, DEBUG, i = 4
+2015-09-18 14:01:18,864, DEBUG, i = 5
+2015-09-18 14:01:18,864, DEBUG, i = 6
+2015-09-18 14:01:18,865, DEBUG, i = 7
+2015-09-18 14:01:18,865, DEBUG, i = 8
+2015-09-18 14:01:18,865, DEBUG, i = 9
+2015-09-18 14:01:18,865, DEBUG, i = 10
+2015-09-18 14:01:18,865, DEBUG, i = 11
+2015-09-18 14:01:18,865, DEBUG, i = 12
+2015-09-18 14:01:18,867, DEBUG, i = 13
+2015-09-18 14:01:18,867, DEBUG, i = 14
+2015-09-18 14:01:18,868, DEBUG, i = 15
+2015-09-18 14:01:18,868, DEBUG, i = 16
+2015-09-18 14:01:18,868, DEBUG, i = 17
+2015-09-18 14:01:18,868, DEBUG, i = 18
+2015-09-18 14:01:18,868, DEBUG, i = 19
+2015-09-18 14:01:18,868, DEBUG, i = 20
+2015-09-18 14:01:18,898, DEBUG, i = 21
+2015-09-18 14:01:18,898, DEBUG, i = 22
+2015-09-18 14:01:18,898, DEBUG, i = 23
+2015-09-18 14:01:18,900, DEBUG, i = 24
+2015-09-18 14:01:18,900, DEBUG, i = 25
+2015-09-18 14:01:18,900, DEBUG, i = 26
+2015-09-18 14:01:18,901, DEBUG, i = 27
+2015-09-18 14:01:18,901, DEBUG, i = 28
+2015-09-18 14:01:18,901, DEBUG, i = 29
+2015-09-18 14:01:18,901, DEBUG, i = 30
+2015-09-18 14:01:18,901, DEBUG, i = 31
+2015-09-18 14:01:18,903, DEBUG, i = 32
+2015-09-18 14:01:18,903, DEBUG, i = 33
+2015-09-18 14:01:18,904, DEBUG, i = 34
+2015-09-18 14:01:18,904, DEBUG, i = 35
+2015-09-18 14:01:18,904, DEBUG, i = 36
+2015-09-18 14:01:18,904, DEBUG, i = 37
+2015-09-18 14:01:18,904, DEBUG, i = 38
+2015-09-18 14:01:18,930, DEBUG, i = 39
+2015-09-18 14:01:18,930, DEBUG, i = 40
+2015-09-18 14:01:18,930, DEBUG, i = 41
+2015-09-18 14:01:18,930, DEBUG, i = 42
+2015-09-18 14:01:18,930, DEBUG, i = 43
+2015-09-18 14:01:18,930, DEBUG, i = 44
+2015-09-18 14:01:18,930, DEBUG, i = 45
+2015-09-18 14:01:18,930, DEBUG, i = 46
+2015-09-18 14:01:18,930, DEBUG, i = 47
+2015-09-18 14:01:18,930, DEBUG, i = 48
+2015-09-18 14:01:18,930, DEBUG, i = 49
+2015-09-18 14:01:18,940, DEBUG, Main.py Main().run() function successful
+2015-09-18 14:01:18,940, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-18 15:50:31,375, INFO, ***************Info*****************
+2015-09-18 15:50:31,375, DEBUG, COMMAND: 'python mlx90614.py'
+2015-09-18 15:50:31,375, DEBUG, Main.py Main().run() function successful
+2015-09-18 15:50:31,375, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-18 15:50:35,858, DEBUG, i = 0
+2015-09-18 15:50:35,858, DEBUG, i = 1
+2015-09-18 15:50:35,858, DEBUG, i = 2
+2015-09-18 15:50:35,868, DEBUG, i = 3
+2015-09-18 15:50:35,868, DEBUG, i = 4
+2015-09-18 15:50:35,868, DEBUG, i = 5
+2015-09-18 15:50:35,868, DEBUG, i = 6
+2015-09-18 15:50:35,868, DEBUG, i = 7
+2015-09-18 15:50:35,868, DEBUG, i = 8
+2015-09-18 15:50:35,868, DEBUG, i = 9
+2015-09-18 15:50:35,868, DEBUG, i = 10
+2015-09-18 15:50:35,868, DEBUG, i = 11
+2015-09-18 15:50:35,868, DEBUG, i = 12
+2015-09-18 15:50:35,868, DEBUG, i = 13
+2015-09-18 15:50:35,868, DEBUG, i = 14
+2015-09-18 15:50:35,868, DEBUG, i = 15
+2015-09-18 15:50:35,868, DEBUG, i = 16
+2015-09-18 15:50:35,868, DEBUG, i = 17
+2015-09-18 15:50:35,868, DEBUG, i = 18
+2015-09-18 15:50:35,868, DEBUG, i = 19
+2015-09-18 15:50:35,868, DEBUG, i = 20
+2015-09-18 15:50:35,888, DEBUG, i = 21
+2015-09-18 15:50:35,888, DEBUG, i = 22
+2015-09-18 15:50:35,888, DEBUG, i = 23
+2015-09-18 15:50:35,888, DEBUG, i = 24
+2015-09-18 15:50:35,888, DEBUG, i = 25
+2015-09-18 15:50:35,888, DEBUG, i = 26
+2015-09-18 15:50:35,888, DEBUG, i = 27
+2015-09-18 15:50:35,888, DEBUG, i = 28
+2015-09-18 15:50:35,888, DEBUG, i = 29
+2015-09-18 15:50:35,888, DEBUG, i = 30
+2015-09-18 15:50:35,888, DEBUG, i = 31
+2015-09-18 15:50:35,888, DEBUG, i = 32
+2015-09-18 15:50:35,888, DEBUG, i = 33
+2015-09-18 15:50:35,888, DEBUG, i = 34
+2015-09-18 15:50:35,888, DEBUG, i = 35
+2015-09-18 15:50:35,888, DEBUG, i = 36
+2015-09-18 15:50:35,888, DEBUG, i = 37
+2015-09-18 15:50:35,888, DEBUG, i = 38
+2015-09-18 15:50:35,927, DEBUG, i = 39
+2015-09-18 15:50:35,927, DEBUG, i = 40
+2015-09-18 15:50:35,927, DEBUG, i = 41
+2015-09-18 15:50:35,927, DEBUG, i = 42
+2015-09-18 15:50:35,927, DEBUG, i = 43
+2015-09-18 15:50:35,927, DEBUG, i = 44
+2015-09-18 15:50:35,927, DEBUG, i = 45
+2015-09-18 15:50:35,927, DEBUG, i = 46
+2015-09-18 15:50:35,927, DEBUG, i = 47
+2015-09-18 15:50:35,927, DEBUG, i = 48
+2015-09-18 15:50:35,927, DEBUG, i = 49
+2015-09-18 15:50:35,967, DEBUG, Main.py Main().run() function successful
+2015-09-18 15:50:35,967, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-18 15:57:27,913, INFO, ***************Info*****************
+2015-09-18 15:57:27,913, DEBUG, COMMAND: 'python mlx90614.py'
+2015-09-18 15:57:27,913, DEBUG, Main.py Main().run() function successful
+2015-09-18 15:57:27,913, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-18 15:57:32,392, DEBUG, i = 0
+2015-09-18 15:57:32,403, DEBUG, i = 1
+2015-09-18 15:57:32,403, DEBUG, i = 2
+2015-09-18 15:57:32,403, DEBUG, i = 3
+2015-09-18 15:57:32,403, DEBUG, i = 4
+2015-09-18 15:57:32,403, DEBUG, i = 5
+2015-09-18 15:57:32,403, DEBUG, i = 6
+2015-09-18 15:57:32,403, DEBUG, i = 7
+2015-09-18 15:57:32,403, DEBUG, i = 8
+2015-09-18 15:57:32,403, DEBUG, i = 9
+2015-09-18 15:57:32,403, DEBUG, i = 10
+2015-09-18 15:57:32,403, DEBUG, i = 11
+2015-09-18 15:57:32,403, DEBUG, i = 12
+2015-09-18 15:57:32,403, DEBUG, i = 13
+2015-09-18 15:57:32,403, DEBUG, i = 14
+2015-09-18 15:57:32,403, DEBUG, i = 15
+2015-09-18 15:57:32,403, DEBUG, i = 16
+2015-09-18 15:57:32,403, DEBUG, i = 17
+2015-09-18 15:57:32,403, DEBUG, i = 18
+2015-09-18 15:57:32,403, DEBUG, i = 19
+2015-09-18 15:57:32,403, DEBUG, i = 20
+2015-09-18 15:57:32,423, DEBUG, i = 21
+2015-09-18 15:57:32,423, DEBUG, i = 22
+2015-09-18 15:57:32,433, DEBUG, i = 23
+2015-09-18 15:57:32,433, DEBUG, i = 24
+2015-09-18 15:57:32,433, DEBUG, i = 25
+2015-09-18 15:57:32,433, DEBUG, i = 26
+2015-09-18 15:57:32,433, DEBUG, i = 27
+2015-09-18 15:57:32,433, DEBUG, i = 28
+2015-09-18 15:57:32,433, DEBUG, i = 29
+2015-09-18 15:57:32,433, DEBUG, i = 30
+2015-09-18 15:57:32,433, DEBUG, i = 31
+2015-09-18 15:57:32,433, DEBUG, i = 32
+2015-09-18 15:57:32,433, DEBUG, i = 33
+2015-09-18 15:57:32,433, DEBUG, i = 34
+2015-09-18 15:57:32,433, DEBUG, i = 35
+2015-09-18 15:57:32,433, DEBUG, i = 36
+2015-09-18 15:57:32,433, DEBUG, i = 37
+2015-09-18 15:57:32,433, DEBUG, i = 38
+2015-09-18 15:57:32,482, DEBUG, i = 39
+2015-09-18 15:57:32,483, DEBUG, i = 40
+2015-09-18 15:57:32,483, DEBUG, i = 41
+2015-09-18 15:57:32,483, DEBUG, i = 42
+2015-09-18 15:57:32,483, DEBUG, i = 43
+2015-09-18 15:57:32,484, DEBUG, i = 44
+2015-09-18 15:57:32,484, DEBUG, i = 45
+2015-09-18 15:57:32,484, DEBUG, i = 46
+2015-09-18 15:57:32,486, DEBUG, i = 47
+2015-09-18 15:57:32,486, DEBUG, i = 48
+2015-09-18 15:57:32,486, DEBUG, i = 49
+2015-09-18 15:57:32,513, DEBUG, Main.py Main().run() function successful
+2015-09-18 15:57:32,513, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-18 15:57:44,648, INFO, ***************Info*****************
+2015-09-18 15:57:44,648, DEBUG, COMMAND: 'python mlx90614_sim.py'
+2015-09-18 15:57:44,648, DEBUG, Main.py Main().run() function successful
+2015-09-18 15:57:44,648, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614_sim.py'
+2015-09-19 13:25:03,107, INFO, ***************Info*****************
+2015-09-19 13:25:03,107, DEBUG, COMMAND: 'python mlx90614.py'
+2015-09-19 13:25:03,107, DEBUG, Main.py Main().run() function successful
+2015-09-19 13:25:03,107, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-19 13:25:09,479, DEBUG, i = 0
+2015-09-19 13:25:09,479, DEBUG, i = 1
+2015-09-19 13:25:09,479, DEBUG, i = 2
+2015-09-19 13:25:09,479, DEBUG, i = 3
+2015-09-19 13:25:09,486, DEBUG, i = 4
+2015-09-19 13:25:09,486, DEBUG, i = 5
+2015-09-19 13:25:09,486, DEBUG, i = 6
+2015-09-19 13:25:09,486, DEBUG, i = 7
+2015-09-19 13:25:09,486, DEBUG, i = 8
+2015-09-19 13:25:09,486, DEBUG, i = 9
+2015-09-19 13:25:09,486, DEBUG, i = 10
+2015-09-19 13:25:09,486, DEBUG, i = 11
+2015-09-19 13:25:09,486, DEBUG, i = 12
+2015-09-19 13:25:09,486, DEBUG, i = 13
+2015-09-19 13:25:09,486, DEBUG, i = 14
+2015-09-19 13:25:09,486, DEBUG, i = 15
+2015-09-19 13:25:09,486, DEBUG, i = 16
+2015-09-19 13:25:09,486, DEBUG, i = 17
+2015-09-19 13:25:09,494, DEBUG, i = 18
+2015-09-19 13:25:09,494, DEBUG, i = 19
+2015-09-19 13:25:09,494, DEBUG, i = 20
+2015-09-19 13:25:09,526, DEBUG, i = 21
+2015-09-19 13:25:09,526, DEBUG, i = 22
+2015-09-19 13:25:09,526, DEBUG, i = 23
+2015-09-19 13:25:09,526, DEBUG, i = 24
+2015-09-19 13:25:09,526, DEBUG, i = 25
+2015-09-19 13:25:09,526, DEBUG, i = 26
+2015-09-19 13:25:09,526, DEBUG, i = 27
+2015-09-19 13:25:09,526, DEBUG, i = 28
+2015-09-19 13:25:09,526, DEBUG, i = 29
+2015-09-19 13:25:09,526, DEBUG, i = 30
+2015-09-19 13:25:09,526, DEBUG, i = 31
+2015-09-19 13:25:09,526, DEBUG, i = 32
+2015-09-19 13:25:09,526, DEBUG, i = 33
+2015-09-19 13:25:09,526, DEBUG, i = 34
+2015-09-19 13:25:09,526, DEBUG, i = 35
+2015-09-19 13:25:09,533, DEBUG, i = 36
+2015-09-19 13:25:09,533, DEBUG, i = 37
+2015-09-19 13:25:09,533, DEBUG, i = 38
+2015-09-19 13:25:09,572, DEBUG, i = 39
+2015-09-19 13:25:09,572, DEBUG, i = 40
+2015-09-19 13:25:09,572, DEBUG, i = 41
+2015-09-19 13:25:09,572, DEBUG, i = 42
+2015-09-19 13:25:09,572, DEBUG, i = 43
+2015-09-19 13:25:09,572, DEBUG, i = 44
+2015-09-19 13:25:09,572, DEBUG, i = 45
+2015-09-19 13:25:09,572, DEBUG, i = 46
+2015-09-19 13:25:09,572, DEBUG, i = 47
+2015-09-19 13:25:09,572, DEBUG, i = 48
+2015-09-19 13:25:09,572, DEBUG, i = 49
+2015-09-19 13:25:09,838, DEBUG, Main.py Main().run() function successful
+2015-09-19 13:25:09,838, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-19 13:27:48,082, INFO, ***************Info*****************
+2015-09-19 13:27:48,082, DEBUG, COMMAND: 'python mlx90614_sim.py'
+2015-09-19 13:27:48,082, DEBUG, Main.py Main().run() function successful
+2015-09-19 13:27:48,091, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614_sim.py'
+2015-09-19 13:28:49,075, INFO, ***************Info*****************
+2015-09-19 13:28:49,075, DEBUG, COMMAND: 'python mlx90614_sim.py'
+2015-09-19 13:28:49,075, DEBUG, Main.py Main().run() function successful
+2015-09-19 13:28:49,082, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614_sim.py'
+2015-09-19 13:29:42,289, INFO, ***************Info*****************
+2015-09-19 13:29:42,289, DEBUG, COMMAND: 'python mlx90614_sim.py'
+2015-09-19 13:29:42,289, DEBUG, Main.py Main().run() function successful
+2015-09-19 13:29:42,296, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614_sim.py'
+2015-09-19 13:29:46,765, INFO, ***************Info*****************
+2015-09-19 13:29:46,765, DEBUG, COMMAND: 'python mlx90614.py'
+2015-09-19 13:29:46,765, DEBUG, Main.py Main().run() function successful
+2015-09-19 13:29:46,765, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-19 13:29:46,765, DEBUG, Main.py Main().run() function successful
+2015-09-19 13:29:46,765, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-19 13:29:52,676, INFO, ***************Info*****************
+2015-09-19 13:29:52,676, DEBUG, COMMAND: 'python mlx90614.py'
+2015-09-19 13:29:52,676, DEBUG, Main.py Main().run() function successful
+2015-09-19 13:29:52,676, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-19 13:29:57,246, DEBUG, i = 0
+2015-09-19 13:29:57,246, DEBUG, i = 1
+2015-09-19 13:29:57,246, DEBUG, i = 2
+2015-09-19 13:29:57,246, DEBUG, i = 3
+2015-09-19 13:29:57,246, DEBUG, i = 4
+2015-09-19 13:29:57,246, DEBUG, i = 5
+2015-09-19 13:29:57,246, DEBUG, i = 6
+2015-09-19 13:29:57,253, DEBUG, i = 7
+2015-09-19 13:29:57,253, DEBUG, i = 8
+2015-09-19 13:29:57,253, DEBUG, i = 9
+2015-09-19 13:29:57,253, DEBUG, i = 10
+2015-09-19 13:29:57,316, DEBUG, i = 11
+2015-09-19 13:29:57,316, DEBUG, i = 12
+2015-09-19 13:29:57,316, DEBUG, i = 13
+2015-09-19 13:29:57,316, DEBUG, i = 14
+2015-09-19 13:29:57,316, DEBUG, i = 15
+2015-09-19 13:29:57,316, DEBUG, i = 16
+2015-09-19 13:29:57,316, DEBUG, i = 17
+2015-09-19 13:29:57,316, DEBUG, i = 18
+2015-09-19 13:29:57,316, DEBUG, i = 19
+2015-09-19 13:29:57,316, DEBUG, i = 20
+2015-09-19 13:29:57,325, DEBUG, i = 21
+2015-09-19 13:29:57,325, DEBUG, i = 22
+2015-09-19 13:29:57,325, DEBUG, i = 23
+2015-09-19 13:29:57,325, DEBUG, i = 24
+2015-09-19 13:29:57,325, DEBUG, i = 25
+2015-09-19 13:29:57,325, DEBUG, i = 26
+2015-09-19 13:29:57,325, DEBUG, i = 27
+2015-09-19 13:29:57,325, DEBUG, i = 28
+2015-09-19 13:29:57,394, DEBUG, i = 29
+2015-09-19 13:29:57,394, DEBUG, i = 30
+2015-09-19 13:29:57,394, DEBUG, i = 31
+2015-09-19 13:29:57,394, DEBUG, i = 32
+2015-09-19 13:29:57,394, DEBUG, i = 33
+2015-09-19 13:29:57,394, DEBUG, i = 34
+2015-09-19 13:29:57,394, DEBUG, i = 35
+2015-09-19 13:29:57,394, DEBUG, i = 36
+2015-09-19 13:29:57,394, DEBUG, i = 37
+2015-09-19 13:29:57,394, DEBUG, i = 38
+2015-09-19 13:29:57,394, DEBUG, i = 39
+2015-09-19 13:29:57,403, DEBUG, i = 40
+2015-09-19 13:29:57,403, DEBUG, i = 41
+2015-09-19 13:29:57,403, DEBUG, i = 42
+2015-09-19 13:29:57,403, DEBUG, i = 43
+2015-09-19 13:29:57,403, DEBUG, i = 44
+2015-09-19 13:29:57,403, DEBUG, i = 45
+2015-09-19 13:29:57,403, DEBUG, i = 46
+2015-09-19 13:29:57,480, DEBUG, i = 47
+2015-09-19 13:29:57,480, DEBUG, i = 48
+2015-09-19 13:29:57,480, DEBUG, i = 49
+2015-09-19 13:29:57,690, DEBUG, Main.py Main().run() function successful
+2015-09-19 13:29:57,690, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-19 13:32:56,413, INFO, ***************Info*****************
+2015-09-19 13:32:56,413, DEBUG, COMMAND: 'python mlx90614_sim.py'
+2015-09-19 13:32:56,413, DEBUG, Main.py Main().run() function successful
+2015-09-19 13:32:56,413, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614_sim.py'
+2015-09-19 13:33:43,766, INFO, ***************Info*****************
+2015-09-19 13:33:43,766, DEBUG, COMMAND: 'python mlx90614_sim.py'
+2015-09-19 13:33:43,766, DEBUG, Main.py Main().run() function successful
+2015-09-19 13:33:43,766, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614_sim.py'
+2015-09-19 13:34:18,339, INFO, ***************Info*****************
+2015-09-19 13:34:18,339, DEBUG, COMMAND: 'python mlx90614_sim.py'
+2015-09-19 13:34:18,339, DEBUG, Main.py Main().run() function successful
+2015-09-19 13:34:18,339, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614_sim.py'
+2015-09-19 14:57:58,528, INFO, ***************Info*****************
+2015-09-19 14:57:58,528, DEBUG, COMMAND: 'python mlx90614_sim.py'
+2015-09-19 14:57:58,528, DEBUG, Main.py Main().run() function successful
+2015-09-19 14:57:58,528, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614_sim.py'
+2015-09-19 14:58:14,742, INFO, ***************Info*****************
+2015-09-19 14:58:14,742, DEBUG, COMMAND: 'python mlx90614.py'
+2015-09-19 14:58:14,742, DEBUG, Main.py Main().run() function successful
+2015-09-19 14:58:14,742, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-19 14:58:19,367, DEBUG, i = 0
+2015-09-19 14:58:19,367, DEBUG, i = 1
+2015-09-19 14:58:19,367, DEBUG, i = 2
+2015-09-19 14:58:19,367, DEBUG, i = 3
+2015-09-19 14:58:19,367, DEBUG, i = 4
+2015-09-19 14:58:19,367, DEBUG, i = 5
+2015-09-19 14:58:19,367, DEBUG, i = 6
+2015-09-19 14:58:19,367, DEBUG, i = 7
+2015-09-19 14:58:19,367, DEBUG, i = 8
+2015-09-19 14:58:19,367, DEBUG, i = 9
+2015-09-19 14:58:19,367, DEBUG, i = 10
+2015-09-19 14:58:19,367, DEBUG, i = 11
+2015-09-19 14:58:19,367, DEBUG, i = 12
+2015-09-19 14:58:19,367, DEBUG, i = 13
+2015-09-19 14:58:19,381, DEBUG, i = 14
+2015-09-19 14:58:19,381, DEBUG, i = 15
+2015-09-19 14:58:19,381, DEBUG, i = 16
+2015-09-19 14:58:19,381, DEBUG, i = 17
+2015-09-19 14:58:19,381, DEBUG, i = 18
+2015-09-19 14:58:19,381, DEBUG, i = 19
+2015-09-19 14:58:19,381, DEBUG, i = 20
+2015-09-19 14:58:19,414, DEBUG, i = 21
+2015-09-19 14:58:19,414, DEBUG, i = 22
+2015-09-19 14:58:19,414, DEBUG, i = 23
+2015-09-19 14:58:19,414, DEBUG, i = 24
+2015-09-19 14:58:19,414, DEBUG, i = 25
+2015-09-19 14:58:19,414, DEBUG, i = 26
+2015-09-19 14:58:19,428, DEBUG, i = 27
+2015-09-19 14:58:19,428, DEBUG, i = 28
+2015-09-19 14:58:19,428, DEBUG, i = 29
+2015-09-19 14:58:19,428, DEBUG, i = 30
+2015-09-19 14:58:19,428, DEBUG, i = 31
+2015-09-19 14:58:19,428, DEBUG, i = 32
+2015-09-19 14:58:19,428, DEBUG, i = 33
+2015-09-19 14:58:19,428, DEBUG, i = 34
+2015-09-19 14:58:19,428, DEBUG, i = 35
+2015-09-19 14:58:19,428, DEBUG, i = 36
+2015-09-19 14:58:19,428, DEBUG, i = 37
+2015-09-19 14:58:19,428, DEBUG, i = 38
+2015-09-19 14:58:19,476, DEBUG, i = 39
+2015-09-19 14:58:19,476, DEBUG, i = 40
+2015-09-19 14:58:19,476, DEBUG, i = 41
+2015-09-19 14:58:19,476, DEBUG, i = 42
+2015-09-19 14:58:19,476, DEBUG, i = 43
+2015-09-19 14:58:19,476, DEBUG, i = 44
+2015-09-19 14:58:19,476, DEBUG, i = 45
+2015-09-19 14:58:19,476, DEBUG, i = 46
+2015-09-19 14:58:19,476, DEBUG, i = 47
+2015-09-19 14:58:19,476, DEBUG, i = 48
+2015-09-19 14:58:19,476, DEBUG, i = 49
+2015-09-19 14:58:19,631, DEBUG, Main.py Main().run() function successful
+2015-09-19 14:58:19,631, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-19 15:00:49,845, INFO, ***************Info*****************
+2015-09-19 15:00:49,845, DEBUG, COMMAND: 'python mlx90614_sim.py'
+2015-09-19 15:00:49,845, DEBUG, Main.py Main().run() function successful
+2015-09-19 15:00:49,845, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614_sim.py'
+2015-09-19 15:09:44,505, INFO, ***************Info*****************
+2015-09-19 15:09:44,513, DEBUG, COMMAND: 'python mlx90614_sim.py'
+2015-09-19 15:09:44,513, DEBUG, Main.py Main().run() function successful
+2015-09-19 15:09:44,513, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614_sim.py'
+2015-09-19 15:16:00,740, INFO, ***************Info*****************
+2015-09-19 15:16:00,743, DEBUG, COMMAND: 'python mlx90614.py'
+2015-09-19 15:16:00,743, DEBUG, Main.py Main().run() function successful
+2015-09-19 15:16:00,743, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-19 15:16:00,744, DEBUG, Main.py Main().run() function successful
+2015-09-19 15:16:00,744, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-19 15:16:09,198, INFO, ***************Info*****************
+2015-09-19 15:16:09,200, DEBUG, COMMAND: 'python mlx90614_sim.py'
+2015-09-19 15:16:09,200, DEBUG, Main.py Main().run() function successful
+2015-09-19 15:16:09,200, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614_sim.py'
+2015-09-19 15:24:29,891, INFO, ***************Info*****************
+2015-09-19 15:24:29,891, DEBUG, COMMAND: 'python mlx90614_sim.py'
+2015-09-19 15:24:29,891, DEBUG, Main.py Main().run() function successful
+2015-09-19 15:24:29,891, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614_sim.py'
+2015-09-19 15:24:37,471, INFO, ***************Info*****************
+2015-09-19 15:24:37,471, DEBUG, COMMAND: 'python mlx90614.py'
+2015-09-19 15:24:37,471, DEBUG, Main.py Main().run() function successful
+2015-09-19 15:24:37,471, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-19 15:24:59,048, INFO, ***************Info*****************
+2015-09-19 15:24:59,048, DEBUG, COMMAND: 'python mlx90614.py'
+2015-09-19 15:24:59,048, DEBUG, Main.py Main().run() function successful
+2015-09-19 15:24:59,048, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-19 15:25:25,142, INFO, ***************Info*****************
+2015-09-19 15:25:25,142, DEBUG, COMMAND: 'python mlx90614.py'
+2015-09-19 15:25:25,142, DEBUG, Main.py Main().run() function successful
+2015-09-19 15:25:25,142, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-19 15:25:25,190, DEBUG, Main.py Main().run() function successful
+2015-09-19 15:25:25,190, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-19 15:25:49,053, INFO, ***************Info*****************
+2015-09-19 15:25:49,062, DEBUG, COMMAND: 'python mlx90614.py'
+2015-09-19 15:25:49,062, DEBUG, Main.py Main().run() function successful
+2015-09-19 15:25:49,062, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-19 15:25:49,180, DEBUG, Main.py Main().run() function successful
+2015-09-19 15:25:49,181, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-19 15:32:49,369, INFO, ***************Info*****************
+2015-09-19 15:32:49,371, DEBUG, COMMAND: 'python mlx90614.py'
+2015-09-19 15:32:49,372, DEBUG, Main.py Main().run() function successful
+2015-09-19 15:32:49,372, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-19 15:32:49,651, DEBUG, Main.py Main().run() function successful
+2015-09-19 15:32:49,654, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-19 15:37:38,424, INFO, ***************Info*****************
+2015-09-19 15:37:38,424, DEBUG, COMMAND: 'python mlx90614.py'
+2015-09-19 15:37:38,424, DEBUG, Main.py Main().run() function successful
+2015-09-19 15:37:38,424, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-19 15:37:38,710, DEBUG, Main.py Main().run() function successful
+2015-09-19 15:37:38,733, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-19 15:39:05,026, INFO, ***************Info*****************
+2015-09-19 15:39:05,026, DEBUG, COMMAND: 'python mlx90614.py'
+2015-09-19 15:39:05,026, DEBUG, Main.py Main().run() function successful
+2015-09-19 15:39:05,028, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-19 15:39:05,371, DEBUG, Main.py Main().run() function successful
+2015-09-19 15:39:06,292, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-19 15:41:08,513, INFO, ***************Info*****************
+2015-09-19 15:41:08,515, DEBUG, COMMAND: 'python mlx90614_sim.py'
+2015-09-19 15:41:08,515, DEBUG, Main.py Main().run() function successful
+2015-09-19 15:41:08,516, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614_sim.py'
+2015-09-19 15:41:17,848, INFO, ***************Info*****************
+2015-09-19 15:41:17,848, DEBUG, COMMAND: 'python mlx90614.py'
+2015-09-19 15:41:17,848, DEBUG, Main.py Main().run() function successful
+2015-09-19 15:41:17,849, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-19 15:41:17,997, DEBUG, Main.py Main().run() function successful
+2015-09-19 15:41:17,999, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-19 15:42:29,917, INFO, ***************Info*****************
+2015-09-19 15:42:29,917, DEBUG, COMMAND: 'python mlx90614.py'
+2015-09-19 15:42:29,918, DEBUG, Main.py Main().run() function successful
+2015-09-19 15:42:29,918, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-19 15:42:34,463, DEBUG, i = 0
+2015-09-19 15:42:34,463, DEBUG, i = 1
+2015-09-19 15:42:34,463, DEBUG, i = 2
+2015-09-19 15:42:34,464, DEBUG, i = 3
+2015-09-19 15:42:34,464, DEBUG, i = 4
+2015-09-19 15:42:34,466, DEBUG, i = 5
+2015-09-19 15:42:34,466, DEBUG, i = 6
+2015-09-19 15:42:34,467, DEBUG, i = 7
+2015-09-19 15:42:34,467, DEBUG, i = 8
+2015-09-19 15:42:34,467, DEBUG, i = 9
+2015-09-19 15:42:34,473, DEBUG, i = 10
+2015-09-19 15:42:34,473, DEBUG, i = 11
+2015-09-19 15:42:34,473, DEBUG, i = 12
+2015-09-19 15:42:34,473, DEBUG, i = 13
+2015-09-19 15:42:34,474, DEBUG, i = 14
+2015-09-19 15:42:34,474, DEBUG, i = 15
+2015-09-19 15:42:34,476, DEBUG, i = 16
+2015-09-19 15:42:34,476, DEBUG, i = 17
+2015-09-19 15:42:34,476, DEBUG, i = 18
+2015-09-19 15:42:34,476, DEBUG, i = 19
+2015-09-19 15:42:34,477, DEBUG, i = 20
+2015-09-19 15:42:34,512, DEBUG, i = 21
+2015-09-19 15:42:34,513, DEBUG, i = 22
+2015-09-19 15:42:34,513, DEBUG, i = 23
+2015-09-19 15:42:34,513, DEBUG, i = 24
+2015-09-19 15:42:34,513, DEBUG, i = 25
+2015-09-19 15:42:34,515, DEBUG, i = 26
+2015-09-19 15:42:34,516, DEBUG, i = 27
+2015-09-19 15:42:34,516, DEBUG, i = 28
+2015-09-19 15:42:34,516, DEBUG, i = 29
+2015-09-19 15:42:34,517, DEBUG, i = 30
+2015-09-19 15:42:34,517, DEBUG, i = 31
+2015-09-19 15:42:34,519, DEBUG, i = 32
+2015-09-19 15:42:34,519, DEBUG, i = 33
+2015-09-19 15:42:34,519, DEBUG, i = 34
+2015-09-19 15:42:34,519, DEBUG, i = 35
+2015-09-19 15:42:34,520, DEBUG, i = 36
+2015-09-19 15:42:34,520, DEBUG, i = 37
+2015-09-19 15:42:34,522, DEBUG, i = 38
+2015-09-19 15:42:34,572, DEBUG, i = 39
+2015-09-19 15:42:34,572, DEBUG, i = 40
+2015-09-19 15:42:34,573, DEBUG, i = 41
+2015-09-19 15:42:34,573, DEBUG, i = 42
+2015-09-19 15:42:34,575, DEBUG, i = 43
+2015-09-19 15:42:34,575, DEBUG, i = 44
+2015-09-19 15:42:34,575, DEBUG, i = 45
+2015-09-19 15:42:34,575, DEBUG, i = 46
+2015-09-19 15:42:34,576, DEBUG, i = 47
+2015-09-19 15:42:34,576, DEBUG, i = 48
+2015-09-19 15:42:34,578, DEBUG, i = 49
+2015-09-19 15:42:34,596, DEBUG, Main.py Main().run() function successful
+2015-09-19 15:42:34,598, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-19 20:01:03,000, INFO, ***************Info*****************
+2015-09-19 20:01:03,006, DEBUG, COMMAND: 'python mlx90614.py'
+2015-09-19 20:01:03,006, DEBUG, Main.py Main().run() function successful
+2015-09-19 20:01:03,006, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-19 20:01:10,371, DEBUG, i = 0
+2015-09-19 20:01:10,371, DEBUG, i = 1
+2015-09-19 20:01:10,371, DEBUG, i = 2
+2015-09-19 20:01:10,371, DEBUG, i = 3
+2015-09-19 20:01:10,371, DEBUG, i = 4
+2015-09-19 20:01:10,371, DEBUG, i = 5
+2015-09-19 20:01:10,371, DEBUG, i = 6
+2015-09-19 20:01:10,371, DEBUG, i = 7
+2015-09-19 20:01:10,371, DEBUG, i = 8
+2015-09-19 20:01:10,371, DEBUG, i = 9
+2015-09-19 20:01:10,378, DEBUG, i = 10
+2015-09-19 20:01:10,441, DEBUG, i = 11
+2015-09-19 20:01:10,441, DEBUG, i = 12
+2015-09-19 20:01:10,441, DEBUG, i = 13
+2015-09-19 20:01:10,441, DEBUG, i = 14
+2015-09-19 20:01:10,441, DEBUG, i = 15
+2015-09-19 20:01:10,441, DEBUG, i = 16
+2015-09-19 20:01:10,441, DEBUG, i = 17
+2015-09-19 20:01:10,441, DEBUG, i = 18
+2015-09-19 20:01:10,441, DEBUG, i = 19
+2015-09-19 20:01:10,441, DEBUG, i = 20
+2015-09-19 20:01:10,441, DEBUG, i = 21
+2015-09-19 20:01:10,441, DEBUG, i = 22
+2015-09-19 20:01:10,441, DEBUG, i = 23
+2015-09-19 20:01:10,450, DEBUG, i = 24
+2015-09-19 20:01:10,450, DEBUG, i = 25
+2015-09-19 20:01:10,450, DEBUG, i = 26
+2015-09-19 20:01:10,450, DEBUG, i = 27
+2015-09-19 20:01:10,450, DEBUG, i = 28
+2015-09-19 20:01:10,512, DEBUG, i = 29
+2015-09-19 20:01:10,512, DEBUG, i = 30
+2015-09-19 20:01:10,512, DEBUG, i = 31
+2015-09-19 20:01:10,512, DEBUG, i = 32
+2015-09-19 20:01:10,512, DEBUG, i = 33
+2015-09-19 20:01:10,512, DEBUG, i = 34
+2015-09-19 20:01:10,519, DEBUG, i = 35
+2015-09-19 20:01:10,519, DEBUG, i = 36
+2015-09-19 20:01:10,519, DEBUG, i = 37
+2015-09-19 20:01:10,519, DEBUG, i = 38
+2015-09-19 20:01:10,519, DEBUG, i = 39
+2015-09-19 20:01:10,519, DEBUG, i = 40
+2015-09-19 20:01:10,519, DEBUG, i = 41
+2015-09-19 20:01:10,519, DEBUG, i = 42
+2015-09-19 20:01:10,519, DEBUG, i = 43
+2015-09-19 20:01:10,519, DEBUG, i = 44
+2015-09-19 20:01:10,519, DEBUG, i = 45
+2015-09-19 20:01:10,519, DEBUG, i = 46
+2015-09-19 20:01:10,582, DEBUG, i = 47
+2015-09-19 20:01:10,582, DEBUG, i = 48
+2015-09-19 20:01:10,582, DEBUG, i = 49
+2015-09-19 20:01:10,605, DEBUG, Main.py Main().run() function successful
+2015-09-19 20:01:10,605, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614.py'
+2015-09-19 20:02:33,970, INFO, ***************Info*****************
+2015-09-19 20:02:33,979, DEBUG, COMMAND: 'python mlx90614_sim.py'
+2015-09-19 20:02:33,979, DEBUG, Main.py Main().run() function successful
+2015-09-19 20:02:33,979, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614_sim.py'
+2015-09-19 20:05:49,082, INFO, ***************Info*****************
+2015-09-19 20:05:49,082, DEBUG, COMMAND: 'python mlx90614_sim.py'
+2015-09-19 20:05:49,082, DEBUG, Main.py Main().run() function successful
+2015-09-19 20:05:49,082, DEBUG, Main.py Main().run() default_command COMMAND value: 'python mlx90614_sim.py'
