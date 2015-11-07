@@ -84,12 +84,25 @@ class MLX90614_IR_sensor():
 		self.tamb_percent_limit_up=0.0
 		self.tamb_percent_limit_down=0.0
 		
+		#instantiate the config file and extract the dict 
+		#opening the config file 
+		self.config = config.config.Config()
+		#reading the config file
+		#self.config.readconfig() 
+		#extract the slice and slice values 
+		#print self.config.dict
+		
+		#dict length for data analysis
+		self.length = int(self.config.dict['length'])
+		#slice length of data analysis
+		self.slice = int(self.config.dict['slice'])
+		
 		#importing the control_variable() class to obtain the jump and limit values
 		self.control_class = mlx.control_variable.Control_Variable()
-		self.control_class.run() #1,0.5)
+		self.control_class.run() 
 		
-		self.tobj_jump_value = 1.0 #0.0
-		self.tamb_jump_value = 1.0 #0.0
+		self.tobj_jump_value = 0.0 
+		self.tamb_jump_value = 0.0 
 		
 		self.cycle = 0
 		self.counter = 0
@@ -105,29 +118,7 @@ class MLX90614_IR_sensor():
 		#the appended list data is being stored to the log files, the gui will only show a subaspect of the data
 		self.record_list = [0,0,0,0,0,0]
 		self.record_dict = {self.address: []} #, 'cycle':self.cycle }
-	'''	
-	def read(self):
-		#''getting the values from the IR device sensor''
-		if self.address == 90:
-			self.init_tobj_value = self.bus.read_word_data(self.address, self.tobj_address)
-			#sleep for 200 ms the time for the sensor is at least 144 ms
-			time.sleep(0.2)
-			
-			self.init_tamb_value = self.bus.read_word_data(self.address, self.tamb_address)
-			#sleep for 200 ms the timer for the sensor is at least 144 ms 
-			time.sleep(0.2)
-			
-		elif self.address == 91:
-			self.init_tobj_value = self.bus.read_word_data(self.address, 0x27)
-			#sleep for 200 ms the time for the sensor is at least 144 ms
-			time.sleep(0.2)
-			
-			self.init_tamb_value = self.bus.read_word_data(self.address, 0x26)
-			#sleep for 200 ms the timer for the sensor is at least 144 ms 
-			time.sleep(0.2)
-		else:
-			print 'pass something is wrong'
-	'''
+
 	def read(self):
 		'''getting the values from the IR device sensor'''
 		self.init_tobj_value = self.bus.read_word_data(self.address, self.tobj_address)
@@ -165,7 +156,6 @@ class MLX90614_IR_sensor():
 			#calculate percent limit 
 			self.tobj_percent_limit_up = self.tobj_num*self.control_class.limit_value
 			print '*****TOBJ UP*****'
-			#mylog2.debug('*****UP*****')
 			mylog2.debug('UP VALUE-Tobj:--> ' + 'object temperature value: '+ repr(self.tobj_num) + 
 			'jump up value: ' + repr(jump_value) +'temp limit value: ' + repr(self.tobj_percent_limit_up)
 			+ 'jump value: ' + repr(self.control_class.jump_value) )
@@ -176,7 +166,6 @@ class MLX90614_IR_sensor():
 			#calculating percent limit
 			self.tobj_percent_limit_down = self.tobj_num*self.control_class.limit_value
 			print '******TOBJ DOWN*****'
-			#mylog2.debug('*****DOWN*****')
 			mylog2.debug('DOWN VALUE-Tobj:--> ' + 'object temperature value: '+ repr(self.tobj_num) 
 			+ 'jump up value: ' + repr(jump_value) +'temp limit value: ' + repr(self.tobj_percent_limit_down) 
 			+'jump value: ' + repr(self.control_class.jump_value))
@@ -232,38 +221,35 @@ class MLX90614_IR_sensor():
 		self.tobj_data_analysis_list.append(self.tobj_ans) #_num)
 		self.tamb_data_analysis_list.append(self.tamb_ans) #num)
 		
+		if len(self.tobj_data_analysis_list) > self.length: #15:
+			#if the length is greater then 50
+			for item in self.tobj_data_analysis_list[:self.slice]: #10]:
+				#take out the first 20 items and pop them out 
+				self.tobj_data_analysis_list.pop(0)
+		
+		if len(self.tamb_data_analysis_list) > self.length: #15:
+			#pop out the first 20 items in the list 
+			for item in self.tamb_data_analysis_list[:self.slice]: #10]:
+				self.tamb_data_analysis_list.pop(0)
+		
 		#doing tobject calculations
-		tobj_min = min(self.tobj_data_analysis_list)
-		tobj_max = max(self.tobj_data_analysis_list)
-		tobj_sum = sum(self.tobj_data_analysis_list)
-		tobj_len = len(self.tobj_data_analysis_list)
+		tobj_min = min(self.tobj_data_analysis_list[ -self.slice: ] )  #[-5:])
+		tobj_max = max(self.tobj_data_analysis_list[ -self.slice: ] ) #[-5:])
+		tobj_sum = sum(self.tobj_data_analysis_list[ -self.slice: ] ) #[-5:])
+		tobj_len = len(self.tobj_data_analysis_list) #[ -self.slice: ] ) #[-5:])
 		tobj_avg = tobj_sum/tobj_len
 		 
 		#doign tambient claculations 
-		tamb_min = min(self.tamb_data_analysis_list)
-		tamb_max = max(self.tamb_data_analysis_list)
-		tamb_sum = sum(self.tamb_data_analysis_list)
-		tamb_len = len(self.tamb_data_analysis_list)
+		tamb_min = min(self.tamb_data_analysis_list[ -self.slice: ] ) #[-5:])
+		tamb_max = max(self.tamb_data_analysis_list[ -self.slice: ] ) #[-5:])
+		tamb_sum = sum(self.tamb_data_analysis_list[ -self.slice: ] ) #[-5:])
+		tamb_len = len(self.tamb_data_analysis_list) #[ -self.slice: ] ) #[-5:])
 		tamb_avg = tamb_sum/tobj_len
 		
-		self.record_list=[tobj_min, tobj_max, tobj_avg, tamb_min, tamb_max, tamb_avg]
+		self.record_list=[tobj_min, tobj_max, tobj_avg, tamb_min, tamb_max, tamb_avg, tobj_len, tamb_len]
 		
-		#appending data to more scenes
-		self.tobj_data_analysis_result.append( [self.address, time.strftime('%H:%M:%S,'), tobj_min, tobj_max, tobj_avg, tobj_len ] )
-		self.tamb_data_analysis_result.append( [self.address, time.strftime('%H:%M:%S,'), tamb_min, tamb_max, tamb_avg, tamb_len] )
-		
-		#print 'tobj : ', self.tobj_data_analysis_result #[tobj_min, tobj_max, tobj_avg, tobj_len]
-		#print 'tamb: ', self.tamb_data_analysis_result #[tamb_min, tamb_max, tamb_avg, tamb_len]
-		mylog2.debug('tobj data analysis: ' + repr(self.tobj_data_analysis_result)  )
-		mylog2.debug('tamb data analysis: ' + repr(self.tamb_data_analysis_result)  )
-	
-	def data_reset(self):
-		'''this function resets the data analysis for the data analysis to zero, the list 
-		#TODO: on the case the list gets too big, then the value should be notified to be reset
-		'''
-		#resetting the tobj and tamb lists to zero
-		self.tobj_data_analysis = []
-		self.tamb_data_analysis = []
+		#logging the data
+		mylog2.debug('Record list: ' + repr(self.record_list) )
 		
 		
 		
@@ -275,9 +261,8 @@ class MLX90614_IR_sensor():
 		newrow = time.strftime('%H:%M:%S,')
 		newrow += str(self.cycle) + ","
 		newrow += str(self.address) + ","  
-		newrow += str(self.tobj_num) + ","  
-		newrow += str(self.tamb_num) + ","  
-		newrow += str(self.jump_value)		
+		newrow += str(self.tobj_ans) + ","  
+		newrow += str(self.tamb_ans) 
 		newrow += NEWLINE
 		myfile.write(newrow)
 		myfile.close()
@@ -291,24 +276,18 @@ class MLX90614_IR_sensor():
 		self.cycle+=1
 		print 
 		
+		print 'Time: ', time.strftime('%H:%M:%S,')
 		print 'cycle: ', self.cycle
 		
 		self.read()
 		self.object_temp_analysis()
 		self.ambient_temp_analysis()
 		self.data_analysis()
-		
-		#commenting out function that is not needed
-		#self.record_data()
-		#self.record_list.append([self.address, self.tobj_num])
-		#self.record_list.append(self.tobj_num)
-		#self.record_dict[self.address].append(self.tobj_num)
-		#self.record_dict['cycle']=self.cycle
+		self.record_data()
+
 		print 'Address: %s -- tobject: %s -- tambient: %s'%(self.address, self.tobj_num, self.tamb_num)
-		#print 'dict: ', self.record_dict
-		#print 'xxx: ', self.record_list
-		#print len(self.record_list)
-		#print 'limit up: %s -- limit down: %s '%(self.tobj_percent_limit_up, self.tobj_percent_limit_down )		
+		
+		#log the results
 		mylog2.debug('tamb data analysis: ' + repr(self.tamb_data_analysis_result)  )
 
 
@@ -321,13 +300,16 @@ class Main(threading.Thread):
 		self.sensorfile = linux_command()
 		self.sensorfile.run()
 		
+		#opening the config file 
+		self.config = config.config.Config()
+		#reading the config file
+		#done in the run() function 
+		#self.config.run()
+		#timer for the while loop
+		self.time = float(self.config.dict['time'])
 		
 		#this opens th control variable class 
 		self.controlvariable = mlx.control_variable.Control_Variable() #Main() #control_variable()
-		
-		self.config = config.config.Config()
-		self.config.readconfig() #self.config.run()
-		
 		
 		
 		#append the classes into the list
@@ -368,17 +350,15 @@ class Main(threading.Thread):
 		"""
 		if self.q.qsize()>0:
 			value =self.q.get()
-			#print 'value: ', value
 			if value[0] == 'end':
 				self.end = value[1]
 			if value[0] == 'temp':
 				self.templimit = value[1]
 			if value[0] == 'jump':
 				self.jumplimit = value[1]
-			#print 'self.end: ', self.end
 			self.q.task_done()
 			
-		#f len(self.class_list) > 0:
+		#realtering the setpoint for the control_vaiable 
 		for item in self.class_list:
 			item.control_class.control_setpoint(self.templimit, self.jumplimit)
 
@@ -387,6 +367,17 @@ class Main(threading.Thread):
 		myfile.write("Time,Cycle, address, Tobject, Tambient, jumpvalue" + NEWLINE)
 		myfile.close()
 		
+		#reading the config file
+		self.config.run()
+		#extract/getting the timer value from the config dict 
+		self.time = float(self.config.dict['time'])
+		#setting the temp and jump limit values 
+		self.templimit = float(self.config.dict['limit_value'])
+		self.jumplimit = float(self.config.dict['jump_value'])
+		
+		print 'Time: ', time.strftime('%H:%M:%S,')
+		
+		#run read() function
 		self.read()
 		
 		self.function_setup(self.templimit, self.jumplimit)
@@ -398,7 +389,7 @@ class Main(threading.Thread):
 			while True:
 				timery = time.clock()
 				ans = timery - timerx
-				if ans >= 3.0:
+				if ans >= self.time: #3.0:
 					for item in self.class_list:
 						#running the classes 
 						item.run()
@@ -408,17 +399,6 @@ class Main(threading.Thread):
 					timerx = time.clock()
 					
 				self.read()
-				
-				#reappending the new control variables 
-				#self.controlvariable.run(self.templimit, self.jumplimit)
-				
-				#self.controlvariable.limit_value = self.templimit
-				#self.controlvariable.jump_value = self.jumplimit
-				
-				#for item in self.class_list.append:
-				#	item.controlvariable.control_setpoint(self.templimit, self.jumplimit)
-				#self.controlvariable.control_setpoint(self.templimit, self.jumplimit)
-
 				
 				if self.end == 'end':
 					print 'break is true: ', self.end
