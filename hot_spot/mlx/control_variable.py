@@ -39,22 +39,20 @@ class Control_Variable():
 	and the jump limit 
 	'''
 	def __init__(self):
-		
+		"""instantiating value """
+		#opening the  config file 
 		self.config = config.config.Config()
-		self.config.run()
+		#self.config.run()
 		
 		self.jump_value = float(self.config.dict['jump_value'])
-		self.limit_value = float(self.config.dict['limit_value'])
-		
-		#self.limit_value = 0.01 #1%  in decimal form
-		#self.jump_value = 0.5
+		self.limit_value =  float(self.config.dict['limit_value'])
 		
 		#tuple for answer output
 		self.answer = ()
 		
+		#run the run() function during class initalization 
+		self.run()
 		mylog3.info(" ---------------------- root --------------------------------")
-		
-		#self.mylog3 = loggingfile.Logging_File()
 		
 	def control_setpoint(self, limit, jump):
 		'''THis function takes in the limit and the jump parameter you wish to change'''
@@ -74,22 +72,26 @@ class Control_Variable():
 		'''report the control setting values'''
 		#store the answer as a tuple and report the value back as a tuple
 		self.answer = (self.limit_value, self.jump_value)
+		
 		#logging the result
 		#mylog3.debug('(Limit Value, Jump Value) tuple: ' + repr(self.answer) )
-		#return (self.limit_value, self.jump_value)
 	
 	def run(self): #, limitvalue=1, jumpvalue=0.5):  #does this need any default values as safety precaution
 		'''function which runs the above commands
 		'''
+		#setting teh config setting files 
+		self.config.run()
 		
+		self.jump_value = float(self.config.dict['jump_value'])
+		self.limit_value = float(self.config.dict['limit_value'])
+		
+		#setting and running the insanting values 
 		self.control_setpoint(limit=self.limit_value, jump=self.jump_value) #limit=limitvalue, jump=jumpvalue)
 		self.report_control()
 		
 		#this was knocked out becuase the log file went crazy
 		#mylog3.debug('Limit Value: ' + repr(self.limit_value) )
 		#mylog3.debug('Jump Value: ' + repr(self.jump_value) )
-		#self.mylog3.emit('Jump Value: ' + repr(self.jump_value) )
-		#self.mylog3.doRollover()
 
 class Main():
 	def __init__(self):
@@ -97,7 +99,7 @@ class Main():
 		#opening the config class to get the dictionary we need out to set our parameters
 		#running it here too like in Main 
 		self.config = config.config.Config()
-		self.config.run()
+		#self.config.readconfig() 
 		
 	def run(self):
 		jumpvalue = float(self.config.dict['jump_value'])

@@ -1,5 +1,21 @@
 #!/usr/bin/env python
 
+'''
+Copyright Amit Sandhel
+
+wxmain.py
+
+This script is the GUI
+'''
+#references
+#http://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.transpose.html
+#http://matplotlib.org/users/pyplot_tutorial.html
+#http://newville.github.io/wxmplot/plotpanel.html
+#https://www.daniweb.com/programming/software-development/code/216913/using-wxpython-for-plotting
+#http://zetcode.com/wxpython/widgets/#slider
+
+
+#importing all files
 import sys
 import time
 import wx #, gettext
@@ -10,7 +26,6 @@ import pylab
 import numpy as np
 import time
 import logging
-#from sim.mlx90614_sim import Main as myMain
 import sim.mlx90614_sim
 #try:
     #import the real dude
@@ -19,12 +34,10 @@ import sim.mlx90614_sim
  #   print 'no smbus library'
 
 import wxgui 
+#import config file
+import config.config
 
-#http://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.transpose.html
-#http://matplotlib.org/users/pyplot_tutorial.html
-#http://newville.github.io/wxmplot/plotpanel.html
-#https://www.daniweb.com/programming/software-development/code/216913/using-wxpython-for-plotting
-#http://zetcode.com/wxpython/widgets/#slider
+
 
 logging.basicConfig(filename='wxlog.log', filemode='a', level=logging.DEBUG, format='%(asctime)s, %(levelname)s, %(message)s')
 logging.info(" ---------------------- root --------------------------------")
@@ -74,6 +87,10 @@ class MyFrame(wxgui.MyFrame):
         self.val=1
         self.val2=1
         
+        #opening the config file 
+        self.config = config.config.Config()
+        #reading the config file
+        #self.config.readconfig() 
         
     def attach_events(self):
         '''This function attaches events to the buttons
@@ -85,7 +102,7 @@ class MyFrame(wxgui.MyFrame):
         #close button
         self.Bind(wx.EVT_BUTTON, self.On_Close, self.close_button)
         #event timer
-        self.Bind(wx.EVT_TIMER, self.redo, self.redraw_timer) #on_redraw_timer, self.redraw_timer)
+        self.Bind(wx.EVT_TIMER, self.redo, self.redraw_timer) 
         
         #event for temp slider
         self.Bind(wx.EVT_SCROLL, self.On_TempSliderScroll, self.temp_slider)
@@ -100,9 +117,6 @@ class MyFrame(wxgui.MyFrame):
             #clearing the text ctrl widget 
             self.address_text_ctrl_1.Clear()
             
-            #file is the simulator
-            #self.myfile = sim.mlx90614_sim.Main()
-            
             #set and find the address
             self.address = self.myfile.sensorfile.simulator_list
             
@@ -112,12 +126,6 @@ class MyFrame(wxgui.MyFrame):
         if self.simvalue == False:
             #clearing the text ctrl widget 
             self.address_text_ctrl_1.Clear()
-            
-            #import the original file below here 
-            #this is because the smbus library does not exist in my working laptop therefore imported 
-            #inside the script which is a bad idea 
-            #import mlx.mlx90614
-            #self.myfile = mlx.mlx90614.Main()
             
             #set and find address 
             self.address = self.myfile.sensorfile.final_address_list
@@ -141,7 +149,6 @@ class MyFrame(wxgui.MyFrame):
         self.val = val
         #print self.val
         self.myfile.templimit = val
-        self.myfile.q.put(('temp',val))
         #print val
         
         
@@ -158,7 +165,8 @@ class MyFrame(wxgui.MyFrame):
         """This function loops the OnStart event button until new parameters 
         are not added when the pause button is clicked
         """
-        self.redraw_timer.Start(3000) #3 second interval for event loop
+        starttimer = float(self.config.dict['time'])*1000
+        self.redraw_timer.Start(starttimer) #3000) #3 second interval for event loop
         #self.data_collect(event)
         self.redraw_graph(event)
     
@@ -241,6 +249,7 @@ class MyFrame(wxgui.MyFrame):
             self.y = (value.address, value.tobj_ans, value.tamb_ans, value.record_list) #value.address, value.tobj_num, value.tamb_num, value.record_list)
             #a tuple. list of data is stored/saved 
             tobj_ans.append(self.y[1])
+            #appending the tamb ans to the tamb list
             tamb_ans.append(self.y[2])
             
             #append the data into a list 
@@ -292,7 +301,7 @@ class MyFrame(wxgui.MyFrame):
             xval = np.arange(len(iteritem) )
             
             #replot the data ambient temperature
-            graph = self.axes.plot(xval[-30:], iteritem[-30:], linewidth=3,color=colorvalue,)
+            graph = self.axes.plot(xval[-100:], iteritem[-100:], linewidth=3,color=colorvalue,)
             
             plt.legend('xxx', loc='upper left', shadow=True)
             #self.axes.plot(xval, iteritem, linewidth=3,color=colorvalue,)
@@ -322,21 +331,12 @@ class MyFrame(wxgui.MyFrame):
             
             #pick the colorvalue from the color list
             colorvalue = self.color[tobj_cycle]
-
-            #clear autoscale and add in the grid for the sensors 
-            #self.axes2.cla()
-            #self.axes2.autoscale(enable=True)
-            #self.axes2.grid(True, color='white', linewidth=2)
             
             #set up the xc value, note this is just a iterative placeholder
             xvalb = np.arange(len(item) )
             
             #replot the data
-            self.axes2.plot(xvalb[-30:], item[-30:], linewidth=3,color=colorvalue, label=self.y[0])
-            #self.axes2.plot(xvalb, item, linewidth=3,color=colorvalue,)
-            
-            #self.axes2.plot(item[-10:], linewidth=3,color=colorvalue,)
-            #self.axes2.plot(item[-30:], linewidth=3,color=colorvalue,)[0:] 
+            self.axes2.plot(xvalb[-100:], item[-100:], linewidth=3,color=colorvalue, label=self.y[0])
             
             #show the canvas
             self.tobj_canvas.draw()

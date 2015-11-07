@@ -92,7 +92,7 @@ class Linux_Command():
 			value = int(ans, 16) 
 			print value
 			self.final_address_list.append(value)
-		print 'add: ', self.final_address_list
+		print 'Addresses Detected: ', self.final_address_list
 		
 	def usb_setup(self):
 		'''this function sets up the usb and allows the usb to be read
@@ -110,8 +110,6 @@ class Linux_Command():
 		self.address_setup()
 		
 
-
-    
 class Main():
 	def __init__(self):
 		self.linux_setup = Linux_Command()

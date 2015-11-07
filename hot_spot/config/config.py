@@ -31,6 +31,10 @@ class Config():
         #empty dict value
         self.config_dict = {}
         
+        #run teh function in the init() function all the imported classes will have access to 
+        #updated values of dict is now possible and will be done        
+        self.run()
+        
     def writeconfig(self):
         '''write and create the config .ini file if its deleted or if its the 
         first run
@@ -42,11 +46,24 @@ class Config():
         self.config.set("Temperature", "jump_value", 1.0)
         self.config.set("Temperature", "limit_value", 1.0)
         
+        #sim parameter 
         self.config.add_section("Sim")
+        #set parameter to true
         self.config.set('Sim', 'sim', True)
         
+        #gui parameter 
         self.config.add_section("Gui")
+        #set parameter t false 
         self.config.set('Gui', 'gui', False)
+        
+        #file size parameter
+        self.config.add_section("Size")
+        self.config.set('Size', 'length', 20)
+        self.config.set('Size', 'slice', 10)
+        
+        #timer component
+        self.config.add_section('Time')
+        self.config.set('Time', 'time', 300)
         
         #writing the value to the .ini value
         with open(self.path, "wb") as config_file:
@@ -65,9 +82,16 @@ class Config():
         sim_value = self.parser.get('Sim', 'sim')
         #extract gui value
         gui_value = self.parser.get('Gui', 'gui')
+        #extract size value
+        length_value = self.parser.get('Size', 'length')
+        #extract slice value 
+        slice_value = self.parser.get('Size', 'slice')
+        #timer value
+        time_value = self.parser.get('Time', 'time')
+        
         #append/combine the values into a dict so it can be passed around to all the lists
-        self.dict={'jump_value': jump_value, 'limit_value': limit_value, 'sim':sim_value, 'gui':gui_value}
-        #print self.dict
+        self.dict={'jump_value': jump_value, 'limit_value': limit_value, 'sim':sim_value, 'gui':gui_value, 'length': length_value,
+                        'slice':slice_value, 'time': time_value}
     
     def run(self):
         """Run function to run everything
